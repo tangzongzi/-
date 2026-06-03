@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="stylesheet" href="../assets/dashboard.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新品追踪 · 多赞数据看板</title>
+<script src="../assets/echarts.min.js"></script>
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <h2>多赞数据看板</h2>
+    <div class="sidebar-sub">采购单分析 · 2026 Q1</div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">总览</div>
+      <a href="../00_总览.html" class="sidebar-link ">总览</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">商品</div>
+      <a href="../商品结构/商品日度追踪.html" class="sidebar-link ">商品日度追踪</a>
+      <a href="../商品结构/新品追踪.html" class="sidebar-link active">新品追踪</a>
+      <a href="../商品结构/商品结构_综合.html" class="sidebar-link ">商品结构</a>
+      <a href="../商品结构/新增淘汰/新增淘汰明细.html" class="sidebar-link ">新增淘汰明细</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">经营</div>
+      <a href="../商品结构/每日经营日报.html" class="sidebar-link ">每日经营日报</a>
+      <a href="../销售业绩/销售业绩_综合.html" class="sidebar-link ">销售业绩</a>
+      <a href="../平台×店铺细分/抖店_综合.html" class="sidebar-link ">抖店</a>
+      <a href="../平台×店铺细分/拼多多_综合.html" class="sidebar-link ">拼多多</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">风控</div>
+      <a href="../供货商分析/供货商_综合.html" class="sidebar-link ">供货商</a>
+      <a href="../风险监控/风险监控_综合.html" class="sidebar-link ">风险监控</a>
+    </div>
+  </nav>
+  <div class="sidebar-footer">2026-03-01 ~ 2026-06-01<br>已去除交易关闭 · 每日更新</div>
+</aside>
+
+<div class="main">
+  <div class="topbar">
+    <div>
+      <h1>新品追踪</h1>
+      <div class="topbar-sub">自动识别近 14 天内首次出现订单的商品</div>
+    </div>
+    <div class="topbar-badges">
+      <span class="badge badge-data" id="badge-count">-</span>
+      <span class="badge badge-period" id="badge-orders">-</span>
+    </div>
+  </div>
+
+  <div class="kpi-strip" id="kpi-strip"></div>
+
+  <div class="card">
+    <div class="card-title">新品列表<span class="has-tip"><span class="tip-icon">?</span><span class="tip-text">新品列表列表。</span></span></div>
+    <div id="table-container" style="overflow-x:auto;"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">新品销售趋势<span class="has-tip"><span class="tip-icon">?</span><span class="tip-text">新品销售趋势折线图。</span></span></div>
+    <div id="chart-new" class="chart-lg"></div>
+  </div>
+
+  <div class="footer">新品追踪 · 数据每日更新</div>
+</div>
+
+<script src="../charts/新品追踪.js"></script>
+<script src="../assets/dashboard.js?v=9"></script>
+</body>
+</html>

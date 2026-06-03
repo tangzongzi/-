@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="stylesheet" href="../../assets/dashboard.css">
+<meta charset="UTF-8">
+<title>拼多多 · 月度</title>
+<script src="../../assets/echarts.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <h2>多赞数据看板</h2>
+    <div class="sidebar-sub">采购单分析 · 2026 Q1</div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">总览</div>
+      <a href="../../00_总览.html" class="sidebar-link ">总览</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">商品</div>
+      <a href="../../商品结构/商品日度追踪.html" class="sidebar-link ">商品日度追踪</a>
+      <a href="../../商品结构/新品追踪.html" class="sidebar-link ">新品追踪</a>
+      <a href="../../商品结构/商品结构_综合.html" class="sidebar-link ">商品结构</a>
+      <a href="../../商品结构/新增淘汰/新增淘汰明细.html" class="sidebar-link ">新增淘汰明细</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">经营</div>
+      <a href="../../商品结构/每日经营日报.html" class="sidebar-link ">每日经营日报</a>
+      <a href="../../销售业绩/销售业绩_综合.html" class="sidebar-link ">销售业绩</a>
+      <a href="../../平台×店铺细分/抖店_综合.html" class="sidebar-link ">抖店</a>
+      <a href="../../平台×店铺细分/拼多多_综合.html" class="sidebar-link active">拼多多</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">风控</div>
+      <a href="../../供货商分析/供货商_综合.html" class="sidebar-link ">供货商</a>
+      <a href="../../风险监控/风险监控_综合.html" class="sidebar-link ">风险监控</a>
+    </div>
+  </nav>
+  <div class="sidebar-footer">2026-03-01 ~ 2026-06-01<br>已去除交易关闭 · 每日更新</div>
+</aside>
+
+<div class="main">
+
+<!-- ===== 侧边栏 ===== -->
+<!-- ===== 主内容区 ===== -->
+<div class="header">
+  <div>
+    <h1>拼多多 · 月度 <span class="badge badge-data">已去关闭订单</span><span class="badge badge-period">2026-03-01 ~ 2026-05-31</span></h1>
+    <div class="subtitle">拼多多平台各店铺月度维度的销售业绩</div>
+  </div>
+  <div class="nav">
+    <a href="../../00_总览.html" >总览</a>
+    <a href="../../销售业绩/销售业绩_综合.html" >销售业绩</a>
+    <a href="../抖店_综合.html" class="current">平台×店铺</a>
+    <a href="../../商品结构/商品结构_综合.html" >商品结构</a>
+    <a href="../../供货商分析/供货商_综合.html" >供货商</a>
+    <a href="../../风险监控/风险监控_综合.html" >风险监控</a>
+  </div>
+</div>
+<div class="crumb"><a href="../../00_总览.html">总览</a> / <a href="../拼多多_综合.html">平台×店铺</a> / <span style="color:#cbd5e1;">月度</span></div>
+
+<div class="card" style="background: linear-gradient(135deg, #fb923c22 0%, #1a2332 100%); border-color: #fb923c;">
+  <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+    <span style="color:#94a3b8; font-size:13px;">拼多多 · 粒度：</span>
+    <a href="../拼多多_综合.html" class="tab">← 综合</a>
+    <a href="../日度/拼多多_日度.html" class="tab">📅 日度</a>
+    <a href="../周度/拼多多_周度.html" class="tab">📆 周度</a>
+    <a href="拼多多_月度.html" class="tab current">月度</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">拼多多 店铺月度明细<span class="has-tip"><span class="tip-icon">?</span><span class="tip-text">各店铺每月明细。</span></span></div>
+  <div style="overflow-x:auto;">
+    <table>
+      <thead><tr><th rowspan="2">店铺</th><th colspan="3" style="text-align:center;">2026-03</th><th colspan="3" style="text-align:center;">2026-04</th><th colspan="3" style="text-align:center;">2026-05</th><th colspan="3" style="text-align:center; color:#fb923c;">合计</th></tr><tr><th>订单</th><th>金额</th><th>客单价</th><th>订单</th><th>金额</th><th>客单价</th><th>订单</th><th>金额</th><th>客单价</th><th>订单</th><th>金额</th><th>客单价</th></tr></thead>
+      <tbody><tr><td><b>潮流食品零食店</b></td><td>2,799</td><td>¥55,089</td><td>¥19.7</td><td>2,723</td><td>¥57,247</td><td>¥21.0</td><td>4,548</td><td>¥102,975</td><td>¥22.6</td><td><b>10,070</b></td><td><b>¥215,311</b></td><td><b>¥21.4</b></td></tr><tr><td><b>小团子母婴店</b></td><td>4</td><td>¥274</td><td>¥68.5</td><td>761</td><td>¥22,426</td><td>¥29.5</td><td>152</td><td>¥4,788</td><td>¥31.5</td><td><b>917</b></td><td><b>¥27,488</b></td><td><b>¥30.0</b></td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">拼多多 店铺金额堆叠 <span class="tag">月度</span><span class="has-tip"><span class="tip-icon">?</span><span class="tip-text">各店铺每日金额占比图，可看出哪个店铺贡献最大。</span></span></div>
+  <div id="chart-stack" class="chart-lg"></div>
+</div>
+
+<div class="footer">
+  数据范围 2026-03-01 ~ 2026-05-31 共 92 天 · 后续每日增量更新 · 由小多自动生成 · 用于团队共享 · 已去除交易关闭订单
+</div>
+
+
+
+
+
+<script src="../../assets/dashboard.js?v=9"></script>
+
+
+</div>
+<script src="../../charts/拼多多_月度.js?v=7"></script>
+</body>
+</html>

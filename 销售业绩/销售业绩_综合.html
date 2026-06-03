@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="stylesheet" href="../assets/dashboard.css">
+<meta charset="UTF-8">
+<title>销售业绩 · 综合</title>
+<script src="../assets/echarts.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <h2>多赞数据看板</h2>
+    <div class="sidebar-sub">采购单分析 · 2026 Q1</div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">总览</div>
+      <a href="../00_总览.html" class="sidebar-link ">总览</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">商品</div>
+      <a href="../商品结构/商品日度追踪.html" class="sidebar-link ">商品日度追踪</a>
+      <a href="../商品结构/新品追踪.html" class="sidebar-link ">新品追踪</a>
+      <a href="../商品结构/商品结构_综合.html" class="sidebar-link ">商品结构</a>
+      <a href="../商品结构/新增淘汰/新增淘汰明细.html" class="sidebar-link ">新增淘汰明细</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">经营</div>
+      <a href="../商品结构/每日经营日报.html" class="sidebar-link ">每日经营日报</a>
+      <a href="../销售业绩/销售业绩_综合.html" class="sidebar-link active">销售业绩</a>
+      <a href="../平台×店铺细分/抖店_综合.html" class="sidebar-link ">抖店</a>
+      <a href="../平台×店铺细分/拼多多_综合.html" class="sidebar-link ">拼多多</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">风控</div>
+      <a href="../供货商分析/供货商_综合.html" class="sidebar-link ">供货商</a>
+      <a href="../风险监控/风险监控_综合.html" class="sidebar-link ">风险监控</a>
+    </div>
+  </nav>
+  <div class="sidebar-footer">2026-03-01 ~ 2026-06-01<br>已去除交易关闭 · 每日更新</div>
+</aside>
+
+<div class="main">
+
+<!-- ===== 侧边栏 ===== -->
+<!-- ===== 主内容区 ===== -->
+<div class="header">
+  <div>
+    <h1>销售业绩 · 综合 <span class="badge badge-data">已去关闭订单</span><span class="badge badge-period">2026-03-01 ~ 2026-05-31</span></h1>
+    <div class="subtitle">日/周/月三维度汇总（已去关闭）</div>
+  </div>
+  <div class="nav">
+    <a href="../00_总览.html" >总览</a>
+    <a href="销售业绩_综合.html" class="current">销售业绩</a>
+    <a href="../平台×店铺细分/抖店_综合.html" >平台×店铺</a>
+    <a href="../商品结构/商品结构_综合.html" >商品结构</a>
+    <a href="../供货商分析/供货商_综合.html" >供货商</a>
+    <a href="../风险监控/风险监控_综合.html" >风险监控</a>
+  </div>
+</div>
+<div class="crumb"><a href="../00_总览.html">总览</a> / <span style="color:#cbd5e1;">销售业绩</span></div>
+
+<div class="card" style="background: linear-gradient(135deg, #1e3a8a 0%, #1a2332 100%); border-color: #3b82f6;">
+  <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+    <span style="color:#94a3b8; font-size:13px;">按时间粒度查看：</span>
+    <a href="日度/销售业绩_日度.html" class="tab">📅 日度（92天）</a>
+    <a href="周度/销售业绩_周度.html" class="tab">📆 周度（14周）</a>
+    <a href="月度/销售业绩_月度.html" class="tab">月度（3月）</a>
+  </div>
+</div>
+
+<div class="kpi-row">
+  <div class="kpi"><div class="kpi-label">总订单</div><div class="kpi-value">37,483</div><div class="kpi-sub neutral">3个月</div></div>
+  <div class="kpi"><div class="kpi-label">总金额</div><div class="kpi-value">¥103.09万</div><div class="kpi-sub neutral">3个月</div></div>
+  <div class="kpi"><div class="kpi-label">客单价</div><div class="kpi-value">¥27.50</div><div class="kpi-sub neutral">整体</div></div>
+  <div class="kpi"><div class="kpi-label">日均订单</div><div class="kpi-value">407</div><div class="kpi-sub neutral">笔/天</div></div>
+  <div class="kpi"><div class="kpi-label">日均金额</div><div class="kpi-value">¥1.12万</div><div class="kpi-sub neutral">元/天</div></div>
+  <div class="kpi"><div class="kpi-label">已过滤关闭</div><div class="kpi-value" style="font-size:18px;">4,791 笔</div><div class="kpi-sub neutral">11.3%</div></div>
+</div>
+
+<div class="grid grid-2">
+  <div class="card">
+    <div class="card-title">📅 日度走势 <a href="日度/销售业绩_日度.html" style="margin-left:auto; font-size:11px; color:#60a5fa; text-decoration:none;">详情 →</a><span class="has-tip"><span class="tip-icon">?</span><span class="tip-text">每天的订单+金额双轴趋势。</span></span></div>
+    <div id="chart-daily" class="chart"></div>
+  </div>
+  <div class="card">
+    <div class="card-title">📆 周度走势 <a href="周度/销售业绩_周度.html" style="margin-left:auto; font-size:11px; color:#60a5fa; text-decoration:none;">详情 →</a><span class="has-tip"><span class="tip-icon">?</span><span class="tip-text">每周的订单+金额双轴趋势。</span></span></div>
+    <div id="chart-weekly" class="chart"></div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">月度对比 <a href="月度/销售业绩_月度.html" style="margin-left:auto; font-size:11px; color:#60a5fa; text-decoration:none;">详情 →</a><span class="has-tip"><span class="tip-icon">?</span><span class="tip-text">每月订单数、金额和客单价对比。</span></span></div>
+  <div id="chart-monthly" class="chart"></div>
+  <table style="margin-top:12px;">
+    <thead><tr><th>月份</th><th>订单</th><th>金额</th><th>客单价</th></tr></thead>
+    <tbody><tr><td><b>2026-03</b></td><td>14,048</td><td>¥369,379</td><td>¥26.29</td></tr><tr><td><b>2026-04</b></td><td>11,592</td><td>¥342,046</td><td>¥29.51</td></tr><tr><td><b>2026-05</b></td><td>11,843</td><td>¥319,438</td><td>¥26.97</td></tr></tbody>
+  </table>
+</div>
+
+<div class="footer">
+  数据范围 2026-03-01 ~ 2026-05-31 共 92 天 · 后续每日增量更新 · 由小多自动生成 · 用于团队共享 · 已去除交易关闭订单
+</div>
+
+
+
+
+
+<script src="../assets/dashboard.js?v=9"></script>
+
+
+</div>
+<script src="../charts/销售业绩_综合.js?v=7"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="stylesheet" href="../assets/dashboard.css">
+<meta charset="UTF-8">
+<title>供货商分析</title>
+<script src="../assets/echarts.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="sidebar-brand">
+    <h2>多赞数据看板</h2>
+    <div class="sidebar-sub">采购单分析 · 2026 Q1</div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">总览</div>
+      <a href="../00_总览.html" class="sidebar-link ">总览</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">商品</div>
+      <a href="../商品结构/商品日度追踪.html" class="sidebar-link ">商品日度追踪</a>
+      <a href="../商品结构/新品追踪.html" class="sidebar-link ">新品追踪</a>
+      <a href="../商品结构/商品结构_综合.html" class="sidebar-link ">商品结构</a>
+      <a href="../商品结构/新增淘汰/新增淘汰明细.html" class="sidebar-link ">新增淘汰明细</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">经营</div>
+      <a href="../商品结构/每日经营日报.html" class="sidebar-link ">每日经营日报</a>
+      <a href="../销售业绩/销售业绩_综合.html" class="sidebar-link ">销售业绩</a>
+      <a href="../平台×店铺细分/抖店_综合.html" class="sidebar-link ">抖店</a>
+      <a href="../平台×店铺细分/拼多多_综合.html" class="sidebar-link ">拼多多</a>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-section-title">风控</div>
+      <a href="../供货商分析/供货商_综合.html" class="sidebar-link active">供货商</a>
+      <a href="../风险监控/风险监控_综合.html" class="sidebar-link ">风险监控</a>
+    </div>
+  </nav>
+  <div class="sidebar-footer">2026-03-01 ~ 2026-06-01<br>已去除交易关闭 · 每日更新</div>
+</aside>
+
+<div class="main">
+
+<!-- ===== 侧边栏 ===== -->
+<!-- ===== 主内容区 ===== -->
+<div class="header">
+  <div>
+    <h1>供货商分析 <span class="badge badge-data">已去关闭订单</span><span class="badge badge-period">2026-03-01 ~ 2026-05-31</span></h1>
+    <div class="subtitle">供货商排行 + 集中度风险</div>
+  </div>
+  <div class="nav">
+    <a href="../00_总览.html" >总览</a>
+    <a href="../销售业绩/销售业绩_综合.html" >销售业绩</a>
+    <a href="../平台×店铺细分/抖店_综合.html" >平台×店铺</a>
+    <a href="../商品结构/商品结构_综合.html" >商品结构</a>
+    <a href="供货商_综合.html" class="current">供货商</a>
+    <a href="../风险监控/风险监控_综合.html" >风险监控</a>
+  </div>
+</div>
+<div class="crumb"><a href="../00_总览.html">总览</a> / <span style="color:#cbd5e1;">供货商</span></div>
+
+<div class="kpi-row">
+  <div class="kpi"><div class="kpi-label">供货商数</div><div class="kpi-value">78</div><div class="kpi-sub neutral">3个月</div></div>
+  <div class="kpi"><div class="kpi-label">Top 1 占比</div><div class="kpi-value">28.2%</div><div class="kpi-sub down">邢台禾松食品销售有限</div></div>
+  <div class="kpi"><div class="kpi-label">Top 3 占比</div><div class="kpi-value">65.0%</div><div class="kpi-sub warn">集中度</div></div>
+  <div class="kpi"><div class="kpi-label">Top 5 占比</div><div class="kpi-value">85.6%</div><div class="kpi-sub neutral">前五</div></div>
+  <div class="kpi"><div class="kpi-label">长尾供货商</div><div class="kpi-value">58 个</div><div class="kpi-sub neutral">订单&lt;100</div></div>
+  <div class="kpi"><div class="kpi-label">头部供货商金额</div><div class="kpi-value">¥88万</div><div class="kpi-sub neutral">前5占总额</div></div>
+</div>
+
+<div class="card">
+  <div class="card-title">🏆 供货商 Top 15 <span class="tag">按金额</span><span class="has-tip"><span class="tip-icon">?</span><span class="tip-text">数据说明。详情请查看对应的数据源。</span></span></div>
+  <table id="supp-table">
+    <thead><tr><th>#</th><th>供货商</th><th>订单</th><th>金额</th><th>客单价</th><th>占比条</th></tr></thead>
+    <tbody><tr><td>1</td><td><b>邢台禾松食品销售有限公司</b></td><td>14,499</td><td>¥29.1万</td><td>¥20.04</td><td><div class="bar" style="width:100.0%"></div></td></tr><tr><td>2</td><td><b>泉州市俊发卫生用品有限公司</b></td><td>3,929</td><td>¥24.5万</td><td>¥62.39</td><td><div class="bar" style="width:84.4%"></div></td></tr><tr><td>3</td><td><b>天海藏食品（山东）有限公司</b></td><td>3,797</td><td>¥13.5万</td><td>¥35.45</td><td><div class="bar" style="width:46.3%"></div></td></tr><tr><td>4</td><td><b>泉州味满堂食品有限公司</b></td><td>4,721</td><td>¥13.5万</td><td>¥28.50</td><td><div class="bar" style="width:46.3%"></div></td></tr><tr><td>5</td><td><b>深圳市苏禾电子商务有限公司</b></td><td>3,650</td><td>¥7.8万</td><td>¥21.35</td><td><div class="bar" style="width:26.8%"></div></td></tr><tr><td>6</td><td><b>上海睿思敏服装有限公司</b></td><td>789</td><td>¥2.3万</td><td>¥29.05</td><td><div class="bar" style="width:7.9%"></div></td></tr><tr><td>7</td><td><b>杭州东宇品牌管理有限公司</b></td><td>1,801</td><td>¥2.3万</td><td>¥12.50</td><td><div class="bar" style="width:7.8%"></div></td></tr><tr><td>8</td><td><b>上海俐噢信息科技有限公司</b></td><td>320</td><td>¥1.4万</td><td>¥43.31</td><td><div class="bar" style="width:4.8%"></div></td></tr><tr><td>9</td><td><b>漳州市信冠食品有限公司</b></td><td>628</td><td>¥0.9万</td><td>¥13.70</td><td><div class="bar" style="width:3.0%"></div></td></tr><tr><td>10</td><td><b>杭州童童来了科技有限公司</b></td><td>164</td><td>¥0.7万</td><td>¥43.07</td><td><div class="bar" style="width:2.4%"></div></td></tr><tr><td>11</td><td><b>河南食族人食品科技有限公司</b></td><td>206</td><td>¥0.7万</td><td>¥33.00</td><td><div class="bar" style="width:2.3%"></div></td></tr><tr><td>12</td><td><b>北京食通达新零售有限公司</b></td><td>150</td><td>¥0.6万</td><td>¥39.64</td><td><div class="bar" style="width:2.0%"></div></td></tr><tr><td>13</td><td><b>衡阳市石鼓区畅健副食商行</b></td><td>263</td><td>¥0.5万</td><td>¥20.90</td><td><div class="bar" style="width:1.9%"></div></td></tr><tr><td>14</td><td><b>十月稻田集团股份有限公司</b></td><td>241</td><td>¥0.5万</td><td>¥21.29</td><td><div class="bar" style="width:1.8%"></div></td></tr><tr><td>15</td><td><b>烟台欣和企业食品有限公司</b></td><td>289</td><td>¥0.4万</td><td>¥15.42</td><td><div class="bar" style="width:1.5%"></div></td></tr></tbody>
+  </table>
+</div>
+
+<div class="card">
+  <div class="card-title">供货商金额分布（Top 15）<span class="has-tip"><span class="tip-icon">?</span><span class="tip-text">Top15供货商占比分布。</span></span></div>
+  <div id="chart-supp" class="chart-lg"></div>
+</div>
+
+<div class="insight danger">
+  <b>供货商集中度风险：</b><br>
+  • <b>邢台禾松食品销售有限公司</b> 一家占 28.2% 订单、28.2% 金额 — 集中度过高<br>
+  • 一旦该供货商出问题，将严重影响业务<br>
+  • 建议：<b>引入 2-3 家同类备选</b>，分散供应风险
+</div>
+
+<div class="footer">
+  数据范围 2026-03-01 ~ 2026-05-31 共 92 天 · 后续每日增量更新 · 由小多自动生成 · 用于团队共享 · 已去除交易关闭订单
+</div>
+
+
+
+
+
+<script src="../assets/dashboard.js?v=9"></script>
+
+
+</div>
+<script src="../charts/供货商_综合.js?v=7"></script>
+</body>
+</html>
