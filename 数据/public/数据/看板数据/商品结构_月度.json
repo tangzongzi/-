@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "source": "采购单数据(导出后已过滤交易关闭订单)",
+    "period": "2026-03-01 ~ 2026-06-01",
+    "days": 93,
+    "filter": "已去除交易关闭订单 (4807 笔)",
+    "generated_at": "2026-06-03 11:56:29",
+    "title": "商品结构 · 月度",
+    "grain": "月"
+  },
+  "product": {
+    "meta": {
+      "source": "采购单数据(导出后已过滤交易关闭订单)",
+      "period": "2026-03-01 ~ 2026-06-01",
+      "days": 93,
+      "filter": "已去除交易关闭订单 (4807 笔)",
+      "generated_at": "2026-06-03 11:56:29",
+      "title": "商品结构 · 月度",
+      "grain": "月"
+    },
+    "months": [
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06"
+    ],
+    "month_changes": [
+      {
+        "month": "2026-03",
+        "pool_size": 228,
+        "new_count": 228,
+        "gone_count": 0,
+        "kept_count": 0,
+        "net_change": 228,
+        "days_with_data": 31,
+        "incomplete": false
+      },
+      {
+        "month": "2026-04",
+        "pool_size": 381,
+        "new_count": 243,
+        "gone_count": 90,
+        "kept_count": 138,
+        "net_change": 153,
+        "days_with_data": 30,
+        "incomplete": false
+      },
+      {
+        "month": "2026-05",
+        "pool_size": 272,
+        "new_count": 96,
+        "gone_count": 295,
+        "kept_count": 176,
+        "net_change": -199,
+        "days_with_data": 31,
+        "incomplete": false
+      },
+      {
+        "month": "2026-06",
+        "pool_size": 66,
+        "new_count": 5,
+        "gone_count": 0,
+        "kept_count": 61,
+        "net_change": 5,
+        "days_with_data": 1,
+        "incomplete": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "meta": {
+    "source": "采购单数据(导出后已过滤交易关闭订单)",
+    "period": "2026-03-01 ~ 2026-06-01",
+    "days": 93,
+    "filter": "已去除交易关闭订单 (4807 笔)",
+    "generated_at": "2026-06-03 11:56:29",
+    "title": "风险监控综合",
+    "grain": "总览"
+  },
+  "risk": {
+    "meta": {
+      "source": "采购单数据(导出后已过滤交易关闭订单)",
+      "period": "2026-03-01 ~ 2026-06-01",
+      "days": 93,
+      "filter": "已去除交易关闭订单 (4807 笔)",
+      "generated_at": "2026-06-03 11:56:29",
+      "title": "风险监控",
+      "grain": "总览"
+    },
+    "status_dist": [
+      {
+        "采购单状态": "交易成功",
+        "count": 35451,
+        "pct": 83.31
+      },
+      {
+        "采购单状态": "交易关闭",
+        "count": 4807,
+        "pct": 11.3
+      },
+      {
+        "采购单状态": "待客户确认",
+        "count": 2235,
+        "pct": 5.25
+      },
+      {
+        "采购单状态": "待发货",
+        "count": 60,
+        "pct": 0.14
+      }
+    ],
+    "close_rate_month": [
+      {
+        "month": "2026-03",
+        "total": 16028,
+        "closed": 2009,
+        "close_rate_pct": 12.53
+      },
+      {
+        "month": "2026-04",
+        "total": 13177,
+        "closed": 1605,
+        "close_rate_pct": 12.18
+      },
+      {
+        "month": "2026-05",
+        "total": 12980,
+        "closed": 1170,
+        "close_rate_pct": 9.01
+      },
+      {
+        "month": "2026-06",
+        "total": 368,
+        "closed": 23,
+        "close_rate_pct": 6.25
+      }
+    ],
+    "close_rate_monthly": [
+      {
+        "month": "2026-03",
+        "total": 16028,
+        "closed": 2009,
+        "close_rate_pct": 12.53
+      },
+      {
+        "month": "2026-04",
+        "total": 13177,
+        "closed": 1605,
+        "close_rate_pct": 12.18
+      },
+      {
+        "month": "2026-05",
+        "total": 12980,
+        "closed": 1170,
+        "close_rate_pct": 9.01
+      },
+      {
+        "month": "2026-06",
+        "total": 368,
+        "closed": 23,
+        "close_rate_pct": 6.25
+      }
+    ],
+    "shop_close_rate": [
+      {
+        "shop": "小团子母婴店",
+        "total": 1389,
+        "closed": 465.0,
+        "close_rate_pct": 33.48
+      },
+      {
+        "shop": "潮流食品零食店",
+        "total": 11856,
+        "closed": 1691.0,
+        "close_rate_pct": 14.26
+      },
+      {
+        "shop": "天海藏生鲜馆",
+        "total": 126,
+        "closed": 14.0,
+        "close_rate_pct": 11.11
+      },
+      {
+        "shop": "布斑迪母婴严选",
+        "total": 370,
+        "closed": 39.0,
+        "close_rate_pct": 10.54
+      },
+      {
+        "shop": "潮流生活好物精选",
+        "total": 11581,
+        "closed": 1124.0,
+        "close_rate_pct": 9.71
+      },
+      {
+        "shop": "礼食量贩站",
+        "total": 2796,
+        "closed": 266.0,
+        "close_rate_pct": 9.51
+      },
+      {
+        "shop": "社畜能量站",
+        "total": 2290,
+        "closed": 202.0,
+        "close_rate_pct": 8.82
+      },
+      {
+        "shop": "臻选食礼馆",
+        "total": 459,
+        "closed": 40.0,
+        "close_rate_pct": 8.71
+      },
+      {
+        "shop": "暖食杂货集",
+        "total": 137,
+        "closed": 11.0,
+        "close_rate_pct": 8.03
+      },
+      {
+        "shop": "潮食优选好物",
+        "total": 1765,
+        "closed": 134.0,
+        "close_rate_pct": 7.59
+      },
+      {
+        "shop": "生鲜厨房仓",
+        "total": 444,
+        "closed": 33.0,
+        "close_rate_pct": 7.43
+      },
+      {
+        "shop": "天海藏生鲜仓",
+        "total": 9196,
+        "closed": 674.0,
+        "close_rate_pct": 7.33
+      }
+    ],
+    "supp_close_rate": [
+      {
+        "supplier": "上海睿思敏服装有限公司",
+        "total": 1240,
+        "closed": 451.0,
+        "close_rate_pct": 36.37,
+        "risk_tag": "高风险",
+        "risk_color": "red"
+      },
+      {
+        "supplier": "深圳市食汇供应链管理有限公司",
+        "total": 166,
+        "closed": 31.0,
+        "close_rate_pct": 18.67,
+        "risk_tag": "中风险",
+        "risk_color": "orange"
+      },
+      {
+        "supplier": "广东小康科技有限公司",
+        "total": 202,
+        "closed": 33.0,
+        "close_rate_pct": 16.34,
+        "risk_tag": "中风险",
+        "risk_color": "orange"
+      },
+      {
+        "supplier": "衡阳市石鼓区畅健副食商行",
+        "total": 309,
+        "closed": 45.0,
+        "close_rate_pct": 14.56,
+        "risk_tag": "中风险",
+        "risk_color": "orange"
+      },
+      {
+        "supplier": "邢台禾松食品销售有限公司",
+        "total": 17112,
+        "closed": 2454.0,
+        "close_rate_pct": 14.34,
+        "risk_tag": "中风险",
+        "risk_color": "orange"
+      },
+      {
+        "supplier": "北京食通达新零售有限公司",
+        "total": 169,
+        "closed": 20.0,
+        "close_rate_pct": 11.83,
+        "risk_tag": "中风险",
+        "risk_color": "orange"
+      },
+      {
+        "supplier": "十月稻田集团股份有限公司",
+        "total": 273,
+        "closed": 29.0,
+        "close_rate_pct": 10.62,
+        "risk_tag": "中风险",
+        "risk_color": "orange"
+      },
+      {
+        "supplier": "南通市金大康食品有限公司",
+        "total": 111,
+        "closed": 11.0,
+        "close_rate_pct": 9.91,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "双流祥和食品批发部",
+        "total": 105,
+        "closed": 10.0,
+        "close_rate_pct": 9.52,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "漳州市信冠食品有限公司",
+        "total": 713,
+        "closed": 65.0,
+        "close_rate_pct": 9.12,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "杭州祖名唯品科技有限公司",
+        "total": 221,
+        "closed": 20.0,
+        "close_rate_pct": 9.05,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "杭州童童来了科技有限公司",
+        "total": 185,
+        "closed": 15.0,
+        "close_rate_pct": 8.11,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "河南食族人食品科技有限公司",
+        "total": 226,
+        "closed": 18.0,
+        "close_rate_pct": 7.96,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "泉州市俊发卫生用品有限公司",
+        "total": 4259,
+        "closed": 326.0,
+        "close_rate_pct": 7.65,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "天海藏食品（山东）有限公司",
+        "total": 4112,
+        "closed": 299.0,
+        "close_rate_pct": 7.27,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "泉州味满堂食品有限公司",
+        "total": 5063,
+        "closed": 364.0,
+        "close_rate_pct": 7.19,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "烟台欣和企业食品有限公司",
+        "total": 309,
+        "closed": 22.0,
+        "close_rate_pct": 7.12,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "深圳市苏禾电子商务有限公司",
+        "total": 3977,
+        "closed": 282.0,
+        "close_rate_pct": 7.09,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "上海俐噢信息科技有限公司",
+        "total": 344,
+        "closed": 23.0,
+        "close_rate_pct": 6.69,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "杭州东宇品牌管理有限公司",
+        "total": 1929,
+        "closed": 126.0,
+        "close_rate_pct": 6.53,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "山西袋鼠先生商贸有限公司",
+        "total": 212,
+        "closed": 7.0,
+        "close_rate_pct": 3.3,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
+        "supplier": "深圳市龙岗区泰新鲜百货商行（个体工商户）",
+        "total": 271,
+        "closed": 5.0,
+        "close_rate_pct": 1.85,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      }
+    ],
+    "close_top": {
+      "by_supplier": [
+        {
+          "name": "邢台禾松食品销售有限公司",
+          "count": 2454
+        },
+        {
+          "name": "上海睿思敏服装有限公司",
+          "count": 451
+        },
+        {
+          "name": "泉州味满堂食品有限公司",
+          "count": 364
+        },
+        {
+          "name": "泉州市俊发卫生用品有限公司",
+          "count": 326
+        },
+        {
+          "name": "天海藏食品（山东）有限公司",
+          "count": 299
+        },
+        {
+          "name": "深圳市苏禾电子商务有限公司",
+          "count": 282
+        },
+        {
+          "name": "杭州东宇品牌管理有限公司",
+          "count": 126
+        },
+        {
+          "name": "漳州市信冠食品有限公司",
+          "count": 65
+        },
+        {
+          "name": "衡阳市石鼓区畅健副食商行",
+          "count": 45
+        },
+        {
+          "name": "广东小康科技有限公司",
+          "count": 33
+        },
+        {
+          "name": "深圳市食汇供应链管理有限公司",
+          "count": 31
+        },
+        {
+          "name": "十月稻田集团股份有限公司",
+          "count": 29
+        },
+        {
+          "name": "上海俐噢信息科技有限公司",
+          "count": 23
+        },
+        {
+          "name": "烟台欣和企业食品有限公司",
+          "count": 22
+        },
+        {
+          "name": "北京食通达新零售有限公司",
+          "count": 20
+        },
+        {
+          "name": "杭州祖名唯品科技有限公司",
+          "count": 20
+        },
+        {
+          "name": "河南食族人食品科技有限公司",
+          "count": 18
+        },
+        {
+          "name": "杭州童童来了科技有限公司",
+          "count": 15
+        },
+        {
+          "name": "南通市金大康食品有限公司",
+          "count": 11
+        },
+        {
+          "name": "广州羽霖商贸有限公司",
+          "count": 10
+        }
+      ],
+      "by_shop": [
+        {
+          "name": "潮流食品零食店",
+          "count": 1691
+        },
+        {
+          "name": "潮流生活好物精选",
+          "count": 1124
+        },
+        {
+          "name": "天海藏生鲜仓",
+          "count": 674
+        },
+        {
+          "name": "小团子母婴店",
+          "count": 465
+        },
+        {
+          "name": "礼食量贩站",
+          "count": 266
+        },
+        {
+          "name": "社畜能量站",
+          "count": 202
+        },
+        {
+          "name": "潮食优选好物",
+          "count": 134
+        },
+        {
+          "name": "臻选食礼馆",
+          "count": 40
+        },
+        {
+          "name": "布斑迪母婴严选",
+          "count": 39
+        },
+        {
+          "name": "生鲜厨房仓",
+          "count": 33
+        },
+        {
+          "name": "天海藏生鲜馆",
+          "count": 14
+        },
+        {
+          "name": "暖食杂货集",
+          "count": 11
+        },
+        {
+          "name": "它智小店",
+          "count": 3
+        },
+        {
+          "name": "团购礼盒甄选",
+          "count": 2
+        }
+      ],
+      "by_platform": [
+        {
+          "name": "抖店",
+          "count": 2540
+        },
+        {
+          "name": "拼多多",
+          "count": 2158
+        }
+      ]
+    },
+    "wait": {
+      "count": 2235,
+      "aging": [
+        {
+          "range": "0-24小时",
+          "count": 0,
+          "min_hours": 0,
+          "max_hours": 24
+        },
+        {
+          "range": "24-72小时",
+          "count": 571,
+          "min_hours": 24,
+          "max_hours": 72
+        },
+        {
+          "range": "3-7天",
+          "count": 1035,
+          "min_hours": 72,
+          "max_hours": 168
+        },
+        {
+          "range": "7天以上",
+          "count": 629,
+          "min_hours": 168,
+          "max_hours": 99999
+        }
+      ],
+      "by_shop": [
+        {
+          "name": "潮食优选好物",
+          "count": 1017
+        },
+        {
+          "name": "潮流食品零食店",
+          "count": 728
+        },
+        {
+          "name": "生鲜厨房仓",
+          "count": 280
+        },
+        {
+          "name": "社畜能量站",
+          "count": 97
+        },
+        {
+          "name": "暖食杂货集",
+          "count": 81
+        },
+        {
+          "name": "它智小店",
+          "count": 22
+        },
+        {
+          "name": "小团子母婴店",
+          "count": 7
+        },
+        {
+          "name": "糖糖的零食屋的店",
+          "count": 3
+        }
+      ],
+      "by_supplier": [
+        {
+          "name": "邢台禾松食品销售有限公司",
+          "count": 1153
+        },
+        {
+          "name": "深圳市苏禾电子商务有限公司",
+          "count": 298
+        },
+        {
+          "name": "天海藏食品（山东）有限公司",
+          "count": 214
+        },
+        {
+          "name": "漳州市信冠食品有限公司",
+          "count": 133
+        },
+        {
+          "name": "泉州市俊发卫生用品有限公司",
+          "count": 113
+        },
+        {
+          "name": "杭州童童来了科技有限公司",
+          "count": 61
+        },
+        {
+          "name": "山西袋鼠先生商贸有限公司",
+          "count": 59
+        },
+        {
+          "name": "衡阳市石鼓区畅健副食商行",
+          "count": 27
+        },
+        {
+          "name": "河南食族人食品科技有限公司",
+          "count": 22
+        },
+        {
+          "name": "新沂市棉栀卫生用品有限公司",
+          "count": 21
+        }
+      ]
+    }
+  }
+}

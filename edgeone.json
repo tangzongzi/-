@@ -1,15 +1,6 @@
 {
-  "buildCommand": "echo skip",
+  "buildCommand": "",
   "outputDirectory": ".",
   "installCommand": "",
-  "ignore": [
-    "数据/明细/明细_完整版.json",
-    "数据/明细/明细_全部订单.json",
-    "数据/明细/明细_完整版.csv",
-    "数据/明细/明细_全部订单.csv",
-    "数据/原始_采购单_*.xlsx",
-    "数据/按日期/**/*.xlsx",
-    "数据/明细/明细_待确认.json",
-    "数据/明细/明细_待确认.csv"
-  ]
+  "framework": "static"
 }
