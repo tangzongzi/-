@@ -13,3 +13,4 @@ __pycache__/
 数据/原始_采购单_*.xlsx
 数据/按日期/**/*.xlsx
 package-lock.json
+数据/public/
