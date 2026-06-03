@@ -1,0 +1,58 @@
+# GitHub Actions：每日自动更新数据 + 部署到 EdgeOne Pages
+#
+# 触发条件：
+# 1. 每天 UTC 17:00（北京 01:00）自动跑
+# 2. 手动触发（workflow_dispatch）
+#
+# 流程：
+# 1. 拉取最新代码
+# 2. 下载新数据（如果有）
+# 3. 跑 update.sh 更新汇总/明细/看板数据
+# 4. 提交 + 推送（触发 EdgeOne Pages 自动部署）
+
+name: 每日数据更新
+
+on:
+  schedule:
+    - cron: '0 17 * * *'  # UTC 17:00 = 北京 01:00
+  workflow_dispatch:       # 手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 安装依赖
+        run: |
+          pip install openpyxl pandas
+      
+      - name: 跑数据更新脚本
+        run: |
+          cd scripts
+          bash update.sh
+        env:
+          TZ: Asia/Shanghai
+      
+      - name: 检查是否有变更
+        id: check
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: 提交并推送
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "duozan-bot"
+          git config user.email "bot@duozan.com"
+          git add 数据/ 看板数据/
+          git commit -m "📊 每日数据更新 $(date +%Y-%m-%d)"
+          git push
