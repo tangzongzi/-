@@ -133,9 +133,7 @@ def render_top_lines(items, latest_date, show_days=False, max_shops=3):
         breakdown = render_shop_breakdown(
             it.get("shop_details_by_shop", {}), max_shops=max_shops
         )
-        # 第一行：商品 ID + 名字
-        pid = it.get("product_id", "").strip()
-        id_label = f"「{pid}」" if pid else ""
+        # 第一行：商品名字（不显示 ID，老板说不需要）
         # 主行：单量 ｜ 金额 ｜ 店铺分解
         main = f"   {order}单 ｜ ¥{fmt_money(amount)}"
         if breakdown:
@@ -147,7 +145,7 @@ def render_top_lines(items, latest_date, show_days=False, max_shops=3):
                 main += f"   （首日）"
             else:
                 main += f"   （已上架 {ds} 天）"
-        lines.append(f"{i}. {id_label}{name}\n{main}")
+        lines.append(f"{i}. {name}\n{main}")
     return "\n".join(lines)
 
 
@@ -181,45 +179,71 @@ def build_card_content(summary, top_first_day, top_all_time, risks, latest_date)
     else:
         risk_text = "（无高风险供货商）"
 
-    # —— 拼装 content（每条是一行；行内是 inline 元素数组）——
-    sep = [{"tag": "text", "text": "─────────────"}]
+    # —— 拼装 content（interactive 卡片：header + elements）——
+    sep_text = "─────────────"
     content = {
-        "zh_cn": {
-            "title": f"🆕 新品日报 · {latest_date}",
-            "content": [
-                [{"tag": "text", "text": f"📊 核心数据（{latest_date}）"}],
-                [{"tag": "text", "text":
-                    f"新增新品：{new_count} 个\n"
-                    f"新品订单：{total_orders} 单\n"
-                    f"新品金额：¥{fmt_money(total_amount)}\n"
-                    f"平均客单：¥{fmt_money(avg_price)}"}],
-                sep,
-                [{"tag": "text", "text": "🆕 今日首日上架 Top 5"}],
-                [{"tag": "text", "text": first_day_text}],
-                sep,
-                [{"tag": "text", "text": "📈 新品累计 Top 5（≤14 天在追踪）"}],
-                [{"tag": "text", "text": all_time_text}],
-                sep,
-                [{"tag": "text", "text": "⚠️ 高风险供货商（关闭率>30%，其下新品需关注）"}],
-                [{"tag": "text", "text": risk_text}],
-                sep,
-                [{"tag": "a", "href": DASHBOARD_URL, "text": "🔗 查看新品追踪看板"}],
-                [{"tag": "text", "text":
-                    f"🤖 多赞看板 · {datetime.now().strftime('%H:%M')} 自动播报"}],
-            ]
-        }
+        "header": {
+            "title": {"tag": "plain_text", "content": f"🆕 新品日报 · {latest_date}"},
+            "template": "blue",
+        },
+        "elements": [
+            # 核心 KPI（4 字段并排）
+            {
+                "tag": "div",
+                "fields": [
+                    {"is_short": True, "text": {"tag": "lark_md", "text": f"**新增新品**\n{new_count} 个"}},
+                    {"is_short": True, "text": {"tag": "lark_md", "text": f"**新品订单**\n{total_orders} 单"}},
+                    {"is_short": True, "text": {"tag": "lark_md", "text": f"**新品金额**\n¥{fmt_money(total_amount)}"}},
+                    {"is_short": True, "text": {"tag": "lark_md", "text": f"**平均客单**\n¥{fmt_money(avg_price)}"}},
+                ],
+            },
+            {"tag": "hr"},
+            {
+                "tag": "div",
+                "text": {"tag": "lark_md", "text": f"**🆕 今日首日上架 Top 5**\n{first_day_text}"},
+            },
+            {"tag": "hr"},
+            {
+                "tag": "div",
+                "text": {"tag": "lark_md", "text": f"**📈 新品累计 Top 5（≤14 天在追踪）**\n{all_time_text}"},
+            },
+            {"tag": "hr"},
+            {
+                "tag": "div",
+                "text": {"tag": "lark_md", "text": f"**⚠️ 高风险供货商（关闭率>30%，其下新品需关注）**\n{risk_text}"},
+            },
+            {"tag": "hr"},
+            # 跳转按钮
+            {
+                "tag": "action",
+                "actions": [
+                    {
+                        "tag": "button",
+                        "text": {"tag": "plain_text", "content": "🔗 查看新品追踪看板"},
+                        "type": "primary",
+                        "url": DASHBOARD_URL,
+                    },
+                ],
+            },
+            {
+                "tag": "note",
+                "elements": [
+                    {"tag": "plain_text", "content": f"🤖 多赞看板 · {datetime.now().strftime('%H:%M')} 自动播报"},
+                ],
+            },
+        ],
     }
     return content
 
 
 # ---------- 发送 ----------
 def send_card(content, idempotency_key=None):
-    """调 lark-cli 发消息卡片"""
+    """调 lark-cli 发消息卡片（interactive 模板）"""
     cmd = [
         LARK_CLI, "im", "+messages-send",
         "--as", "bot",
         "--chat-id", CHAT_ID,
-        "--msg-type", "post",
+        "--msg-type", "interactive",
         "--content", json.dumps(content, ensure_ascii=False),
         "--format", "json",
     ]
@@ -227,7 +251,7 @@ def send_card(content, idempotency_key=None):
         cmd.extend(["--idempotency-key", idempotency_key])
 
     print(f"📤 目标：chat_id={CHAT_ID}")
-    print(f"📤 类型：post（lark-cli bot 身份）")
+    print(f"📤 类型：interactive（飞书最新模板）")
     if idempotency_key:
         print(f"🔑 幂等键：{idempotency_key}")
 
