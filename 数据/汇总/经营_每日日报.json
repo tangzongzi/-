@@ -4,11 +4,11 @@
     "grain": "日"
   },
   "summary": {
-    "latest_date": "2026-06-01",
-    "total_days": 93,
-    "recent_7d_sales": 51332.899999999994,
-    "recent_7d_orders": 1990,
-    "recent_7d_aftersale": 550.0
+    "latest_date": "2026-06-03",
+    "total_days": 95,
+    "recent_7d_sales": 51753.69,
+    "recent_7d_orders": 2072,
+    "recent_7d_aftersale": 328.39000000000004
   },
   "data": [
     {
@@ -469,12 +469,12 @@
     {
       "date": "2026-03-09",
       "orders": 472,
-      "sales_amount": 9946.89,
+      "sales_amount": 9934.7,
       "close_orders": 135,
       "close_amount": 2507.44,
       "aftersale_orders": 0,
       "aftersale_amount": 0,
-      "product_count": 50,
+      "product_count": 51,
       "growth_top5": [
         {
           "product": "十月稻田玉米糙米饭团",
@@ -1173,12 +1173,12 @@
     {
       "date": "2026-03-20",
       "orders": 378,
-      "sales_amount": 10729.15,
+      "sales_amount": 10769.15,
       "close_orders": 38,
       "close_amount": 879.48,
       "aftersale_orders": 0,
       "aftersale_amount": 0,
-      "product_count": 46,
+      "product_count": 45,
       "growth_top5": [
         {
           "product": "海天酸辣凉拌汁560g酸爽清香开胃",
@@ -1365,12 +1365,12 @@
     {
       "date": "2026-03-23",
       "orders": 490,
-      "sales_amount": 15420.06,
+      "sales_amount": 15425.79,
       "close_orders": 48,
       "close_amount": 1261.53,
       "aftersale_orders": 0,
       "aftersale_amount": 0,
-      "product_count": 45,
+      "product_count": 46,
       "growth_top5": [
         {
           "product": "上行斋和风生巧大福 17枚网红香浓巧克力福团糯米糍脏脏团雪媚娘",
@@ -1394,8 +1394,8 @@
         },
         {
           "product": "林饱饱糯米海苔饭团大分量加热即食营养美食早餐夜宵",
-          "order": 114,
-          "mom_pct": 142.6
+          "order": 113,
+          "mom_pct": 140.4
         }
       ],
       "decline_top5": [
@@ -1493,7 +1493,7 @@
     {
       "date": "2026-03-25",
       "orders": 459,
-      "sales_amount": 16375.55,
+      "sales_amount": 16368.83,
       "close_orders": 50,
       "close_amount": 1764.0,
       "aftersale_orders": 0,
@@ -2645,7 +2645,7 @@
     {
       "date": "2026-04-12",
       "orders": 402,
-      "sales_amount": 12157.85,
+      "sales_amount": 12177.35,
       "close_orders": 52,
       "close_amount": 1046.78,
       "aftersale_orders": 0,
@@ -2727,17 +2727,17 @@
           "mom_pct": 300.0
         },
         {
-          "product": "食族人酸辣粉6桶方便食品酸辣过瘾即食学生上班族宿舍必备",
-          "order": 3,
-          "mom_pct": 200.0
-        },
-        {
           "product": "八宝手工切糕坚果切糕传统小吃葡萄干核桃巴旦木传统糕点解馋零食",
           "order": 9,
           "mom_pct": 200.0
         },
         {
           "product": "猴头菇山药苏打饼干咸味无糖梳打早餐代餐休闲零食整箱包装饼干",
+          "order": 3,
+          "mom_pct": 200.0
+        },
+        {
+          "product": "林饱饱正宗纸皮烧麦皮薄软糯速冻半成品营养早餐加热即食60克大个",
           "order": 3,
           "mom_pct": 200.0
         }
@@ -3733,7 +3733,7 @@
     {
       "date": "2026-04-29",
       "orders": 454,
-      "sales_amount": 16665.83,
+      "sales_amount": 16781.83,
       "close_orders": 67,
       "close_amount": 2585.11,
       "aftersale_orders": 0,
@@ -4053,7 +4053,7 @@
     {
       "date": "2026-05-04",
       "orders": 281,
-      "sales_amount": 9068.56,
+      "sales_amount": 9057.56,
       "close_orders": 37,
       "close_amount": 929.11,
       "aftersale_orders": 0,
@@ -4373,7 +4373,7 @@
     {
       "date": "2026-05-09",
       "orders": 399,
-      "sales_amount": 10888.5,
+      "sales_amount": 10889.5,
       "close_orders": 47,
       "close_amount": 1032.77,
       "aftersale_orders": 1,
@@ -4442,7 +4442,7 @@
       "close_amount": 620.72,
       "aftersale_orders": 1,
       "aftersale_amount": 17.62,
-      "product_count": 46,
+      "product_count": 47,
       "growth_top5": [
         {
           "product": "【新品奶油火鸡面】芯蒸呈定制宽面奶油火鸡面拌面上班族夜宵速食",
@@ -4519,6 +4519,11 @@
           "mom_pct": 200.0
         },
         {
+          "product": "耶气满满柠檬椰子水果汁饮料0脂肪冷榨柠檬水含膳食纤维425ml10瓶",
+          "order": 3,
+          "mom_pct": 200.0
+        },
+        {
           "product": "美味壹客全麦坚果欧包0添蔗糖健身核桃面包营养早餐食品",
           "order": 5,
           "mom_pct": 150.0
@@ -4526,11 +4531,6 @@
         {
           "product": "【控价1箱2包66.9元】布班迪倾芯柔纸尿裤拉拉裤",
           "order": 4,
-          "mom_pct": 100.0
-        },
-        {
-          "product": "纽乐葆护水喷雾防叮防咬喷雾草本舒护舒缓宝宝金水防蚊液花露水",
-          "order": 2,
           "mom_pct": 100.0
         }
       ],
@@ -5015,7 +5015,7 @@
       "orders": 446,
       "sales_amount": 10725.03,
       "close_orders": 48,
-      "close_amount": 1077.57,
+      "close_amount": 1077.07,
       "aftersale_orders": 1,
       "aftersale_amount": 16.43,
       "product_count": 58,
@@ -5205,7 +5205,7 @@
     {
       "date": "2026-05-22",
       "orders": 300,
-      "sales_amount": 7465.65,
+      "sales_amount": 7464.65,
       "close_orders": 29,
       "close_amount": 840.94,
       "aftersale_orders": 2,
@@ -5333,7 +5333,7 @@
     {
       "date": "2026-05-24",
       "orders": 349,
-      "sales_amount": 8528.07,
+      "sales_amount": 8470.07,
       "close_orders": 47,
       "close_amount": 1165.89,
       "aftersale_orders": 2,
@@ -5461,7 +5461,7 @@
     {
       "date": "2026-05-26",
       "orders": 324,
-      "sales_amount": 8517.7,
+      "sales_amount": 8508.4,
       "close_orders": 31,
       "close_amount": 880.67,
       "aftersale_orders": 3,
@@ -5844,12 +5844,12 @@
     },
     {
       "date": "2026-06-01",
-      "orders": 345,
-      "sales_amount": 8488.59,
-      "close_orders": 23,
-      "close_amount": 603.6,
-      "aftersale_orders": 2,
-      "aftersale_amount": 62.62,
+      "orders": 344,
+      "sales_amount": 8457.5,
+      "close_orders": 24,
+      "close_amount": 634.69,
+      "aftersale_orders": 1,
+      "aftersale_amount": 22.62,
       "product_count": 66,
       "growth_top5": [
         {
@@ -5859,8 +5859,8 @@
         },
         {
           "product": "【商超同款】海盐苏打饼干奶盐味咸味梳打养胃无蔗糖零食代餐早餐",
-          "order": 4,
-          "mom_pct": 300.0
+          "order": 3,
+          "mom_pct": 200.0
         },
         {
           "product": "美味壹客全麦坚果厚切吐司手撕面包饱腹代餐自律期早餐面包零食",
@@ -5869,8 +5869,8 @@
         },
         {
           "product": "品牌直发 耶气满满100%香水椰300ml*12瓶椰子水电解质水",
-          "order": 12,
-          "mom_pct": 140.0
+          "order": 11,
+          "mom_pct": 120.0
         },
         {
           "product": "猴头菇山药苏打饼干咸味无糖梳打早餐代餐休闲零食整箱包装饼干",
@@ -5903,6 +5903,134 @@
           "product": "【页面价10.9以上，到手价13.9否则取消合作】泰新鲜金桂乌龙",
           "order": 1,
           "mom_pct": -50.0
+        }
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "orders": 335,
+      "sales_amount": 8325.93,
+      "close_orders": 24,
+      "close_amount": 714.28,
+      "aftersale_orders": 1,
+      "aftersale_amount": 16.92,
+      "product_count": 61,
+      "growth_top5": [
+        {
+          "product": "云枝棉洗脸巾加赠精品毛绒发夹珍珠纹特厚款卸妆干湿两用悬挂底抽",
+          "order": 4,
+          "mom_pct": 300.0
+        },
+        {
+          "product": "【花期早安裤30条】安心裤奢柔云感通勤8小时白天随心换",
+          "order": 11,
+          "mom_pct": 266.7
+        },
+        {
+          "product": "【花期山茶云柔安睡裤40片】女性经期安心裤透气防漏舒适睡眠专用",
+          "order": 16,
+          "mom_pct": 220.0
+        },
+        {
+          "product": "【双拼宽面】芯蒸呈定制宽面超辣火鸡面麻酱火鸡面113g",
+          "order": 2,
+          "mom_pct": 100.0
+        },
+        {
+          "product": "【恢复原价，否则取消合作】【10盒】天海藏 麻辣小龙虾尾250g/盒",
+          "order": 6,
+          "mom_pct": 100.0
+        }
+      ],
+      "decline_top5": [
+        {
+          "product": "芯蒸呈甜辣炸鸡味火鸡面粗面版筋道爽滑鲜香方便宽面",
+          "order": 3,
+          "mom_pct": -57.1
+        },
+        {
+          "product": "【8袋约80个】天海藏烟熏一口爆汁肠 脆皮烤肠空气炸锅美食解馋",
+          "order": 1,
+          "mom_pct": -50.0
+        },
+        {
+          "product": "【芯蒸呈火鸡面12包三拼】网红速食面条多种口味组合装",
+          "order": 4,
+          "mom_pct": -50.0
+        },
+        {
+          "product": "天海藏地道王烤肠4袋 原味*2袋+黑胡椒*2袋（500g/袋）",
+          "order": 1,
+          "mom_pct": -50.0
+        },
+        {
+          "product": "美味壹客星空莓野全麦吐司厚切生吐司营养早餐代餐好吃健康面包",
+          "order": 19,
+          "mom_pct": -44.1
+        }
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "orders": 365,
+      "sales_amount": 8466.65,
+      "close_orders": 11,
+      "close_amount": 277.63,
+      "aftersale_orders": 1,
+      "aftersale_amount": 15.1,
+      "product_count": 57,
+      "growth_top5": [
+        {
+          "product": "良品铺子拇指风干鸡肉505g鸡胸肉干酱香多味高蛋白休闲零食健身",
+          "order": 8,
+          "mom_pct": 700.0
+        },
+        {
+          "product": "云枝棉洗脸巾到手2提鎏光金精装母婴可用柔软加厚珍珠纹洁面巾",
+          "order": 5,
+          "mom_pct": 400.0
+        },
+        {
+          "product": "【恢复原价，否则取消合作】【10盒】天海藏 麻辣小龙虾尾250g/盒",
+          "order": 19,
+          "mom_pct": 216.7
+        },
+        {
+          "product": "【3袋/10袋】天海藏黑鱼金汤酸菜鱼430g/袋 顺丰京东发货甄选活鱼",
+          "order": 2,
+          "mom_pct": 100.0
+        },
+        {
+          "product": "【3袋】天海藏广味腊肠 炒菜香肠腊肉肠煲仔饭传统广式美味下酒菜",
+          "order": 4,
+          "mom_pct": 100.0
+        }
+      ],
+      "decline_top5": [
+        {
+          "product": "品牌直发 耶气满满100%香水椰300ml*12瓶椰子水电解质水",
+          "order": 2,
+          "mom_pct": -71.4
+        },
+        {
+          "product": "【控价1箱2包64.9元】布班迪甄芯薄纸尿裤拉拉裤婴儿超薄尿不湿",
+          "order": 5,
+          "mom_pct": -61.5
+        },
+        {
+          "product": "【页面价10.9以上，到手价13.9否则拉黑】茉莉原味茶饮料",
+          "order": 1,
+          "mom_pct": -50.0
+        },
+        {
+          "product": "食族人经典酸辣粉145克6桶方便粉丝商超同款",
+          "order": 1,
+          "mom_pct": -50.0
+        },
+        {
+          "product": "【20个】天海藏门钉牛肉饼肉厚皮薄早餐大肉馅速食老北京特色美食",
+          "order": 5,
+          "mom_pct": -28.6
         }
       ]
     }

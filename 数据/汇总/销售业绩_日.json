@@ -3,11 +3,11 @@
     "title": "销售业绩 · 日度"
   },
   "summary": {
-    "days": 93,
-    "total_orders": 37746,
-    "total_amount": 1036562.81,
-    "avg_daily_orders": 405.87,
-    "avg_daily_amount": 11145.84
+    "days": 95,
+    "total_orders": 38445,
+    "total_amount": 1053408.32,
+    "avg_daily_orders": 404.68,
+    "avg_daily_amount": 11088.51
   },
   "data": [
     {
@@ -61,8 +61,8 @@
     {
       "date": "2026-03-09",
       "order": 472,
-      "amount": 9946.89,
-      "avg_price": 21.07
+      "amount": 9934.7,
+      "avg_price": 21.05
     },
     {
       "date": "2026-03-10",
@@ -127,8 +127,8 @@
     {
       "date": "2026-03-20",
       "order": 378,
-      "amount": 10729.15,
-      "avg_price": 28.38
+      "amount": 10769.15,
+      "avg_price": 28.49
     },
     {
       "date": "2026-03-21",
@@ -145,8 +145,8 @@
     {
       "date": "2026-03-23",
       "order": 490,
-      "amount": 15420.06,
-      "avg_price": 31.47
+      "amount": 15425.789999999999,
+      "avg_price": 31.48
     },
     {
       "date": "2026-03-24",
@@ -157,8 +157,8 @@
     {
       "date": "2026-03-25",
       "order": 459,
-      "amount": 16375.55,
-      "avg_price": 35.68
+      "amount": 16368.83,
+      "avg_price": 35.66
     },
     {
       "date": "2026-03-26",
@@ -265,8 +265,8 @@
     {
       "date": "2026-04-12",
       "order": 402,
-      "amount": 12157.85,
-      "avg_price": 30.24
+      "amount": 12177.35,
+      "avg_price": 30.29
     },
     {
       "date": "2026-04-13",
@@ -367,8 +367,8 @@
     {
       "date": "2026-04-29",
       "order": 454,
-      "amount": 16665.83,
-      "avg_price": 36.71
+      "amount": 16781.83,
+      "avg_price": 36.96
     },
     {
       "date": "2026-04-30",
@@ -397,8 +397,8 @@
     {
       "date": "2026-05-04",
       "order": 281,
-      "amount": 9068.56,
-      "avg_price": 32.27
+      "amount": 9057.56,
+      "avg_price": 32.23
     },
     {
       "date": "2026-05-05",
@@ -427,7 +427,7 @@
     {
       "date": "2026-05-09",
       "order": 399,
-      "amount": 10888.5,
+      "amount": 10889.5,
       "avg_price": 27.29
     },
     {
@@ -505,8 +505,8 @@
     {
       "date": "2026-05-22",
       "order": 300,
-      "amount": 7465.65,
-      "avg_price": 24.89
+      "amount": 7464.65,
+      "avg_price": 24.88
     },
     {
       "date": "2026-05-23",
@@ -517,8 +517,8 @@
     {
       "date": "2026-05-24",
       "order": 349,
-      "amount": 8528.07,
-      "avg_price": 24.44
+      "amount": 8470.07,
+      "avg_price": 24.27
     },
     {
       "date": "2026-05-25",
@@ -529,8 +529,8 @@
     {
       "date": "2026-05-26",
       "order": 324,
-      "amount": 8517.7,
-      "avg_price": 26.29
+      "amount": 8508.4,
+      "avg_price": 26.26
     },
     {
       "date": "2026-05-27",
@@ -564,9 +564,21 @@
     },
     {
       "date": "2026-06-01",
-      "order": 345,
-      "amount": 8488.59,
-      "avg_price": 24.6
+      "order": 344,
+      "amount": 8457.5,
+      "avg_price": 24.59
+    },
+    {
+      "date": "2026-06-02",
+      "order": 335,
+      "amount": 8325.93,
+      "avg_price": 24.85
+    },
+    {
+      "date": "2026-06-03",
+      "order": 365,
+      "amount": 8466.65,
+      "avg_price": 23.2
     }
   ]
 }

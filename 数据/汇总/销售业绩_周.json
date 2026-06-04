@@ -4,9 +4,9 @@
   },
   "summary": {
     "weeks": 15,
-    "total_orders": 37746,
-    "total_amount": 1036562.81,
-    "avg_weekly_orders": 2516.4
+    "total_orders": 38445,
+    "total_amount": 1053408.32,
+    "avg_weekly_orders": 2563.0
   },
   "data": [
     {
@@ -24,19 +24,19 @@
     {
       "week_start": "2026-03-09",
       "order": 3160,
-      "amount": 70602.76,
+      "amount": 70590.57,
       "avg_price": 22.34
     },
     {
       "week_start": "2026-03-16",
       "order": 3329,
-      "amount": 91538.4,
-      "avg_price": 27.5
+      "amount": 91578.4,
+      "avg_price": 27.51
     },
     {
       "week_start": "2026-03-23",
       "order": 3199,
-      "amount": 102746.06999999999,
+      "amount": 102745.08,
       "avg_price": 32.12
     },
     {
@@ -48,8 +48,8 @@
     {
       "week_start": "2026-04-06",
       "order": 2655,
-      "amount": 74458.61,
-      "avg_price": 28.04
+      "amount": 74478.11,
+      "avg_price": 28.05
     },
     {
       "week_start": "2026-04-13",
@@ -66,13 +66,13 @@
     {
       "week_start": "2026-04-27",
       "order": 2795,
-      "amount": 97699.63,
-      "avg_price": 34.96
+      "amount": 97815.63,
+      "avg_price": 35.0
     },
     {
       "week_start": "2026-05-04",
       "order": 2854,
-      "amount": 77925.09,
+      "amount": 77915.09,
       "avg_price": 27.3
     },
     {
@@ -84,20 +84,20 @@
     {
       "week_start": "2026-05-18",
       "order": 2679,
-      "amount": 66541.28,
-      "avg_price": 24.84
+      "amount": 66482.28,
+      "avg_price": 24.82
     },
     {
       "week_start": "2026-05-25",
       "order": 2066,
-      "amount": 53411.03,
+      "amount": 53401.73,
       "avg_price": 25.85
     },
     {
       "week_start": "2026-06-01",
-      "order": 345,
-      "amount": 8488.59,
-      "avg_price": 24.6
+      "order": 1044,
+      "amount": 25250.08,
+      "avg_price": 24.19
     }
   ]
 }

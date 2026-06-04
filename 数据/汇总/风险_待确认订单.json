@@ -3,14 +3,14 @@
     "title": "待客户确认订单"
   },
   "summary": {
-    "total": 2235,
-    "pct": 5.25,
-    "total_amount": 57540.43,
-    "aging_over_24h": 2235,
-    "aging_over_72h": 1664
+    "total": 2925,
+    "pct": 6.76,
+    "total_amount": 74099.11,
+    "aging_over_24h": 2925,
+    "aging_over_72h": 2237
   },
   "data": {
-    "count": 2235,
+    "count": 2925,
     "aging": [
       {
         "range": "0-24小时",
@@ -20,19 +20,19 @@
       },
       {
         "range": "24-72小时",
-        "count": 571,
+        "count": 688,
         "min_hours": 24,
         "max_hours": 72
       },
       {
         "range": "3-7天",
-        "count": 1035,
+        "count": 1051,
         "min_hours": 72,
         "max_hours": 168
       },
       {
         "range": "7天以上",
-        "count": 629,
+        "count": 1186,
         "min_hours": 168,
         "max_hours": 99999
       }
@@ -40,77 +40,81 @@
     "by_shop": [
       {
         "name": "潮食优选好物",
-        "count": 1017
+        "count": 1302
       },
       {
         "name": "潮流食品零食店",
-        "count": 728
+        "count": 932
       },
       {
         "name": "生鲜厨房仓",
-        "count": 280
+        "count": 281
       },
       {
         "name": "社畜能量站",
-        "count": 97
-      },
-      {
-        "name": "暖食杂货集",
-        "count": 81
+        "count": 128
       },
       {
         "name": "它智小店",
-        "count": 22
+        "count": 110
+      },
+      {
+        "name": "暖食杂货集",
+        "count": 107
       },
       {
         "name": "小团子母婴店",
-        "count": 7
+        "count": 61
       },
       {
         "name": "糖糖的零食屋的店",
         "count": 3
+      },
+      {
+        "name": "奕赞营养食品专营店",
+        "count": 1
       }
     ],
     "by_supplier": [
       {
         "name": "邢台禾松食品销售有限公司",
-        "count": 1153
+        "count": 1463
       },
       {
         "name": "深圳市苏禾电子商务有限公司",
-        "count": 298
+        "count": 385
       },
       {
         "name": "天海藏食品（山东）有限公司",
-        "count": 214
+        "count": 270
       },
       {
         "name": "漳州市信冠食品有限公司",
-        "count": 133
+        "count": 171
       },
       {
         "name": "泉州市俊发卫生用品有限公司",
-        "count": 113
-      },
-      {
-        "name": "杭州童童来了科技有限公司",
-        "count": 61
+        "count": 137
       },
       {
         "name": "山西袋鼠先生商贸有限公司",
-        "count": 59
+        "count": 86
       },
       {
-        "name": "衡阳市石鼓区畅健副食商行",
-        "count": 27
+        "name": "临沂悠乐卫生用品有限公司",
+        "count": 76
       },
       {
-        "name": "河南食族人食品科技有限公司",
-        "count": 22
+        "name": "杭州童童来了科技有限公司",
+        "count": 68
       },
       {
         "name": "新沂市棉栀卫生用品有限公司",
-        "count": 21
+        "count": 37
+      },
+      {
+        "name": "衡阳市石鼓区畅健副食商行",
+        "count": 29
       }
     ]
   }

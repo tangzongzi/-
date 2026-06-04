@@ -4,10 +4,10 @@
     "grain": "日"
   },
   "summary": {
-    "total_orders": 11089,
-    "total_amount": 244919.58,
-    "avg_price": 22.09,
-    "periods": 93
+    "total_orders": 11344,
+    "total_amount": 250408.05,
+    "avg_price": 22.07,
+    "periods": 95
   },
   "data": [
     {
@@ -753,6 +753,22 @@
       "total_order": 102,
       "total_amount": 2121.1,
       "avg_price": 20.8
+    },
+    {
+      "period": "2026-06-02",
+      "拼多多_小团子母婴店": 22.0,
+      "拼多多_潮流食品零食店": 98.0,
+      "total_order": 120,
+      "total_amount": 2683.41,
+      "avg_price": 22.36
+    },
+    {
+      "period": "2026-06-03",
+      "拼多多_小团子母婴店": 32.0,
+      "拼多多_潮流食品零食店": 103.0,
+      "total_order": 135,
+      "total_amount": 2805.06,
+      "avg_price": 20.78
     }
   ]
 }

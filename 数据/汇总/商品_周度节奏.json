@@ -6,8 +6,8 @@
     "weeks": 15,
     "max_pool": 216,
     "min_pool": 39,
-    "total_new": 572,
-    "total_gone": 3335
+    "total_new": 581,
+    "total_gone": 3310
   },
   "data": [
     {
@@ -26,10 +26,10 @@
     },
     {
       "week_start": "2026-03-09",
-      "pool_size": 118,
+      "pool_size": 119,
       "new_count": 43,
-      "gone_count": 40,
-      "net_change": 3
+      "gone_count": 39,
+      "net_change": 4
     },
     {
       "week_start": "2026-03-16",
@@ -82,17 +82,17 @@
     },
     {
       "week_start": "2026-05-04",
-      "pool_size": 154,
-      "new_count": 26,
+      "pool_size": 155,
+      "new_count": 27,
       "gone_count": 360,
-      "net_change": -334
+      "net_change": -333
     },
     {
       "week_start": "2026-05-11",
       "pool_size": 123,
-      "new_count": 16,
+      "new_count": 15,
       "gone_count": 407,
-      "net_change": -391
+      "net_change": -392
     },
     {
       "week_start": "2026-05-18",
@@ -110,10 +110,10 @@
     },
     {
       "week_start": "2026-06-01",
-      "pool_size": 66,
-      "new_count": 5,
-      "gone_count": 506,
-      "net_change": -501
+      "pool_size": 99,
+      "new_count": 14,
+      "gone_count": 482,
+      "net_change": -468
     }
   ]
 }

@@ -4,26 +4,26 @@
     "note": "订单数>=50"
   },
   "summary": {
-    "shop_count": 12,
+    "shop_count": 13,
     "highest": {
       "shop": "小团子母婴店",
-      "total": 1389,
-      "closed": 465.0,
-      "close_rate_pct": 33.48
+      "total": 1445,
+      "closed": 467.0,
+      "close_rate_pct": 32.32
     }
   },
   "data": [
     {
       "shop": "小团子母婴店",
-      "total": 1389,
-      "closed": 465.0,
-      "close_rate_pct": 33.48
+      "total": 1445,
+      "closed": 467.0,
+      "close_rate_pct": 32.32
     },
     {
       "shop": "潮流食品零食店",
-      "total": 11856,
-      "closed": 1691.0,
-      "close_rate_pct": 14.26
+      "total": 12062,
+      "closed": 1696.0,
+      "close_rate_pct": 14.06
     },
     {
       "shop": "天海藏生鲜馆",
@@ -50,9 +50,9 @@
       "close_rate_pct": 9.51
     },
     {
-      "shop": "社畜能量站",
-      "total": 2290,
-      "closed": 202.0,
+      "shop": "暖食杂货集",
+      "total": 170,
+      "closed": 15.0,
       "close_rate_pct": 8.82
     },
     {
@@ -62,16 +62,10 @@
       "close_rate_pct": 8.71
     },
     {
-      "shop": "暖食杂货集",
-      "total": 137,
-      "closed": 11.0,
-      "close_rate_pct": 8.03
-    },
-    {
-      "shop": "潮食优选好物",
-      "total": 1765,
-      "closed": 134.0,
-      "close_rate_pct": 7.59
+      "shop": "社畜能量站",
+      "total": 2324,
+      "closed": 202.0,
+      "close_rate_pct": 8.69
     },
     {
       "shop": "生鲜厨房仓",
@@ -80,10 +74,22 @@
       "close_rate_pct": 7.43
     },
     {
+      "shop": "潮食优选好物",
+      "total": 2072,
+      "closed": 152.0,
+      "close_rate_pct": 7.34
+    },
+    {
       "shop": "天海藏生鲜仓",
       "total": 9196,
       "closed": 674.0,
       "close_rate_pct": 7.33
+    },
+    {
+      "shop": "它智小店",
+      "total": 123,
+      "closed": 7.0,
+      "close_rate_pct": 5.69
     }
   ]
 }
