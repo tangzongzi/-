@@ -579,18 +579,56 @@ def gen_new_product_tracker(df):
         sub = active[active["商品名称"] == prod]
         total_order = len(sub)
         total_amount = round(float(sub["小计金额"].sum()), 2)
-        
+
+        # 商品编码（product_id）：取最常见的那个（同商品可能有多个编码变体）
+        pid_series = sub["商品编码"].dropna()
+        product_id = str(pid_series.mode().iat[0]) if len(pid_series) > 0 else ""
+
         # 每天订单数
         daily = sub.groupby("_date").size().to_dict()
         daily_series = {d: daily.get(d, 0) for d in sorted(set(active["_date"])) if d >= first_date}
-        
+
+        # 平台/店铺维度（去重）
+        shops = sorted(sub["店铺平台"].dropna().unique().tolist())
+        shop_details = sub.groupby("店铺平台").size().to_dict()
+        shop_details = {k: int(v) for k, v in shop_details.items()}
+
+        # 按店铺名聚合（v2: 看板要看具体店名，不只看到平台）
+        shop_grouped = (
+            sub.groupby(["店铺平台", "店铺名称"])
+               .agg(orders=("采购单号", "count"), amount=("小计金额", "sum"))
+               .reset_index()
+        )
+        # 同一个店铺名可能跨平台出现，按 "店铺名称|平台" 作 key 防撞
+        shop_details_by_shop = {}
+        for _, r in shop_grouped.iterrows():
+            sname = str(r["店铺名称"]).strip() if r["店铺名称"] else "(空店铺)"
+            splat = str(r["店铺平台"]).strip() if r["店铺平台"] else "(空平台)"
+            key = f"{sname}|{splat}"
+            shop_details_by_shop[key] = {
+                "shop": sname,
+                "platform": splat,
+                "orders": int(r["orders"]),
+                "amount": round(float(r["amount"]), 2),
+            }
+        # 按订单数倒序，方便前端直接读
+        shop_details_by_shop = dict(
+            sorted(shop_details_by_shop.items(), key=lambda kv: kv[1]["orders"], reverse=True)
+        )
+
         rows.append({
             "product": prod,
+            "product_id": product_id,
             "first_seen": first_date,
             "days_since": days_since,
             "total_order": total_order,
             "total_amount": total_amount,
             "avg_daily": round(total_order / max(days_since, 1), 2),
+            "shops": shops,
+            "shop_details": shop_details,
+            "shop_details_by_shop": shop_details_by_shop,
+            "main_shop": shop_details_by_shop[next(iter(shop_details_by_shop))]["shop"] if shop_details_by_shop else "",
+            "main_shop_platform": shop_details_by_shop[next(iter(shop_details_by_shop))]["platform"] if shop_details_by_shop else "",
             "daily": daily_series,
         })
     

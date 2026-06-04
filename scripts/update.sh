@@ -22,6 +22,9 @@ python3 export_detail.py >> "$LOG_FILE" 2>&1
 echo "[$TS] [3/3] refresh_dashboards.py（23 个看板 json）..." >> "$LOG_FILE"
 python3 refresh_dashboards.py >> "$LOG_FILE" 2>&1
 
+echo "[$TS] [4/4] notify_dashboard.sh（飞书新品日报，失败不影响数据流程）..." >> "$LOG_FILE"
+bash "$SCRIPTS_DIR/../../duozan-dashboard/scripts/notify_dashboard.sh" >> "$LOG_FILE" 2>&1
+
 TS_END=$(date '+%Y-%m-%d %H:%M:%S')
 echo "[$TS_END] === 多赞数据更新完成 ===" >> "$LOG_FILE"
 echo "" >> "$LOG_FILE"
