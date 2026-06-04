@@ -151,7 +151,13 @@ def render_top_lines(items, latest_date, show_days=False, max_shops=3):
 
 # ---------- 卡片构造 ----------
 def build_card_content(summary, top_first_day, top_all_time, risks, latest_date):
-    """构造 post 类型消息卡片的 content JSON"""
+    """构造 post 模板消息卡片（markdown 格式，lark-cli --markdown 发送）
+
+    设计说明：
+    - 飞书 chat message API 不支持真 interactive 卡片（需要 card v1 API 单独创建）
+    - 通过 --markdown 走 post 模板路径，能保留粗体/分隔线/链接/emoji
+    - 蓝色标题栏/字段并排/真按钮**不能**实现（技术限制）
+    """
     new_count = summary.get("new_product_count", 0)
     total_orders = summary.get("total_new_orders", 0)
     total_amount = summary.get("total_new_amount", 0)
@@ -179,79 +185,58 @@ def build_card_content(summary, top_first_day, top_all_time, risks, latest_date)
     else:
         risk_text = "（无高风险供货商）"
 
-    # —— 拼装 content（interactive 卡片：header + elements）——
-    sep_text = "─────────────"
-    content = {
-        "header": {
-            "title": {"tag": "plain_text", "content": f"🆕 新品日报 · {latest_date}"},
-            "template": "blue",
-        },
-        "elements": [
-            # 核心 KPI（4 字段并排）
-            {
-                "tag": "div",
-                "fields": [
-                    {"is_short": True, "text": {"tag": "lark_md", "text": f"**新增新品**\n{new_count} 个"}},
-                    {"is_short": True, "text": {"tag": "lark_md", "text": f"**新品订单**\n{total_orders} 单"}},
-                    {"is_short": True, "text": {"tag": "lark_md", "text": f"**新品金额**\n¥{fmt_money(total_amount)}"}},
-                    {"is_short": True, "text": {"tag": "lark_md", "text": f"**平均客单**\n¥{fmt_money(avg_price)}"}},
-                ],
-            },
-            {"tag": "hr"},
-            {
-                "tag": "div",
-                "text": {"tag": "lark_md", "text": f"**🆕 今日首日上架 Top 5**\n{first_day_text}"},
-            },
-            {"tag": "hr"},
-            {
-                "tag": "div",
-                "text": {"tag": "lark_md", "text": f"**📈 新品累计 Top 5（≤14 天在追踪）**\n{all_time_text}"},
-            },
-            {"tag": "hr"},
-            {
-                "tag": "div",
-                "text": {"tag": "lark_md", "text": f"**⚠️ 高风险供货商（关闭率>30%，其下新品需关注）**\n{risk_text}"},
-            },
-            {"tag": "hr"},
-            # 跳转按钮
-            {
-                "tag": "action",
-                "actions": [
-                    {
-                        "tag": "button",
-                        "text": {"tag": "plain_text", "content": "🔗 查看新品追踪看板"},
-                        "type": "primary",
-                        "url": DASHBOARD_URL,
-                    },
-                ],
-            },
-            {
-                "tag": "note",
-                "elements": [
-                    {"tag": "plain_text", "content": f"🤖 多赞看板 · {datetime.now().strftime('%H:%M')} 自动播报"},
-                ],
-            },
-        ],
-    }
-    return content
+    # —— Markdown 拼装（保留粗体/分隔线/链接）——
+    md_lines = [
+        f"## 🆕 新品日报 · {latest_date}",
+        "",
+        f"**📊 核心数据**　新增 **{new_count}** 个　订单 **{total_orders}** 单　金额 **¥{fmt_money(total_amount)}**　客单 **¥{fmt_money(avg_price)}**",
+        "",
+        "---",
+        "",
+        f"**🆕 今日首日上架 Top 5**",
+        first_day_text,
+        "",
+        "---",
+        "",
+        f"**📈 新品累计 Top 5（≤14 天在追踪）**",
+        all_time_text,
+        "",
+        "---",
+        "",
+        f"**⚠️ 高风险供货商（关闭率>30%，其下新品需关注）**",
+        risk_text,
+        "",
+        "---",
+        "",
+        f"🔗 [**查看新品追踪看板**]({DASHBOARD_URL})",
+        "",
+        f"🤖 多赞看板 · {datetime.now().strftime('%H:%M')} 自动播报",
+    ]
+    return "\n".join(md_lines)
 
 
 # ---------- 发送 ----------
 def send_card(content, idempotency_key=None):
-    """调 lark-cli 发消息卡片（interactive 模板）"""
+    """调 lark-cli 发消息卡片（post + markdown 模板）
+
+    为什么不走 interactive 模板：
+    - lark-cli im +messages-send 走 /open-apis/im/v1/messages，msg_type=interactive 实际被飞书降级为简版
+    - 降级后 fields/lark_md 全部丢失，只剩 hr + action 转 markdown 链接
+    - 真实 interactive 卡片需要走 card v1 API（不在 lark-cli 范围）
+    - post 模板 + --markdown 是 chat message 能用的最佳丰富格式
+    """
     cmd = [
         LARK_CLI, "im", "+messages-send",
         "--as", "bot",
         "--chat-id", CHAT_ID,
-        "--msg-type", "interactive",
-        "--content", json.dumps(content, ensure_ascii=False),
+        "--markdown", content,
         "--format", "json",
     ]
     if idempotency_key:
         cmd.extend(["--idempotency-key", idempotency_key])
 
     print(f"📤 目标：chat_id={CHAT_ID}")
-    print(f"📤 类型：interactive（飞书最新模板）")
+    print(f"📤 类型：post + markdown（飞书 chat message 可用最佳格式）")
     if idempotency_key:
         print(f"🔑 幂等键：{idempotency_key}")
 
