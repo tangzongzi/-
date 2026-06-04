@@ -35,7 +35,7 @@ DASHBOARD_URL = "https://dy.zongzi.fun/new-product"
 
 # ---------- 风险阈值 ----------
 CLOSE_RATE_THRESHOLD = 30.0  # 关闭率 > 30% 视为高风险供货商
-TOP_N = 5                    # 各类 Top N
+TOP_N = 10                   # 各类 Top N
 
 # ---------- 平台缩写映射 ----------
 PLATFORM_ABBR = {

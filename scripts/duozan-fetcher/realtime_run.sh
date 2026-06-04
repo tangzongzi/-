@@ -57,20 +57,23 @@ if [ -z "$COUNT" ] || [ -z "$PAY" ] || [ -z "$PROFIT" ]; then
 fi
 
 # ============================================================
-# [2] 跑 dashboard 更新（生成 23 个看板 json）
+# [2] 跑 dashboard 数据生成（不包含飞书日报 - 日报只走 daily 0:30）
 # ============================================================
 echo "" | tee -a "$LOG_FILE"
 echo "----------------------------------------" | tee -a "$LOG_FILE"
-echo "  [2/4] 跑 dashboard 更新流水线" | tee -a "$LOG_FILE"
+echo "  [2/4] 跑 dashboard 数据生成（26 汇总 + 10 明细 + 23 看板）" | tee -a "$LOG_FILE"
 echo "----------------------------------------" | tee -a "$LOG_FILE"
 
 DASH_START=$(date '+%s')
-if bash "$DUOZAN_SCRIPTS/update.sh" 2>&1 | tee -a "$LOG_FILE"; then
+# 只跑数据生成脚本，不跑 notify_dashboard.sh（日报只发 1 次/天）
+if python3 "$DUOZAN_SCRIPTS/export_data.py" 2>&1 | tee -a "$LOG_FILE" \
+   && python3 "$DUOZAN_SCRIPTS/export_detail.py" 2>&1 | tee -a "$LOG_FILE" \
+   && python3 "$DUOZAN_SCRIPTS/refresh_dashboards.py" 2>&1 | tee -a "$LOG_FILE"; then
     DASH_DUR=$(($(date '+%s') - DASH_START))
-    echo "  ✅ dashboard 更新完成（耗时 ${DASH_DUR}s）" | tee -a "$LOG_FILE"
+    echo "  ✅ dashboard 数据生成完成（耗时 ${DASH_DUR}s）" | tee -a "$LOG_FILE"
 else
-    echo "  ❌ dashboard 更新失败" | tee -a "$LOG_FILE"
-    python3 notify.py failure "$TODAY" "实时 dashboard 更新失败"
+    echo "  ❌ dashboard 数据生成失败" | tee -a "$LOG_FILE"
+    python3 notify.py failure "$TODAY" "实时 dashboard 数据生成失败"
     exit 4
 fi
 
