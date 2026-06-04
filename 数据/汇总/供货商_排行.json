@@ -5,12 +5,12 @@
     "filter": "已去除交易关闭订单"
   },
   "summary": {
-    "total_suppliers": 79,
-    "total_amount": 1053408.32,
-    "top1_concentration_pct": 28.47,
-    "top3_concentration_pct": 64.91,
-    "top5_concentration_pct": 85.34,
-    "top10_concentration_pct": 92.63,
+    "total_suppliers": 80,
+    "total_amount": 1063201.71,
+    "top1_concentration_pct": 28.61,
+    "top3_concentration_pct": 64.85,
+    "top5_concentration_pct": 85.22,
+    "top10_concentration_pct": 92.51,
     "long_tail_count": 49
   },
   "data": [
@@ -21,9 +21,9 @@
         "抖店",
         "拼多多"
       ],
-      "order": 14971,
-      "amount": 299886.36,
-      "avg_price": 20.03
+      "order": 15170,
+      "amount": 304153.4,
+      "avg_price": 20.05
     },
     {
       "rank": 2,
@@ -32,9 +32,9 @@
         "抖店",
         "拼多多"
       ],
-      "order": 3955,
-      "amount": 246405.12,
-      "avg_price": 62.3
+      "order": 3962,
+      "amount": 246919.12,
+      "avg_price": 62.32
     },
     {
       "rank": 3,
@@ -42,9 +42,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 3869,
-      "amount": 137434.99,
-      "avg_price": 35.52
+      "order": 3903,
+      "amount": 138457.99,
+      "avg_price": 35.47
     },
     {
       "rank": 4,
@@ -52,8 +52,8 @@
       "platforms": [
         "抖店"
       ],
-      "order": 4703,
-      "amount": 134106.26,
+      "order": 4706,
+      "amount": 134204.41999999998,
       "avg_price": 28.52
     },
     {
@@ -63,9 +63,9 @@
         "抖店",
         "拼多多"
       ],
-      "order": 3782,
-      "amount": 81111.54,
-      "avg_price": 21.45
+      "order": 3829,
+      "amount": 82284.54,
+      "avg_price": 21.49
     },
     {
       "rank": 6,
@@ -83,8 +83,8 @@
       "platforms": [
         "抖店"
       ],
-      "order": 1812,
-      "amount": 22776.47,
+      "order": 1813,
+      "amount": 22791.370000000003,
       "avg_price": 12.57
     },
     {
@@ -93,9 +93,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 321,
-      "amount": 13901.96,
-      "avg_price": 43.31
+      "order": 322,
+      "amount": 13948.759999999998,
+      "avg_price": 43.32
     },
     {
       "rank": 9,
@@ -103,9 +103,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 688,
-      "amount": 9445.17,
-      "avg_price": 13.73
+      "order": 709,
+      "amount": 9711.81,
+      "avg_price": 13.7
     },
     {
       "rank": 10,
@@ -113,9 +113,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 178,
-      "amount": 7743.0,
-      "avg_price": 43.5
+      "order": 185,
+      "amount": 8143.0,
+      "avg_price": 44.02
     },
     {
       "rank": 11,
@@ -123,9 +123,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 215,
-      "amount": 7033.8,
-      "avg_price": 32.72
+      "order": 218,
+      "amount": 7129.5,
+      "avg_price": 32.7
     },
     {
       "rank": 12,
@@ -144,9 +144,9 @@
         "小红书",
         "抖店"
       ],
-      "order": 268,
-      "amount": 5591.0,
-      "avg_price": 20.86
+      "order": 274,
+      "amount": 5701.4,
+      "avg_price": 20.81
     },
     {
       "rank": 14,
@@ -154,9 +154,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 248,
-      "amount": 5325.2,
-      "avg_price": 21.47
+      "order": 251,
+      "amount": 5384.12,
+      "avg_price": 21.45
     },
     {
       "rank": 15,
@@ -164,9 +164,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 232,
-      "amount": 4713.28,
-      "avg_price": 20.32
+      "order": 238,
+      "amount": 4845.12,
+      "avg_price": 20.36
     },
     {
       "rank": 16,
@@ -194,9 +194,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 270,
-      "amount": 3567.0699999999997,
-      "avg_price": 13.21
+      "order": 272,
+      "amount": 3602.86,
+      "avg_price": 13.25
     },
     {
       "rank": 19,
@@ -224,12 +224,24 @@
       "platforms": [
         "抖店"
       ],
-      "order": 62,
-      "amount": 2313.2999999999997,
-      "avg_price": 37.31
+      "order": 64,
+      "amount": 2420.2999999999997,
+      "avg_price": 37.82
     },
     {
       "rank": 22,
+      "name": "临沂悠乐卫生用品有限公司",
+      "platforms": [
+        "小红书",
+        "抖店",
+        "拼多多"
+      ],
+      "order": 106,
+      "amount": 2307.4,
+      "avg_price": 21.77
+    },
+    {
+      "rank": 23,
       "name": "广东小康科技有限公司",
       "platforms": [
         "抖店"
@@ -239,28 +251,28 @@
       "avg_price": 13.59
     },
     {
-      "rank": 23,
+      "rank": 24,
       "name": "深圳市食汇供应链管理有限公司",
       "platforms": [
         "抖店"
       ],
-      "order": 135,
-      "amount": 2228.63,
+      "order": 137,
+      "amount": 2262.03,
       "avg_price": 16.51
     },
     {
-      "rank": 24,
+      "rank": 25,
       "name": "四川爱朵东昇贸易有限公司",
       "platforms": [
         "抖店",
         "拼多多"
       ],
-      "order": 39,
-      "amount": 2055.5,
-      "avg_price": 52.71
+      "order": 41,
+      "amount": 2201.0,
+      "avg_price": 53.68
     },
     {
-      "rank": 25,
+      "rank": 26,
       "name": "南通市金大康食品有限公司",
       "platforms": [
         "抖店"
@@ -268,18 +280,6 @@
       "order": 100,
       "amount": 2009.8999999999999,
       "avg_price": 20.1
-    },
-    {
-      "rank": 26,
-      "name": "临沂悠乐卫生用品有限公司",
-      "platforms": [
-        "小红书",
-        "抖店",
-        "拼多多"
-      ],
-      "order": 76,
-      "amount": 1788.9,
-      "avg_price": 23.54
     },
     {
       "rank": 27,
@@ -307,9 +307,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 30,
-      "amount": 1325.0,
-      "avg_price": 44.17
+      "order": 32,
+      "amount": 1399.0,
+      "avg_price": 43.72
     },
     {
       "rank": 30,
@@ -387,12 +387,34 @@
       "platforms": [
         "抖店"
       ],
-      "order": 19,
-      "amount": 564.5,
-      "avg_price": 29.71
+      "order": 21,
+      "amount": 594.5,
+      "avg_price": 28.31
     },
     {
       "rank": 38,
+      "name": "新沂市棉栀卫生用品有限公司",
+      "platforms": [
+        "小红书",
+        "抖店",
+        "拼多多"
+      ],
+      "order": 57,
+      "amount": 563.4,
+      "avg_price": 9.88
+    },
+    {
+      "rank": 39,
+      "name": "山西依能饮品有限公司",
+      "platforms": [
+        "抖店"
+      ],
+      "order": 15,
+      "amount": 541.7,
+      "avg_price": 36.11
+    },
+    {
+      "rank": 40,
       "name": "洽洽食品股份有限公司",
       "platforms": [
         "抖店"
@@ -402,7 +424,7 @@
       "avg_price": 14.54
     },
     {
-      "rank": 39,
+      "rank": 41,
       "name": "郑州爱豆品牌管理有限公司",
       "platforms": [
         "抖店"
@@ -412,17 +434,17 @@
       "avg_price": 33.18
     },
     {
-      "rank": 40,
-      "name": "山西依能饮品有限公司",
+      "rank": 42,
+      "name": "福建省旺家福食品有限公司",
       "platforms": [
-        "抖店"
+        "拼多多"
       ],
-      "order": 14,
-      "amount": 525.7,
-      "avg_price": 37.55
+      "order": 17,
+      "amount": 477.0,
+      "avg_price": 28.06
     },
     {
-      "rank": 41,
+      "rank": 43,
       "name": "石家庄市惠康食品有限公司",
       "platforms": [
         "抖店"
@@ -432,7 +454,7 @@
       "avg_price": 60.96
     },
     {
-      "rank": 42,
+      "rank": 44,
       "name": "陕西美益佳品商贸有限公司",
       "platforms": [
         "抖店"
@@ -442,7 +464,7 @@
       "avg_price": 33.19
     },
     {
-      "rank": 43,
+      "rank": 45,
       "name": "广东轻上生物科技有限公司",
       "platforms": [
         "抖店"
@@ -452,29 +474,17 @@
       "avg_price": 43.44
     },
     {
-      "rank": 44,
-      "name": "新沂市棉栀卫生用品有限公司",
-      "platforms": [
-        "小红书",
-        "抖店",
-        "拼多多"
-      ],
-      "order": 37,
-      "amount": 378.5,
-      "avg_price": 10.23
-    },
-    {
-      "rank": 45,
+      "rank": 46,
       "name": "天津金品汇供应链管理有限公司",
       "platforms": [
         "抖店"
       ],
-      "order": 19,
-      "amount": 335.45,
-      "avg_price": 17.66
+      "order": 20,
+      "amount": 378.45,
+      "avg_price": 18.92
     },
     {
-      "rank": 46,
+      "rank": 47,
       "name": "浙江忠厚乳业股份有限公司",
       "platforms": [
         "抖店"
@@ -484,7 +494,7 @@
       "avg_price": 19.23
     },
     {
-      "rank": 47,
+      "rank": 48,
       "name": "清远市广丰食品有限公司",
       "platforms": [
         "抖店"
@@ -494,7 +504,7 @@
       "avg_price": 50.99
     },
     {
-      "rank": 48,
+      "rank": 49,
       "name": "湖州童护电子商务有限公司",
       "platforms": [
         "抖店"
@@ -504,7 +514,7 @@
       "avg_price": 30.45
     },
     {
-      "rank": 49,
+      "rank": 50,
       "name": "浙江实力供应链有限公司",
       "platforms": [
         "抖店"
@@ -514,7 +524,7 @@
       "avg_price": 29.57
     },
     {
-      "rank": 50,
+      "rank": 51,
       "name": "禹州市百慈食品商行（个体工商户）",
       "platforms": [
         "抖店"
@@ -524,7 +534,7 @@
       "avg_price": 18.71
     },
     {
-      "rank": 51,
+      "rank": 52,
       "name": "泉州洛江昌舒电子商务有限责任公司",
       "platforms": [
         "抖店"
@@ -534,7 +544,7 @@
       "avg_price": 60.0
     },
     {
-      "rank": 52,
+      "rank": 53,
       "name": "福建利澳纸业有限公司",
       "platforms": [
         "抖店"
@@ -544,7 +554,7 @@
       "avg_price": 56.9
     },
     {
-      "rank": 53,
+      "rank": 54,
       "name": "泉州台商投资区泰盈康贸易商行",
       "platforms": [
         "抖店"
@@ -554,7 +564,7 @@
       "avg_price": 16.85
     },
     {
-      "rank": 54,
+      "rank": 55,
       "name": "聊城食入意食品有限公司",
       "platforms": [
         "抖店"
@@ -564,7 +574,7 @@
       "avg_price": 26.21
     },
     {
-      "rank": 55,
+      "rank": 56,
       "name": "泉州市小童星卫生用品有限公司",
       "platforms": [
         "抖店"
@@ -574,7 +584,7 @@
       "avg_price": 57.67
     },
     {
-      "rank": 56,
+      "rank": 57,
       "name": "浙江百菲电子商务科技有限公司",
       "platforms": [
         "抖店"
@@ -584,7 +594,7 @@
       "avg_price": 28.0
     },
     {
-      "rank": 57,
+      "rank": 58,
       "name": "杭州市西湖区甄集百货商行（个体工商户）",
       "platforms": [
         "抖店"
@@ -594,7 +604,7 @@
       "avg_price": 30.0
     },
     {
-      "rank": 58,
+      "rank": 59,
       "name": "平江县老匠电子商务有限公司",
       "platforms": [
         "抖店"
@@ -604,17 +614,17 @@
       "avg_price": 11.3
     },
     {
-      "rank": 59,
-      "name": "福建省旺家福食品有限公司",
+      "rank": 60,
+      "name": "泉州市丰泽区尚客食品有限公司",
       "platforms": [
-        "拼多多"
+        "抖店"
       ],
-      "order": 4,
-      "amount": 106.0,
-      "avg_price": 26.5
+      "order": 10,
+      "amount": 108.86,
+      "avg_price": 10.89
     },
     {
-      "rank": 60,
+      "rank": 61,
       "name": "安徽省好念头食品有限责任公司",
       "platforms": [
         "抖店"
@@ -624,7 +634,7 @@
       "avg_price": 52.0
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "爱我卡飞（北京）科技有限公司",
       "platforms": [
         "抖店"
@@ -634,7 +644,7 @@
       "avg_price": 25.62
     },
     {
-      "rank": 62,
+      "rank": 63,
       "name": "上海添合一贸易有限公司",
       "platforms": [
         "抖店"
@@ -644,7 +654,7 @@
       "avg_price": 25.0
     },
     {
-      "rank": 63,
+      "rank": 64,
       "name": "泰州小徒弟食品有限公司",
       "platforms": [
         "抖店"
@@ -652,16 +662,6 @@
       "order": 1,
       "amount": 97.0,
       "avg_price": 97.0
-    },
-    {
-      "rank": 64,
-      "name": "泉州市丰泽区尚客食品有限公司",
-      "platforms": [
-        "抖店"
-      ],
-      "order": 9,
-      "amount": 92.96000000000001,
-      "avg_price": 10.33
     },
     {
       "rank": 65,
@@ -679,9 +679,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 5,
-      "amount": 71.2,
-      "avg_price": 14.24
+      "order": 6,
+      "amount": 79.7,
+      "avg_price": 13.28
     },
     {
       "rank": 67,
@@ -795,6 +795,16 @@
     },
     {
       "rank": 78,
+      "name": "台州市椒海家居用品有限公司",
+      "platforms": [
+        "抖店"
+      ],
+      "order": 1,
+      "amount": 9.5,
+      "avg_price": 9.5
+    },
+    {
+      "rank": 79,
       "name": "宁波夏日田园电子商务有限公司",
       "platforms": [
         "抖店"
@@ -804,7 +814,7 @@
       "avg_price": 8.4
     },
     {
-      "rank": 79,
+      "rank": 80,
       "name": "漳州哈牛贸易有限公司",
       "platforms": [
         "抖店"

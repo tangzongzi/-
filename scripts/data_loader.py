@@ -58,6 +58,9 @@ def load_all() -> pd.DataFrame:
             if not daily_dir.is_dir():
                 continue
             for xlsx in sorted(daily_dir.glob("*.xlsx")):
+                # 跳过 Excel 临时锁文件（.~开头的隐藏文件）
+                if xlsx.name.startswith(".~"):
+                    continue
                 frames.append(_read_xlsx(str(xlsx)))
 
     # 2. 读历史全量 xlsx
@@ -69,10 +72,12 @@ def load_all() -> pd.DataFrame:
 
     df = pd.concat(frames, ignore_index=True)
 
-    # 标准化时间字段
-    df["创建时间"] = pd.to_datetime(df["创建时间"], errors="coerce")
-    df["付款时间"] = pd.to_datetime(df["付款时间"], errors="coerce")
-    df["发货时间"] = pd.to_datetime(df["发货时间"], errors="coerce")
+    # 标准化时间字段 - 同时支持 '2026/06/03' 和 '2026-06-03' 两种格式
+    for col in ["创建时间", "付款时间", "发货时间"]:
+        if col in df.columns:
+            # 先统一转换为字符串 + 斜杠转横杠
+            df[col] = df[col].astype(str).str.replace("/", "-")
+            df[col] = pd.to_datetime(df[col], errors="coerce")
 
     # 标准化金额
     df["小计金额"] = pd.to_numeric(df["小计金额"], errors="coerce").fillna(0)

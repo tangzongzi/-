@@ -4,7 +4,7 @@
     "note": "订单数>=100"
   },
   "summary": {
-    "supplier_count": 22,
+    "supplier_count": 23,
     "highest": {
       "supplier": "上海睿思敏服装有限公司",
       "total": 1240,
@@ -25,9 +25,9 @@
     },
     {
       "supplier": "深圳市食汇供应链管理有限公司",
-      "total": 166,
+      "total": 168,
       "closed": 31.0,
-      "close_rate_pct": 18.67,
+      "close_rate_pct": 18.45,
       "risk_tag": "中风险",
       "risk_color": "orange"
     },
@@ -41,33 +41,33 @@
     },
     {
       "supplier": "衡阳市石鼓区畅健副食商行",
-      "total": 313,
-      "closed": 45.0,
-      "close_rate_pct": 14.38,
+      "total": 320,
+      "closed": 46.0,
+      "close_rate_pct": 14.37,
       "risk_tag": "中风险",
       "risk_color": "orange"
     },
     {
       "supplier": "邢台禾松食品销售有限公司",
-      "total": 17435,
-      "closed": 2464.0,
-      "close_rate_pct": 14.13,
+      "total": 17642,
+      "closed": 2472.0,
+      "close_rate_pct": 14.01,
       "risk_tag": "中风险",
       "risk_color": "orange"
     },
     {
       "supplier": "北京食通达新零售有限公司",
-      "total": 170,
-      "closed": 20.0,
-      "close_rate_pct": 11.76,
+      "total": 172,
+      "closed": 22.0,
+      "close_rate_pct": 12.79,
       "risk_tag": "中风险",
       "risk_color": "orange"
     },
     {
       "supplier": "十月稻田集团股份有限公司",
-      "total": 278,
+      "total": 281,
       "closed": 30.0,
-      "close_rate_pct": 10.79,
+      "close_rate_pct": 10.68,
       "risk_tag": "中风险",
       "risk_color": "orange"
     },
@@ -88,14 +88,6 @@
       "risk_color": "green"
     },
     {
-      "supplier": "杭州童童来了科技有限公司",
-      "total": 196,
-      "closed": 18.0,
-      "close_rate_pct": 9.18,
-      "risk_tag": "正常",
-      "risk_color": "green"
-    },
-    {
       "supplier": "杭州祖名唯品科技有限公司",
       "total": 221,
       "closed": 20.0,
@@ -104,40 +96,48 @@
       "risk_color": "green"
     },
     {
-      "supplier": "漳州市信冠食品有限公司",
-      "total": 756,
-      "closed": 68.0,
-      "close_rate_pct": 8.99,
+      "supplier": "杭州童童来了科技有限公司",
+      "total": 203,
+      "closed": 18.0,
+      "close_rate_pct": 8.87,
       "risk_tag": "正常",
       "risk_color": "green"
     },
     {
-      "supplier": "河南食族人食品科技有限公司",
-      "total": 233,
-      "closed": 18.0,
-      "close_rate_pct": 7.73,
+      "supplier": "漳州市信冠食品有限公司",
+      "total": 777,
+      "closed": 68.0,
+      "close_rate_pct": 8.75,
       "risk_tag": "正常",
       "risk_color": "green"
     },
     {
       "supplier": "泉州市俊发卫生用品有限公司",
-      "total": 4282,
-      "closed": 327.0,
-      "close_rate_pct": 7.64,
+      "total": 4290,
+      "closed": 328.0,
+      "close_rate_pct": 7.65,
+      "risk_tag": "正常",
+      "risk_color": "green"
+    },
+    {
+      "supplier": "河南食族人食品科技有限公司",
+      "total": 236,
+      "closed": 18.0,
+      "close_rate_pct": 7.63,
       "risk_tag": "正常",
       "risk_color": "green"
     },
     {
       "supplier": "天海藏食品（山东）有限公司",
-      "total": 4172,
+      "total": 4206,
       "closed": 303.0,
-      "close_rate_pct": 7.26,
+      "close_rate_pct": 7.2,
       "risk_tag": "正常",
       "risk_color": "green"
     },
     {
       "supplier": "泉州味满堂食品有限公司",
-      "total": 5067,
+      "total": 5070,
       "closed": 364.0,
       "close_rate_pct": 7.18,
       "risk_tag": "正常",
@@ -152,42 +152,50 @@
       "risk_color": "green"
     },
     {
+      "supplier": "杭州东宇品牌管理有限公司",
+      "total": 1950,
+      "closed": 137.0,
+      "close_rate_pct": 7.03,
+      "risk_tag": "正常",
+      "risk_color": "green"
+    },
+    {
       "supplier": "深圳市苏禾电子商务有限公司",
-      "total": 4069,
-      "closed": 287.0,
-      "close_rate_pct": 7.05,
+      "total": 4117,
+      "closed": 288.0,
+      "close_rate_pct": 7.0,
       "risk_tag": "正常",
       "risk_color": "green"
     },
     {
       "supplier": "上海俐噢信息科技有限公司",
-      "total": 345,
+      "total": 346,
       "closed": 24.0,
-      "close_rate_pct": 6.96,
+      "close_rate_pct": 6.94,
       "risk_tag": "正常",
       "risk_color": "green"
     },
     {
-      "supplier": "杭州东宇品牌管理有限公司",
-      "total": 1938,
-      "closed": 126.0,
-      "close_rate_pct": 6.5,
+      "supplier": "临沂悠乐卫生用品有限公司",
+      "total": 110,
+      "closed": 4.0,
+      "close_rate_pct": 3.64,
       "risk_tag": "正常",
       "risk_color": "green"
     },
     {
       "supplier": "山西袋鼠先生商贸有限公司",
-      "total": 239,
+      "total": 245,
       "closed": 7.0,
-      "close_rate_pct": 2.93,
+      "close_rate_pct": 2.86,
       "risk_tag": "正常",
       "risk_color": "green"
     },
     {
       "supplier": "深圳市龙岗区泰新鲜百货商行（个体工商户）",
-      "total": 276,
+      "total": 278,
       "closed": 6.0,
-      "close_rate_pct": 2.17,
+      "close_rate_pct": 2.16,
       "risk_tag": "正常",
       "risk_color": "green"
     }

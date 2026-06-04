@@ -4,11 +4,11 @@
     "grain": "日"
   },
   "summary": {
-    "latest_date": "2026-06-03",
-    "total_days": 95,
-    "recent_7d_sales": 51753.69,
-    "recent_7d_orders": 2072,
-    "recent_7d_aftersale": 328.39000000000004
+    "latest_date": "2026-06-04",
+    "total_days": 96,
+    "recent_7d_sales": 55365.0,
+    "recent_7d_orders": 2225,
+    "recent_7d_aftersale": 181.16000000000003
   },
   "data": [
     {
@@ -5844,10 +5844,10 @@
     },
     {
       "date": "2026-06-01",
-      "orders": 344,
-      "sales_amount": 8457.5,
-      "close_orders": 24,
-      "close_amount": 634.69,
+      "orders": 343,
+      "sales_amount": 8439.99,
+      "close_orders": 25,
+      "close_amount": 652.2,
       "aftersale_orders": 1,
       "aftersale_amount": 22.62,
       "product_count": 66,
@@ -5973,11 +5973,11 @@
     {
       "date": "2026-06-03",
       "orders": 365,
-      "sales_amount": 8466.65,
+      "sales_amount": 8467.65,
       "close_orders": 11,
       "close_amount": 277.63,
-      "aftersale_orders": 1,
-      "aftersale_amount": 15.1,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 57,
       "growth_top5": [
         {
@@ -6031,6 +6031,70 @@
           "product": "【20个】天海藏门钉牛肉饼肉厚皮薄早餐大肉馅速食老北京特色美食",
           "order": 5,
           "mom_pct": -28.6
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "orders": 419,
+      "sales_amount": 9809.9,
+      "close_orders": 23,
+      "close_amount": 833.43,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
+      "product_count": 59,
+      "growth_top5": [
+        {
+          "product": "品牌直发 耶气满满100%香水椰300ml*12瓶椰子水电解质水",
+          "order": 7,
+          "mom_pct": 250.0
+        },
+        {
+          "product": "【旺家福老卤鸭舌18-20支装】",
+          "order": 13,
+          "mom_pct": 225.0
+        },
+        {
+          "product": "控价已解决，后续有问题及时配合【麦醉侠红油麻酱凉皮】",
+          "order": 6,
+          "mom_pct": 200.0
+        },
+        {
+          "product": "美味壹客蔓越莓全麦厚切吐司牛乳好吃面包无蔗糖饱腹代餐早餐零食",
+          "order": 3,
+          "mom_pct": 200.0
+        },
+        {
+          "product": "云枝棉洗脸巾到手2提鎏光金精装母婴可用柔软加厚珍珠纹洁面巾",
+          "order": 15,
+          "mom_pct": 200.0
+        }
+      ],
+      "decline_top5": [
+        {
+          "product": "良品铺子拇指风干鸡肉505g鸡胸肉干酱香多味高蛋白休闲零食健身",
+          "order": 2,
+          "mom_pct": -75.0
+        },
+        {
+          "product": "【10/20片】天海藏酱香饼 家庭早餐酥脆面饼酱香十足方便半成品",
+          "order": 1,
+          "mom_pct": -66.7
+        },
+        {
+          "product": "【王老吉八宝粥320g*6-12罐】营养丰富口感弹糯慢熬好粥",
+          "order": 1,
+          "mom_pct": -66.7
+        },
+        {
+          "product": "袋鼠先生低脂高蛋白鸡胸肉即食休50g*10袋（混合口味）",
+          "order": 6,
+          "mom_pct": -57.1
+        },
+        {
+          "product": "【3袋/10袋】天海藏黑鱼金汤酸菜鱼430g/袋 顺丰京东发货甄选活鱼",
+          "order": 1,
+          "mom_pct": -50.0
         }
       ]
     }

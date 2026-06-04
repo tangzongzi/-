@@ -6,8 +6,8 @@
     "weeks": 15,
     "max_pool": 216,
     "min_pool": 39,
-    "total_new": 581,
-    "total_gone": 3310
+    "total_new": 585,
+    "total_gone": 3301
   },
   "data": [
     {
@@ -110,10 +110,10 @@
     },
     {
       "week_start": "2026-06-01",
-      "pool_size": 99,
-      "new_count": 14,
-      "gone_count": 482,
-      "net_change": -468
+      "pool_size": 112,
+      "new_count": 18,
+      "gone_count": 473,
+      "net_change": -455
     }
   ]
 }

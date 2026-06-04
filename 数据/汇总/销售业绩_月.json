@@ -4,8 +4,8 @@
   },
   "summary": {
     "months": 4,
-    "total_orders": 38445,
-    "total_amount": 1053408.32
+    "total_orders": 38863,
+    "total_amount": 1063201.71
   },
   "data": [
     {
@@ -34,11 +34,11 @@
     },
     {
       "month": "2026-06",
-      "order": 1044,
-      "amount": 25250.08,
-      "avg_price": 24.19,
-      "mom_order_pct": -91.16,
-      "mom_amount_pct": -92.07
+      "order": 1462,
+      "amount": 35043.47,
+      "avg_price": 23.97,
+      "mom_order_pct": -87.62,
+      "mom_amount_pct": -88.99000000000001
     }
   ]
 }
