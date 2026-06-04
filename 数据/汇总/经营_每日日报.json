@@ -4,11 +4,11 @@
     "grain": "日"
   },
   "summary": {
-    "latest_date": "2026-06-04",
-    "total_days": 96,
-    "recent_7d_sales": 55365.0,
-    "recent_7d_orders": 2225,
-    "recent_7d_aftersale": 181.16000000000003
+    "latest_date": "2026-06-05",
+    "total_days": 97,
+    "recent_7d_sales": 48869.43000000001,
+    "recent_7d_orders": 1992,
+    "recent_7d_aftersale": 115.44000000000001
   },
   "data": [
     {
@@ -5844,10 +5844,10 @@
     },
     {
       "date": "2026-06-01",
-      "orders": 343,
-      "sales_amount": 8439.99,
-      "close_orders": 25,
-      "close_amount": 652.2,
+      "orders": 345,
+      "sales_amount": 8466.1,
+      "close_orders": 23,
+      "close_amount": 626.09,
       "aftersale_orders": 1,
       "aftersale_amount": 22.62,
       "product_count": 66,
@@ -5859,8 +5859,8 @@
         },
         {
           "product": "【商超同款】海盐苏打饼干奶盐味咸味梳打养胃无蔗糖零食代餐早餐",
-          "order": 3,
-          "mom_pct": 200.0
+          "order": 4,
+          "mom_pct": 300.0
         },
         {
           "product": "美味壹客全麦坚果厚切吐司手撕面包饱腹代餐自律期早餐面包零食",
@@ -5972,10 +5972,10 @@
     },
     {
       "date": "2026-06-03",
-      "orders": 365,
-      "sales_amount": 8467.65,
-      "close_orders": 11,
-      "close_amount": 277.63,
+      "orders": 363,
+      "sales_amount": 8371.15,
+      "close_orders": 13,
+      "close_amount": 373.13,
       "aftersale_orders": 0,
       "aftersale_amount": 0,
       "product_count": 57,
@@ -6023,14 +6023,14 @@
           "mom_pct": -50.0
         },
         {
-          "product": "食族人经典酸辣粉145克6桶方便粉丝商超同款",
+          "product": "控价已解决，后续有问题及时配合【麦醉侠红油麻酱凉皮】",
           "order": 1,
           "mom_pct": -50.0
         },
         {
-          "product": "【20个】天海藏门钉牛肉饼肉厚皮薄早餐大肉馅速食老北京特色美食",
-          "order": 5,
-          "mom_pct": -28.6
+          "product": "食族人经典酸辣粉145克6桶方便粉丝商超同款",
+          "order": 1,
+          "mom_pct": -50.0
         }
       ]
     },
@@ -6045,6 +6045,11 @@
       "product_count": 59,
       "growth_top5": [
         {
+          "product": "控价已解决，后续有问题及时配合【麦醉侠红油麻酱凉皮】",
+          "order": 6,
+          "mom_pct": 500.0
+        },
+        {
           "product": "品牌直发 耶气满满100%香水椰300ml*12瓶椰子水电解质水",
           "order": 7,
           "mom_pct": 250.0
@@ -6053,11 +6058,6 @@
           "product": "【旺家福老卤鸭舌18-20支装】",
           "order": 13,
           "mom_pct": 225.0
-        },
-        {
-          "product": "控价已解决，后续有问题及时配合【麦醉侠红油麻酱凉皮】",
-          "order": 6,
-          "mom_pct": 200.0
         },
         {
           "product": "美味壹客蔓越莓全麦厚切吐司牛乳好吃面包无蔗糖饱腹代餐早餐零食",
@@ -6095,6 +6095,44 @@
           "product": "【3袋/10袋】天海藏黑鱼金汤酸菜鱼430g/袋 顺丰京东发货甄选活鱼",
           "order": 1,
           "mom_pct": -50.0
+        }
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "orders": 16,
+      "sales_amount": 443.41,
+      "close_orders": 3,
+      "close_amount": 49.03,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
+      "product_count": 11,
+      "growth_top5": [],
+      "decline_top5": [
+        {
+          "product": "芯蒸呈定制宽面原味",
+          "order": 1,
+          "mom_pct": -98.4
+        },
+        {
+          "product": "【芯蒸呈番茄肉酱味火鸡面12包】方便面辣味十足过瘾",
+          "order": 1,
+          "mom_pct": -98.1
+        },
+        {
+          "product": "【麻酱火鸡面】芯蒸呈浓香麻酱火鸡面113g韩式泡面拌面",
+          "order": 1,
+          "mom_pct": -96.0
+        },
+        {
+          "product": "【恢复原价，否则取消合作】【10盒】天海藏 麻辣小龙虾尾250g/盒",
+          "order": 2,
+          "mom_pct": -88.2
+        },
+        {
+          "product": "美味壹客星空莓野全麦吐司厚切生吐司营养早餐代餐好吃健康面包",
+          "order": 3,
+          "mom_pct": -87.0
         }
       ]
     }

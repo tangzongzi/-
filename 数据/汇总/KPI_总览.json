@@ -1,20 +1,20 @@
 {
   "meta": {
     "title": "采购单总览KPI",
-    "period": "2026-03-01 ~ 2026-06-04",
-    "filter": "已去除交易关闭订单 (4867 笔)"
+    "period": "2026-03-01 ~ 2026-06-05",
+    "filter": "已去除交易关闭订单 (4870 笔)"
   },
   "summary": {
-    "total_orders": 38863,
-    "total_amount": 1063201.71,
+    "total_orders": 38879,
+    "total_amount": 1063574.73,
     "avg_price": 27.36,
-    "total_amount_wan": 106.32,
+    "total_amount_wan": 106.36,
     "shop_count": 16,
     "platform_count": 3,
     "product_count": 686,
     "supplier_count": 94,
-    "orders_per_day": 404.82,
-    "amount_per_day": 11075.02
+    "orders_per_day": 400.81,
+    "amount_per_day": 10964.69
   },
   "data": {
     "platforms": [
@@ -25,13 +25,13 @@
       },
       {
         "店铺平台": "抖店",
-        "orders": 27326,
-        "amount": 808743.48
+        "orders": 27339,
+        "amount": 809065.23
       },
       {
         "店铺平台": "拼多多",
-        "orders": 11532,
-        "amount": 254380.43
+        "orders": 11535,
+        "amount": 254431.69999999998
       }
     ],
     "shops": [
@@ -63,7 +63,7 @@
         "店铺平台": "抖店",
         "店铺名称": "它智小店",
         "orders": 174,
-        "amount": 4014.89
+        "amount": 4006.79
       },
       {
         "店铺平台": "抖店",
@@ -86,8 +86,8 @@
       {
         "店铺平台": "抖店",
         "店铺名称": "潮食优选好物",
-        "orders": 2064,
-        "amount": 57521.5
+        "orders": 2077,
+        "amount": 57895.15
       },
       {
         "店铺平台": "抖店",
@@ -105,7 +105,7 @@
         "店铺平台": "抖店",
         "店铺名称": "社畜能量站",
         "orders": 2133,
-        "amount": 59516.090000000004
+        "amount": 59472.29
       },
       {
         "店铺平台": "抖店",
@@ -122,8 +122,8 @@
       {
         "店铺平台": "拼多多",
         "店铺名称": "潮流食品零食店",
-        "orders": 10525,
-        "amount": 224990.94
+        "orders": 10528,
+        "amount": 225042.21
       }
     ]
   }

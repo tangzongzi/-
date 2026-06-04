@@ -40,12 +40,12 @@
     },
     {
       "month": "2026-06",
-      "pool_size": 112,
+      "pool_size": 113,
       "new_count": 18,
       "gone_count": 0,
-      "kept_count": 94,
+      "kept_count": 95,
       "net_change": 18,
-      "days_with_data": 4,
+      "days_with_data": 5,
       "incomplete": true
     }
   ]

@@ -1,20 +1,20 @@
 {
   "meta": {
     "source": "采购单数据(导出后已过滤交易关闭订单)",
-    "period": "2026-03-01 ~ 2026-06-04",
-    "days": 96,
-    "filter": "已去除交易关闭订单 (4867 笔)",
-    "generated_at": "2026-06-05 00:42:54",
+    "period": "2026-03-01 ~ 2026-06-05",
+    "days": 97,
+    "filter": "已去除交易关闭订单 (4870 笔)",
+    "generated_at": "2026-06-05 00:49:28",
     "title": "供货商分析",
     "grain": "总览"
   },
   "supplier": {
     "meta": {
       "source": "采购单数据(导出后已过滤交易关闭订单)",
-      "period": "2026-03-01 ~ 2026-06-04",
-      "days": 96,
-      "filter": "已去除交易关闭订单 (4867 笔)",
-      "generated_at": "2026-06-05 00:42:54",
+      "period": "2026-03-01 ~ 2026-06-05",
+      "days": 97,
+      "filter": "已去除交易关闭订单 (4870 笔)",
+      "generated_at": "2026-06-05 00:49:28",
       "title": "供货商",
       "grain": "总览"
     },
@@ -26,8 +26,8 @@
           "抖店",
           "拼多多"
         ],
-        "order": 15170,
-        "amount": 304153.4,
+        "order": 15176,
+        "amount": 304273.84,
         "avg_price": 20.05,
         "closed": 2472.0,
         "close_rate_pct": 14.01,
@@ -55,9 +55,9 @@
         "platforms": [
           "抖店"
         ],
-        "order": 3903,
-        "amount": 138457.99,
-        "avg_price": 35.47,
+        "order": 3906,
+        "amount": 138614.49,
+        "avg_price": 35.49,
         "closed": 303.0,
         "close_rate_pct": 7.2,
         "risk_tag": "低",
@@ -84,11 +84,11 @@
           "抖店",
           "拼多多"
         ],
-        "order": 3829,
-        "amount": 82284.54,
-        "avg_price": 21.49,
+        "order": 3832,
+        "amount": 82387.54,
+        "avg_price": 21.5,
         "closed": 288.0,
-        "close_rate_pct": 7.0,
+        "close_rate_pct": 6.99,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -112,11 +112,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 1813,
-        "amount": 22791.370000000003,
-        "avg_price": 12.57,
-        "closed": 137.0,
-        "close_rate_pct": 7.03,
+        "order": 1812,
+        "amount": 22711.57,
+        "avg_price": 12.53,
+        "closed": 139.0,
+        "close_rate_pct": 7.12,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -140,11 +140,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 709,
-        "amount": 9711.81,
-        "avg_price": 13.7,
-        "closed": 68.0,
-        "close_rate_pct": 8.75,
+        "order": 710,
+        "amount": 9719.41,
+        "avg_price": 13.69,
+        "closed": 67.0,
+        "close_rate_pct": 8.62,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -197,11 +197,11 @@
           "小红书",
           "抖店"
         ],
-        "order": 274,
-        "amount": 5701.4,
-        "avg_price": 20.81,
-        "closed": 46.0,
-        "close_rate_pct": 14.37,
+        "order": 275,
+        "amount": 5717.1,
+        "avg_price": 20.79,
+        "closed": 47.0,
+        "close_rate_pct": 14.6,
         "risk_tag": "中",
         "risk_color": "yellow"
       },
@@ -225,11 +225,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 238,
-        "amount": 4845.12,
-        "avg_price": 20.36,
+        "order": 239,
+        "amount": 4861.6,
+        "avg_price": 20.34,
         "closed": 7.0,
-        "close_rate_pct": 2.86,
+        "close_rate_pct": 2.85,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -353,11 +353,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 137,
-        "amount": 2262.03,
+        "order": 138,
+        "amount": 2278.73,
         "avg_price": 16.51,
-        "closed": 31.0,
-        "close_rate_pct": 18.45,
+        "closed": 32.0,
+        "close_rate_pct": 18.82,
         "risk_tag": "中",
         "risk_color": "yellow"
       },
@@ -382,11 +382,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 100,
-        "amount": 2009.8999999999999,
-        "avg_price": 20.1,
+        "order": 101,
+        "amount": 2026.3,
+        "avg_price": 20.06,
         "closed": 11.0,
-        "close_rate_pct": 9.91,
+        "close_rate_pct": 9.82,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -455,8 +455,8 @@
           "抖店",
           "拼多多"
         ],
-        "order": 15170,
-        "amount": 304153.4,
+        "order": 15176,
+        "amount": 304273.84,
         "avg_price": 20.05,
         "closed": 2472.0,
         "close_rate_pct": 14.01,
@@ -484,9 +484,9 @@
         "platforms": [
           "抖店"
         ],
-        "order": 3903,
-        "amount": 138457.99,
-        "avg_price": 35.47,
+        "order": 3906,
+        "amount": 138614.49,
+        "avg_price": 35.49,
         "closed": 303.0,
         "close_rate_pct": 7.2,
         "risk_tag": "低",
@@ -513,11 +513,11 @@
           "抖店",
           "拼多多"
         ],
-        "order": 3829,
-        "amount": 82284.54,
-        "avg_price": 21.49,
+        "order": 3832,
+        "amount": 82387.54,
+        "avg_price": 21.5,
         "closed": 288.0,
-        "close_rate_pct": 7.0,
+        "close_rate_pct": 6.99,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -541,11 +541,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 1813,
-        "amount": 22791.370000000003,
-        "avg_price": 12.57,
-        "closed": 137.0,
-        "close_rate_pct": 7.03,
+        "order": 1812,
+        "amount": 22711.57,
+        "avg_price": 12.53,
+        "closed": 139.0,
+        "close_rate_pct": 7.12,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -569,11 +569,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 709,
-        "amount": 9711.81,
-        "avg_price": 13.7,
-        "closed": 68.0,
-        "close_rate_pct": 8.75,
+        "order": 710,
+        "amount": 9719.41,
+        "avg_price": 13.69,
+        "closed": 67.0,
+        "close_rate_pct": 8.62,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -626,11 +626,11 @@
           "小红书",
           "抖店"
         ],
-        "order": 274,
-        "amount": 5701.4,
-        "avg_price": 20.81,
-        "closed": 46.0,
-        "close_rate_pct": 14.37,
+        "order": 275,
+        "amount": 5717.1,
+        "avg_price": 20.79,
+        "closed": 47.0,
+        "close_rate_pct": 14.6,
         "risk_tag": "中",
         "risk_color": "yellow"
       },
@@ -654,11 +654,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 238,
-        "amount": 4845.12,
-        "avg_price": 20.36,
+        "order": 239,
+        "amount": 4861.6,
+        "avg_price": 20.34,
         "closed": 7.0,
-        "close_rate_pct": 2.86,
+        "close_rate_pct": 2.85,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -782,11 +782,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 137,
-        "amount": 2262.03,
+        "order": 138,
+        "amount": 2278.73,
         "avg_price": 16.51,
-        "closed": 31.0,
-        "close_rate_pct": 18.45,
+        "closed": 32.0,
+        "close_rate_pct": 18.82,
         "risk_tag": "中",
         "risk_color": "yellow"
       },
@@ -811,11 +811,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 100,
-        "amount": 2009.8999999999999,
-        "avg_price": 20.1,
+        "order": 101,
+        "amount": 2026.3,
+        "avg_price": 20.06,
         "closed": 11.0,
-        "close_rate_pct": 9.91,
+        "close_rate_pct": 9.82,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -1719,8 +1719,8 @@
         "2026-04_amount": 199.0,
         "2026-05_order": 22,
         "2026-05_amount": 434.3,
-        "2026-06_order": 1,
-        "2026-06_amount": 19.9
+        "2026-06_order": 2,
+        "2026-06_amount": 36.3
       },
       {
         "supplier": "厦门先点商贸有限公司",
@@ -1818,8 +1818,8 @@
         "2026-04_amount": 22464.24,
         "2026-05_order": 1009,
         "2026-05_amount": 48060.9,
-        "2026-06_order": 108,
-        "2026-06_amount": 3906.55
+        "2026-06_order": 111,
+        "2026-06_amount": 4063.05
       },
       {
         "supplier": "宁波夏日田园电子商务有限公司",
@@ -1873,8 +1873,8 @@
         "2026-04_amount": 774.56,
         "2026-05_order": 100,
         "2026-05_amount": 2142.4,
-        "2026-06_order": 51,
-        "2026-06_amount": 1071.2
+        "2026-06_order": 52,
+        "2026-06_amount": 1087.68
       },
       {
         "supplier": "平江县老匠电子商务有限公司",
@@ -1994,8 +1994,8 @@
         "2026-04_amount": 1997.9,
         "2026-05_order": 114,
         "2026-05_amount": 1967.87,
-        "2026-06_order": 13,
-        "2026-06_amount": 301.8
+        "2026-06_order": 12,
+        "2026-06_amount": 222.0
       },
       {
         "supplier": "杭州巴丽岛电子商务有限公司",
@@ -2225,8 +2225,8 @@
         "2026-04_amount": 13312.2,
         "2026-05_order": 2970,
         "2026-05_amount": 64377.26,
-        "2026-06_order": 191,
-        "2026-06_amount": 4595.08
+        "2026-06_order": 194,
+        "2026-06_amount": 4698.08
       },
       {
         "supplier": "深圳市食汇供应链管理有限公司",
@@ -2236,8 +2236,8 @@
         "2026-04_amount": 1982.59,
         "2026-05_order": 16,
         "2026-05_amount": 223.24,
-        "2026-06_order": 4,
-        "2026-06_amount": 56.2
+        "2026-06_order": 5,
+        "2026-06_amount": 72.9
       },
       {
         "supplier": "深圳市龙岗区泰新鲜百货商行（个体工商户）",
@@ -2324,8 +2324,8 @@
         "2026-04_amount": 2132.92,
         "2026-05_order": 361,
         "2026-05_amount": 4954.3,
-        "2026-06_order": 82,
-        "2026-06_amount": 1130.29
+        "2026-06_order": 83,
+        "2026-06_amount": 1137.89
       },
       {
         "supplier": "烟台欣和企业食品有限公司",
@@ -2412,8 +2412,8 @@
         "2026-04_amount": 1802.8,
         "2026-05_order": 110,
         "2026-05_amount": 2246.2,
-        "2026-06_order": 11,
-        "2026-06_amount": 204.6
+        "2026-06_order": 12,
+        "2026-06_amount": 220.3
       },
       {
         "supplier": "邢台禾松食品销售有限公司",
@@ -2423,8 +2423,8 @@
         "2026-04_amount": 92818.18,
         "2026-05_order": 5265,
         "2026-05_amount": 110271.66,
-        "2026-06_order": 674,
-        "2026-06_amount": 13658.96
+        "2026-06_order": 680,
+        "2026-06_amount": 13779.4
       },
       {
         "supplier": "邵东市大禾塘校英百货商行（个体工商户）",
@@ -2462,11 +2462,11 @@
     ],
     "summary": {
       "total_suppliers": 80,
-      "total_amount": 1063201.71,
+      "total_amount": 1063574.73,
       "top1_concentration_pct": 28.61,
-      "top3_concentration_pct": 64.85,
+      "top3_concentration_pct": 64.86,
       "top5_concentration_pct": 85.22,
-      "top10_concentration_pct": 92.51,
+      "top10_concentration_pct": 92.5,
       "long_tail_count": 49
     }
   }

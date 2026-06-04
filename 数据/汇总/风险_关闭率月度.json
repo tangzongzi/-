@@ -3,9 +3,9 @@
     "title": "关闭率月度走势"
   },
   "summary": {
-    "avg_close_rate_pct": 9.77,
+    "avg_close_rate_pct": 9.8,
     "max_close_rate_pct": 12.53,
-    "min_close_rate_pct": 5.37
+    "min_close_rate_pct": 5.5
   },
   "data": [
     {
@@ -28,9 +28,9 @@
     },
     {
       "month": "2026-06",
-      "total": 1545,
-      "closed": 83,
-      "close_rate_pct": 5.37
+      "total": 1564,
+      "closed": 86,
+      "close_rate_pct": 5.5
     }
   ]
 }

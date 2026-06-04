@@ -237,27 +237,10 @@ def main():
         all_rows.extend(map_to_row(item))
     print(f"      生成 {len(all_rows)} 行 (含多商品拆分)")
 
-    # 3. 落 xlsx
+    # 3. 落 xlsx（--realtime 模式也落 /按日期/，覆盖同名 = 永远是最新进度）
     print(f"\n[3/3] 落 xlsx...")
-    if is_realtime:
-        # 实时模式：落盘到 /tmp/_realtime/，不污染 dashboard
-        import shutil
-        tmp_dir = Path("/tmp/_duozan_realtime")
-        tmp_dir.mkdir(parents=True, exist_ok=True)
-        compact = date_str.replace("-", "")
-        ts = datetime.now().strftime("%H%M%S")
-        filepath = tmp_dir / f"采购单_{compact}_{ts}.xlsx"
-        wb = openpyxl.Workbook()
-        ws = wb.active
-        ws.title = "采购单"
-        ws.append(COLUMNS)
-        for row in all_rows:
-            ws.append(row)
-        wb.save(filepath)
-        print(f"      ✅ 临时存到: {filepath}")
-    else:
-        filepath = save_xlsx(date_str, all_rows)
-        print(f"      ✅ 存到: {filepath}")
+    filepath = save_xlsx(date_str, all_rows)
+    print(f"      ✅ 存到: {filepath}")
 
     # 汇总
     # ★ 利润只计非关闭订单（用 None 跳过关闭的）

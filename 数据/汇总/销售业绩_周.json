@@ -4,9 +4,9 @@
   },
   "summary": {
     "weeks": 15,
-    "total_orders": 38863,
-    "total_amount": 1063201.71,
-    "avg_weekly_orders": 2590.87
+    "total_orders": 38879,
+    "total_amount": 1063574.73,
+    "avg_weekly_orders": 2591.93
   },
   "data": [
     {
@@ -95,9 +95,9 @@
     },
     {
       "week_start": "2026-06-01",
-      "order": 1462,
-      "amount": 35043.47,
-      "avg_price": 23.97
+      "order": 1478,
+      "amount": 35416.49,
+      "avg_price": 23.96
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "meta": {
     "source": "采购单数据(导出后已过滤交易关闭订单)",
-    "period": "2026-03-01 ~ 2026-06-04",
-    "days": 96,
-    "filter": "已去除交易关闭订单 (4867 笔)",
-    "generated_at": "2026-06-05 00:42:54",
+    "period": "2026-03-01 ~ 2026-06-05",
+    "days": 97,
+    "filter": "已去除交易关闭订单 (4870 笔)",
+    "generated_at": "2026-06-05 00:49:28",
     "title": "商品结构 · 月度",
     "grain": "月"
   },
   "product": {
     "meta": {
       "source": "采购单数据(导出后已过滤交易关闭订单)",
-      "period": "2026-03-01 ~ 2026-06-04",
-      "days": 96,
-      "filter": "已去除交易关闭订单 (4867 笔)",
-      "generated_at": "2026-06-05 00:42:54",
+      "period": "2026-03-01 ~ 2026-06-05",
+      "days": 97,
+      "filter": "已去除交易关闭订单 (4870 笔)",
+      "generated_at": "2026-06-05 00:49:28",
       "title": "商品结构 · 月度",
       "grain": "月"
     },
@@ -57,12 +57,12 @@
       },
       {
         "month": "2026-06",
-        "pool_size": 112,
+        "pool_size": 113,
         "new_count": 18,
         "gone_count": 0,
-        "kept_count": 94,
+        "kept_count": 95,
         "net_change": 18,
-        "days_with_data": 4,
+        "days_with_data": 5,
         "incomplete": true
       }
     ]

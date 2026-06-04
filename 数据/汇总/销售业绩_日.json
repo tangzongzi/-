@@ -3,11 +3,11 @@
     "title": "销售业绩 · 日度"
   },
   "summary": {
-    "days": 96,
-    "total_orders": 38863,
-    "total_amount": 1063201.71,
-    "avg_daily_orders": 404.82,
-    "avg_daily_amount": 11075.02
+    "days": 97,
+    "total_orders": 38879,
+    "total_amount": 1063574.73,
+    "avg_daily_orders": 400.81,
+    "avg_daily_amount": 10964.69
   },
   "data": [
     {
@@ -403,7 +403,7 @@
     {
       "date": "2026-05-05",
       "order": 377,
-      "amount": 10529.96,
+      "amount": 10529.960000000001,
       "avg_price": 27.93
     },
     {
@@ -564,9 +564,9 @@
     },
     {
       "date": "2026-06-01",
-      "order": 343,
-      "amount": 8439.99,
-      "avg_price": 24.61
+      "order": 345,
+      "amount": 8466.1,
+      "avg_price": 24.54
     },
     {
       "date": "2026-06-02",
@@ -576,15 +576,21 @@
     },
     {
       "date": "2026-06-03",
-      "order": 365,
-      "amount": 8467.65,
-      "avg_price": 23.2
+      "order": 363,
+      "amount": 8371.15,
+      "avg_price": 23.06
     },
     {
       "date": "2026-06-04",
       "order": 419,
       "amount": 9809.9,
       "avg_price": 23.41
+    },
+    {
+      "date": "2026-06-05",
+      "order": 16,
+      "amount": 443.41,
+      "avg_price": 27.71
     }
   ]
 }

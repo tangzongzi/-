@@ -25,9 +25,9 @@
     },
     {
       "supplier": "深圳市食汇供应链管理有限公司",
-      "total": 168,
-      "closed": 31.0,
-      "close_rate_pct": 18.45,
+      "total": 170,
+      "closed": 32.0,
+      "close_rate_pct": 18.82,
       "risk_tag": "中风险",
       "risk_color": "orange"
     },
@@ -41,15 +41,15 @@
     },
     {
       "supplier": "衡阳市石鼓区畅健副食商行",
-      "total": 320,
-      "closed": 46.0,
-      "close_rate_pct": 14.37,
+      "total": 322,
+      "closed": 47.0,
+      "close_rate_pct": 14.6,
       "risk_tag": "中风险",
       "risk_color": "orange"
     },
     {
       "supplier": "邢台禾松食品销售有限公司",
-      "total": 17642,
+      "total": 17648,
       "closed": 2472.0,
       "close_rate_pct": 14.01,
       "risk_tag": "中风险",
@@ -73,9 +73,9 @@
     },
     {
       "supplier": "南通市金大康食品有限公司",
-      "total": 111,
+      "total": 112,
       "closed": 11.0,
-      "close_rate_pct": 9.91,
+      "close_rate_pct": 9.82,
       "risk_tag": "正常",
       "risk_color": "green"
     },
@@ -106,8 +106,8 @@
     {
       "supplier": "漳州市信冠食品有限公司",
       "total": 777,
-      "closed": 68.0,
-      "close_rate_pct": 8.75,
+      "closed": 67.0,
+      "close_rate_pct": 8.62,
       "risk_tag": "正常",
       "risk_color": "green"
     },
@@ -129,7 +129,7 @@
     },
     {
       "supplier": "天海藏食品（山东）有限公司",
-      "total": 4206,
+      "total": 4209,
       "closed": 303.0,
       "close_rate_pct": 7.2,
       "risk_tag": "正常",
@@ -144,6 +144,14 @@
       "risk_color": "green"
     },
     {
+      "supplier": "杭州东宇品牌管理有限公司",
+      "total": 1951,
+      "closed": 139.0,
+      "close_rate_pct": 7.12,
+      "risk_tag": "正常",
+      "risk_color": "green"
+    },
+    {
       "supplier": "烟台欣和企业食品有限公司",
       "total": 309,
       "closed": 22.0,
@@ -152,18 +160,10 @@
       "risk_color": "green"
     },
     {
-      "supplier": "杭州东宇品牌管理有限公司",
-      "total": 1950,
-      "closed": 137.0,
-      "close_rate_pct": 7.03,
-      "risk_tag": "正常",
-      "risk_color": "green"
-    },
-    {
       "supplier": "深圳市苏禾电子商务有限公司",
-      "total": 4117,
+      "total": 4120,
       "closed": 288.0,
-      "close_rate_pct": 7.0,
+      "close_rate_pct": 6.99,
       "risk_tag": "正常",
       "risk_color": "green"
     },
@@ -185,9 +185,9 @@
     },
     {
       "supplier": "山西袋鼠先生商贸有限公司",
-      "total": 245,
+      "total": 246,
       "closed": 7.0,
-      "close_rate_pct": 2.86,
+      "close_rate_pct": 2.85,
       "risk_tag": "正常",
       "risk_color": "green"
     },

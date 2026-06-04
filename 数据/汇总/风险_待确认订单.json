@@ -3,14 +3,14 @@
     "title": "待客户确认订单"
   },
   "summary": {
-    "total": 3077,
+    "total": 3080,
     "pct": 7.04,
-    "total_amount": 77900.32,
-    "aging_over_24h": 3077,
-    "aging_over_72h": 2441
+    "total_amount": 78133.11,
+    "aging_over_24h": 3080,
+    "aging_over_72h": 2447
   },
   "data": {
-    "count": 3077,
+    "count": 3080,
     "aging": [
       {
         "range": "0-24小时",
@@ -20,13 +20,13 @@
       },
       {
         "range": "24-72小时",
-        "count": 636,
+        "count": 633,
         "min_hours": 24,
         "max_hours": 72
       },
       {
         "range": "3-7天",
-        "count": 1103,
+        "count": 1109,
         "min_hours": 72,
         "max_hours": 168
       },
@@ -40,27 +40,27 @@
     "by_shop": [
       {
         "name": "潮食优选好物",
-        "count": 1360
+        "count": 1363
       },
       {
         "name": "潮流食品零食店",
-        "count": 975
+        "count": 977
       },
       {
         "name": "生鲜厨房仓",
-        "count": 282
+        "count": 283
       },
       {
         "name": "社畜能量站",
-        "count": 137
+        "count": 135
       },
       {
         "name": "它智小店",
-        "count": 130
+        "count": 128
       },
       {
         "name": "暖食杂货集",
-        "count": 110
+        "count": 111
       },
       {
         "name": "小团子母婴店",
@@ -78,7 +78,7 @@
     "by_supplier": [
       {
         "name": "邢台禾松食品销售有限公司",
-        "count": 1515
+        "count": 1518
       },
       {
         "name": "深圳市苏禾电子商务有限公司",
@@ -86,15 +86,15 @@
       },
       {
         "name": "天海藏食品（山东）有限公司",
-        "count": 289
+        "count": 288
       },
       {
         "name": "漳州市信冠食品有限公司",
-        "count": 178
+        "count": 177
       },
       {
         "name": "泉州市俊发卫生用品有限公司",
-        "count": 136
+        "count": 137
       },
       {
         "name": "临沂悠乐卫生用品有限公司",
@@ -106,14 +106,14 @@
       },
       {
         "name": "杭州童童来了科技有限公司",
-        "count": 71
+        "count": 72
       },
       {
         "name": "新沂市棉栀卫生用品有限公司",
-        "count": 43
+        "count": 44
       },
       {
-        "name": "衡阳市石鼓区畅健副食商行",
+        "name": "河南食族人食品科技有限公司",
         "count": 30
       }
     ]

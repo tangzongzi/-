@@ -21,7 +21,7 @@
     },
     {
       "shop": "潮流食品零食店",
-      "total": 12227,
+      "total": 12230,
       "closed": 1702.0,
       "close_rate_pct": 13.92
     },
@@ -50,16 +50,16 @@
       "close_rate_pct": 9.51
     },
     {
+      "shop": "社畜能量站",
+      "total": 2347,
+      "closed": 214.0,
+      "close_rate_pct": 9.12
+    },
+    {
       "shop": "暖食杂货集",
       "total": 187,
       "closed": 17.0,
       "close_rate_pct": 9.09
-    },
-    {
-      "shop": "社畜能量站",
-      "total": 2346,
-      "closed": 213.0,
-      "close_rate_pct": 9.08
     },
     {
       "shop": "臻选食礼馆",
@@ -81,15 +81,15 @@
     },
     {
       "shop": "潮食优选好物",
-      "total": 2221,
-      "closed": 157.0,
+      "total": 2235,
+      "closed": 158.0,
       "close_rate_pct": 7.07
     },
     {
       "shop": "它智小店",
-      "total": 181,
-      "closed": 7.0,
-      "close_rate_pct": 3.87
+      "total": 182,
+      "closed": 8.0,
+      "close_rate_pct": 4.4
     }
   ]
 }

@@ -1,34 +1,34 @@
 {
   "meta": {
     "source": "采购单数据(导出后已过滤交易关闭订单)",
-    "period": "2026-03-01 ~ 2026-06-04",
-    "days": 96,
-    "filter": "已去除交易关闭订单 (4867 笔)",
-    "generated_at": "2026-06-05 00:42:55",
+    "period": "2026-03-01 ~ 2026-06-05",
+    "days": 97,
+    "filter": "已去除交易关闭订单 (4870 笔)",
+    "generated_at": "2026-06-05 00:49:28",
     "title": "销售业绩综合",
     "grain": "总览"
   },
   "sales": {
     "meta": {
       "source": "采购单数据(导出后已过滤交易关闭订单)",
-      "period": "2026-03-01 ~ 2026-06-04",
-      "days": 96,
-      "filter": "已去除交易关闭订单 (4867 笔)",
-      "generated_at": "2026-06-05 00:42:55",
+      "period": "2026-03-01 ~ 2026-06-05",
+      "days": 97,
+      "filter": "已去除交易关闭订单 (4870 笔)",
+      "generated_at": "2026-06-05 00:49:28",
       "title": "销售业绩",
       "grain": "总览"
     },
     "kpi": {
-      "total_orders": 38863,
-      "total_amount": 1063201.71,
+      "total_orders": 38879,
+      "total_amount": 1063574.73,
       "avg_price": 27.36,
-      "total_amount_wan": 106.32,
+      "total_amount_wan": 106.36,
       "shop_count": 16,
       "platform_count": 3,
       "product_count": 686,
       "supplier_count": 94,
-      "orders_per_day": 404.82,
-      "amount_per_day": 11075.02
+      "orders_per_day": 400.81,
+      "amount_per_day": 10964.69
     },
     "platforms": [
       {
@@ -39,14 +39,14 @@
       },
       {
         "店铺平台": "抖店",
-        "order": 29910,
-        "amount": 881644.99,
+        "order": 29926,
+        "amount": 882085.16,
         "avg_price": 29.48
       },
       {
         "店铺平台": "拼多多",
-        "order": 13703,
-        "amount": 300502.95,
+        "order": 13706,
+        "amount": 300554.22,
         "avg_price": 21.93
       }
     ],
@@ -82,9 +82,9 @@
       {
         "name": "它智小店",
         "plat": "抖店",
-        "order": 181,
-        "amount": 4101.67,
-        "avg_price": 22.66
+        "order": 182,
+        "amount": 4115.57,
+        "avg_price": 22.61
       },
       {
         "name": "布斑迪母婴严选",
@@ -110,8 +110,8 @@
       {
         "name": "潮食优选好物",
         "plat": "抖店",
-        "order": 2221,
-        "amount": 62330.21,
+        "order": 2235,
+        "amount": 62720.48,
         "avg_price": 28.06
       },
       {
@@ -131,8 +131,8 @@
       {
         "name": "社畜能量站",
         "plat": "抖店",
-        "order": 2346,
-        "amount": 65471.77,
+        "order": 2347,
+        "amount": 65507.77,
         "avg_price": 27.91
       },
       {
@@ -159,8 +159,8 @@
       {
         "name": "潮流食品零食店",
         "plat": "拼多多",
-        "order": 12227,
-        "amount": 256416.72999999998,
+        "order": 12230,
+        "amount": 256468.0,
         "avg_price": 20.97
       }
     ],
@@ -261,7 +261,8 @@
         "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-06-05"
       ],
       "order": [
         388,
@@ -356,10 +357,11 @@
         249,
         233,
         281,
-        343,
+        345,
         335,
-        365,
-        419
+        363,
+        419,
+        16
       ],
       "amount": [
         8091.75,
@@ -427,7 +429,7 @@
         14993.54,
         14374.37,
         9057.56,
-        10529.96,
+        10529.960000000001,
         11651.32,
         11791.75,
         13161.75,
@@ -454,10 +456,11 @@
         6868.59,
         6737.16,
         6715.78,
-        8439.99,
+        8466.1,
         8325.93,
-        8467.65,
-        9809.9
+        8371.15,
+        9809.9,
+        443.41
       ]
     },
     "weekly": {
@@ -493,7 +496,7 @@
         3118,
         2679,
         2066,
-        1462
+        1478
       ],
       "amount": [
         8091.75,
@@ -510,7 +513,7 @@
         80539.55,
         66482.28,
         53401.73,
-        35043.47
+        35416.49
       ]
     },
     "monthly": {
@@ -524,19 +527,19 @@
         14019,
         11572,
         11810,
-        1462
+        1478
       ],
       "amount": [
         368624.69,
         341259.12,
         318274.43,
-        35043.47
+        35416.49
       ],
       "avg_price": [
         26.29,
         29.49,
         26.95,
-        23.97
+        23.96
       ]
     },
     "plat_shop_daily": {
@@ -635,10 +638,11 @@
             134,
             167,
             207,
-            240,
+            242,
             215,
-            230,
-            231
+            228,
+            231,
+            13
           ],
           "amount": [
             6732.75,
@@ -678,7 +682,7 @@
             6736.5,
             7990.39,
             9717.32,
-            9915.289999999999,
+            9915.29,
             8770.41,
             7879.97,
             6631.3,
@@ -708,7 +712,7 @@
             6528.56,
             6652.43,
             6735.52,
-            6622.4400000000005,
+            6622.44,
             8511.710000000001,
             7436.15,
             6822.29,
@@ -733,10 +737,11 @@
             4526.62,
             5459.15,
             5135.1,
-            6300.59,
+            6326.7,
             5642.52,
-            5662.59,
-            5837.52
+            5566.09,
+            5837.52,
+            392.14
           ]
         }
       },
@@ -838,7 +843,8 @@
             102,
             120,
             135,
-            188
+            188,
+            3
           ],
           "amount": [
             1359.0,
@@ -936,7 +942,8 @@
             2121.1,
             2683.41,
             2805.06,
-            3972.38
+            3972.38,
+            51.269999999999996
           ]
         }
       },
@@ -977,7 +984,7 @@
             1802,
             1525,
             1364,
-            916
+            929
           ],
           "amount": [
             6732.75,
@@ -994,7 +1001,7 @@
             50387.3,
             40479.57,
             38910.28,
-            23443.22
+            23764.97
           ]
         }
       },
@@ -1015,7 +1022,7 @@
             1316,
             1154,
             700,
-            545
+            548
           ],
           "amount": [
             1359.0,
@@ -1032,7 +1039,7 @@
             30152.25,
             26002.71,
             14464.85,
-            11581.95
+            11633.22
           ]
         }
       },
@@ -1060,13 +1067,13 @@
             11214,
             8088,
             7108,
-            916
+            929
           ],
           "amount": [
             313228.48,
             261586.48,
             210485.3,
-            23443.22
+            23764.97
           ]
         }
       },
@@ -1076,13 +1083,13 @@
             2803,
             3484,
             4700,
-            545
+            548
           ],
           "amount": [
             55363.31,
             79672.64,
             107762.53,
-            11581.95
+            11633.22
           ]
         }
       },
@@ -1105,10 +1112,10 @@
   "product": {
     "meta": {
       "source": "采购单数据(导出后已过滤交易关闭订单)",
-      "period": "2026-03-01 ~ 2026-06-04",
-      "days": 96,
-      "filter": "已去除交易关闭订单 (4867 笔)",
-      "generated_at": "2026-06-05 00:42:55",
+      "period": "2026-03-01 ~ 2026-06-05",
+      "days": 97,
+      "filter": "已去除交易关闭订单 (4870 笔)",
+      "generated_at": "2026-06-05 00:49:28",
       "title": "商品结构",
       "grain": "总览"
     },
@@ -1144,7 +1151,7 @@
       123,
       109,
       112,
-      112
+      113
     ],
     "week_new": [
       39,
@@ -1178,7 +1185,7 @@
       407,
       439,
       455,
-      473
+      472
     ],
     "months": [
       "2026-03",
@@ -1219,12 +1226,12 @@
       },
       {
         "month": "2026-06",
-        "pool_size": 112,
+        "pool_size": 113,
         "new_count": 18,
         "gone_count": 0,
-        "kept_count": 94,
+        "kept_count": 95,
         "net_change": 18,
-        "days_with_data": 4,
+        "days_with_data": 5,
         "incomplete": true
       }
     ],
@@ -1258,8 +1265,8 @@
       {
         "rank": 1,
         "name": "芯蒸呈定制宽面原味",
-        "order": 6951,
-        "amount": 131860.15,
+        "order": 6952,
+        "amount": 131876.58,
         "avg_price": 18.97
       },
       {
@@ -1272,15 +1279,15 @@
       {
         "rank": 3,
         "name": "【麻酱火鸡面】芯蒸呈浓香麻酱火鸡面113g韩式泡面拌面",
-        "order": 2474,
-        "amount": 47340.490000000005,
-        "avg_price": 19.14
+        "order": 2475,
+        "amount": 47358.11,
+        "avg_price": 19.13
       },
       {
         "rank": 4,
         "name": "【芯蒸呈番茄肉酱味火鸡面12包】方便面辣味十足过瘾",
-        "order": 1952,
-        "amount": 46076.049999999996,
+        "order": 1953,
+        "amount": 46093.27,
         "avg_price": 23.6
       },
       {
@@ -1293,9 +1300,9 @@
       {
         "rank": 6,
         "name": "美味壹客星空莓野全麦吐司厚切生吐司营养早餐代餐好吃健康面包",
-        "order": 1747,
-        "amount": 32386.0,
-        "avg_price": 18.54
+        "order": 1750,
+        "amount": 32489.0,
+        "avg_price": 18.57
       },
       {
         "rank": 7,
@@ -1328,8 +1335,8 @@
       {
         "rank": 11,
         "name": "芯蒸呈甜辣炸鸡味火鸡面粗面版筋道爽滑鲜香方便宽面",
-        "order": 866,
-        "amount": 23332.5,
+        "order": 868,
+        "amount": 23384.16,
         "avg_price": 26.94
       },
       {
@@ -1342,8 +1349,8 @@
       {
         "rank": 13,
         "name": "【恢复原价，否则取消合作】【10盒】天海藏 麻辣小龙虾尾250g/盒",
-        "order": 801,
-        "amount": 46977.5,
+        "order": 803,
+        "amount": 47098.0,
         "avg_price": 58.65
       },
       {
@@ -1356,16 +1363,16 @@
       {
         "rank": 15,
         "name": "【3袋/10袋】天海藏黑鱼金汤酸菜鱼430g/袋 顺丰京东发货甄选活鱼",
-        "order": 684,
-        "amount": 25434.0,
+        "order": 685,
+        "amount": 25470.0,
         "avg_price": 37.18
       },
       {
         "rank": 16,
         "name": "【新品奶油火鸡面】芯蒸呈定制宽面奶油火鸡面拌面上班族夜宵速食",
-        "order": 569,
-        "amount": 11784.230000000001,
-        "avg_price": 20.71
+        "order": 570,
+        "amount": 11801.740000000002,
+        "avg_price": 20.7
       },
       {
         "rank": 17,
@@ -1440,9 +1447,9 @@
       {
         "rank": 27,
         "name": "袋鼠先生低脂高蛋白鸡胸肉即食休50g*10袋（混合口味）",
-        "order": 238,
-        "amount": 4845.12,
-        "avg_price": 20.36
+        "order": 239,
+        "amount": 4861.6,
+        "avg_price": 20.34
       },
       {
         "rank": 28,
@@ -1510,9 +1517,9 @@
       {
         "rank": 37,
         "name": "王老吉银耳燕窝八宝粥人参枸杞八宝粥八五谷杂粮营养速食粥",
-        "order": 126,
-        "amount": 1757.8,
-        "avg_price": 13.95
+        "order": 125,
+        "amount": 1678.0,
+        "avg_price": 13.42
       },
       {
         "rank": 38,
@@ -1579,31 +1586,31 @@
       },
       {
         "rank": 47,
-        "name": "[100%棉]嘟嘟家宝宝背带裤儿童裤装男童女童衣服婴儿夏季薄款裤子",
-        "order": 73,
-        "amount": 2656.6,
-        "avg_price": 36.39
-      },
-      {
-        "rank": 48,
         "name": "美味壹客黑巧坚果榛子巧克力扁桃仁巧克力坚果纯可可脂150g/罐",
         "order": 73,
         "amount": 3412.0,
         "avg_price": 46.74
       },
       {
-        "rank": 49,
-        "name": "【麦醉侠红油麻酱凉皮】速食凉皮劲道弹滑麻酱鲜香红油酸辣",
-        "order": 71,
-        "amount": 1248.2,
-        "avg_price": 17.58
+        "rank": 48,
+        "name": "[100%棉]嘟嘟家宝宝背带裤儿童裤装男童女童衣服婴儿夏季薄款裤子",
+        "order": 73,
+        "amount": 2656.6,
+        "avg_price": 36.39
       },
       {
-        "rank": 50,
+        "rank": 49,
         "name": "老才臣豆腐乳180g原味红方不辣纯手工酱豆腐霉豆腐下饭拌面拌饭",
         "order": 71,
         "amount": 997.2,
         "avg_price": 14.05
+      },
+      {
+        "rank": 50,
+        "name": "控价已解决，后续有问题及时配合【麦醉侠红油麻酱凉皮】",
+        "order": 71,
+        "amount": 1494.3,
+        "avg_price": 21.05
       }
     ],
     "keep": {
@@ -2380,10 +2387,10 @@
   "supplier": {
     "meta": {
       "source": "采购单数据(导出后已过滤交易关闭订单)",
-      "period": "2026-03-01 ~ 2026-06-04",
-      "days": 96,
-      "filter": "已去除交易关闭订单 (4867 笔)",
-      "generated_at": "2026-06-05 00:42:55",
+      "period": "2026-03-01 ~ 2026-06-05",
+      "days": 97,
+      "filter": "已去除交易关闭订单 (4870 笔)",
+      "generated_at": "2026-06-05 00:49:28",
       "title": "供货商",
       "grain": "总览"
     },
@@ -2395,8 +2402,8 @@
           "抖店",
           "拼多多"
         ],
-        "order": 15170,
-        "amount": 304153.4,
+        "order": 15176,
+        "amount": 304273.84,
         "avg_price": 20.05,
         "closed": 2472.0,
         "close_rate_pct": 14.01,
@@ -2424,9 +2431,9 @@
         "platforms": [
           "抖店"
         ],
-        "order": 3903,
-        "amount": 138457.99,
-        "avg_price": 35.47,
+        "order": 3906,
+        "amount": 138614.49,
+        "avg_price": 35.49,
         "closed": 303.0,
         "close_rate_pct": 7.2,
         "risk_tag": "低",
@@ -2453,11 +2460,11 @@
           "抖店",
           "拼多多"
         ],
-        "order": 3829,
-        "amount": 82284.54,
-        "avg_price": 21.49,
+        "order": 3832,
+        "amount": 82387.54,
+        "avg_price": 21.5,
         "closed": 288.0,
-        "close_rate_pct": 7.0,
+        "close_rate_pct": 6.99,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -2481,11 +2488,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 1813,
-        "amount": 22791.370000000003,
-        "avg_price": 12.57,
-        "closed": 137.0,
-        "close_rate_pct": 7.03,
+        "order": 1812,
+        "amount": 22711.57,
+        "avg_price": 12.53,
+        "closed": 139.0,
+        "close_rate_pct": 7.12,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -2509,11 +2516,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 709,
-        "amount": 9711.81,
-        "avg_price": 13.7,
-        "closed": 68.0,
-        "close_rate_pct": 8.75,
+        "order": 710,
+        "amount": 9719.41,
+        "avg_price": 13.69,
+        "closed": 67.0,
+        "close_rate_pct": 8.62,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -2566,11 +2573,11 @@
           "小红书",
           "抖店"
         ],
-        "order": 274,
-        "amount": 5701.4,
-        "avg_price": 20.81,
-        "closed": 46.0,
-        "close_rate_pct": 14.37,
+        "order": 275,
+        "amount": 5717.1,
+        "avg_price": 20.79,
+        "closed": 47.0,
+        "close_rate_pct": 14.6,
         "risk_tag": "中",
         "risk_color": "yellow"
       },
@@ -2594,11 +2601,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 238,
-        "amount": 4845.12,
-        "avg_price": 20.36,
+        "order": 239,
+        "amount": 4861.6,
+        "avg_price": 20.34,
         "closed": 7.0,
-        "close_rate_pct": 2.86,
+        "close_rate_pct": 2.85,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -2722,11 +2729,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 137,
-        "amount": 2262.03,
+        "order": 138,
+        "amount": 2278.73,
         "avg_price": 16.51,
-        "closed": 31.0,
-        "close_rate_pct": 18.45,
+        "closed": 32.0,
+        "close_rate_pct": 18.82,
         "risk_tag": "中",
         "risk_color": "yellow"
       },
@@ -2751,11 +2758,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 100,
-        "amount": 2009.8999999999999,
-        "avg_price": 20.1,
+        "order": 101,
+        "amount": 2026.3,
+        "avg_price": 20.06,
         "closed": 11.0,
-        "close_rate_pct": 9.91,
+        "close_rate_pct": 9.82,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -2824,8 +2831,8 @@
           "抖店",
           "拼多多"
         ],
-        "order": 15170,
-        "amount": 304153.4,
+        "order": 15176,
+        "amount": 304273.84,
         "avg_price": 20.05,
         "closed": 2472.0,
         "close_rate_pct": 14.01,
@@ -2853,9 +2860,9 @@
         "platforms": [
           "抖店"
         ],
-        "order": 3903,
-        "amount": 138457.99,
-        "avg_price": 35.47,
+        "order": 3906,
+        "amount": 138614.49,
+        "avg_price": 35.49,
         "closed": 303.0,
         "close_rate_pct": 7.2,
         "risk_tag": "低",
@@ -2882,11 +2889,11 @@
           "抖店",
           "拼多多"
         ],
-        "order": 3829,
-        "amount": 82284.54,
-        "avg_price": 21.49,
+        "order": 3832,
+        "amount": 82387.54,
+        "avg_price": 21.5,
         "closed": 288.0,
-        "close_rate_pct": 7.0,
+        "close_rate_pct": 6.99,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -2910,11 +2917,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 1813,
-        "amount": 22791.370000000003,
-        "avg_price": 12.57,
-        "closed": 137.0,
-        "close_rate_pct": 7.03,
+        "order": 1812,
+        "amount": 22711.57,
+        "avg_price": 12.53,
+        "closed": 139.0,
+        "close_rate_pct": 7.12,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -2938,11 +2945,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 709,
-        "amount": 9711.81,
-        "avg_price": 13.7,
-        "closed": 68.0,
-        "close_rate_pct": 8.75,
+        "order": 710,
+        "amount": 9719.41,
+        "avg_price": 13.69,
+        "closed": 67.0,
+        "close_rate_pct": 8.62,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -2995,11 +3002,11 @@
           "小红书",
           "抖店"
         ],
-        "order": 274,
-        "amount": 5701.4,
-        "avg_price": 20.81,
-        "closed": 46.0,
-        "close_rate_pct": 14.37,
+        "order": 275,
+        "amount": 5717.1,
+        "avg_price": 20.79,
+        "closed": 47.0,
+        "close_rate_pct": 14.6,
         "risk_tag": "中",
         "risk_color": "yellow"
       },
@@ -3023,11 +3030,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 238,
-        "amount": 4845.12,
-        "avg_price": 20.36,
+        "order": 239,
+        "amount": 4861.6,
+        "avg_price": 20.34,
         "closed": 7.0,
-        "close_rate_pct": 2.86,
+        "close_rate_pct": 2.85,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -3151,11 +3158,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 137,
-        "amount": 2262.03,
+        "order": 138,
+        "amount": 2278.73,
         "avg_price": 16.51,
-        "closed": 31.0,
-        "close_rate_pct": 18.45,
+        "closed": 32.0,
+        "close_rate_pct": 18.82,
         "risk_tag": "中",
         "risk_color": "yellow"
       },
@@ -3180,11 +3187,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 100,
-        "amount": 2009.8999999999999,
-        "avg_price": 20.1,
+        "order": 101,
+        "amount": 2026.3,
+        "avg_price": 20.06,
         "closed": 11.0,
-        "close_rate_pct": 9.91,
+        "close_rate_pct": 9.82,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -4088,8 +4095,8 @@
         "2026-04_amount": 199.0,
         "2026-05_order": 22,
         "2026-05_amount": 434.3,
-        "2026-06_order": 1,
-        "2026-06_amount": 19.9
+        "2026-06_order": 2,
+        "2026-06_amount": 36.3
       },
       {
         "supplier": "厦门先点商贸有限公司",
@@ -4187,8 +4194,8 @@
         "2026-04_amount": 22464.24,
         "2026-05_order": 1009,
         "2026-05_amount": 48060.9,
-        "2026-06_order": 108,
-        "2026-06_amount": 3906.55
+        "2026-06_order": 111,
+        "2026-06_amount": 4063.05
       },
       {
         "supplier": "宁波夏日田园电子商务有限公司",
@@ -4242,8 +4249,8 @@
         "2026-04_amount": 774.56,
         "2026-05_order": 100,
         "2026-05_amount": 2142.4,
-        "2026-06_order": 51,
-        "2026-06_amount": 1071.2
+        "2026-06_order": 52,
+        "2026-06_amount": 1087.68
       },
       {
         "supplier": "平江县老匠电子商务有限公司",
@@ -4363,8 +4370,8 @@
         "2026-04_amount": 1997.9,
         "2026-05_order": 114,
         "2026-05_amount": 1967.87,
-        "2026-06_order": 13,
-        "2026-06_amount": 301.8
+        "2026-06_order": 12,
+        "2026-06_amount": 222.0
       },
       {
         "supplier": "杭州巴丽岛电子商务有限公司",
@@ -4594,8 +4601,8 @@
         "2026-04_amount": 13312.2,
         "2026-05_order": 2970,
         "2026-05_amount": 64377.26,
-        "2026-06_order": 191,
-        "2026-06_amount": 4595.08
+        "2026-06_order": 194,
+        "2026-06_amount": 4698.08
       },
       {
         "supplier": "深圳市食汇供应链管理有限公司",
@@ -4605,8 +4612,8 @@
         "2026-04_amount": 1982.59,
         "2026-05_order": 16,
         "2026-05_amount": 223.24,
-        "2026-06_order": 4,
-        "2026-06_amount": 56.2
+        "2026-06_order": 5,
+        "2026-06_amount": 72.9
       },
       {
         "supplier": "深圳市龙岗区泰新鲜百货商行（个体工商户）",
@@ -4693,8 +4700,8 @@
         "2026-04_amount": 2132.92,
         "2026-05_order": 361,
         "2026-05_amount": 4954.3,
-        "2026-06_order": 82,
-        "2026-06_amount": 1130.29
+        "2026-06_order": 83,
+        "2026-06_amount": 1137.89
       },
       {
         "supplier": "烟台欣和企业食品有限公司",
@@ -4781,8 +4788,8 @@
         "2026-04_amount": 1802.8,
         "2026-05_order": 110,
         "2026-05_amount": 2246.2,
-        "2026-06_order": 11,
-        "2026-06_amount": 204.6
+        "2026-06_order": 12,
+        "2026-06_amount": 220.3
       },
       {
         "supplier": "邢台禾松食品销售有限公司",
@@ -4792,8 +4799,8 @@
         "2026-04_amount": 92818.18,
         "2026-05_order": 5265,
         "2026-05_amount": 110271.66,
-        "2026-06_order": 674,
-        "2026-06_amount": 13658.96
+        "2026-06_order": 680,
+        "2026-06_amount": 13779.4
       },
       {
         "supplier": "邵东市大禾塘校英百货商行（个体工商户）",
@@ -4831,21 +4838,21 @@
     ],
     "summary": {
       "total_suppliers": 80,
-      "total_amount": 1063201.71,
+      "total_amount": 1063574.73,
       "top1_concentration_pct": 28.61,
-      "top3_concentration_pct": 64.85,
+      "top3_concentration_pct": 64.86,
       "top5_concentration_pct": 85.22,
-      "top10_concentration_pct": 92.51,
+      "top10_concentration_pct": 92.5,
       "long_tail_count": 49
     }
   },
   "risk": {
     "meta": {
       "source": "采购单数据(导出后已过滤交易关闭订单)",
-      "period": "2026-03-01 ~ 2026-06-04",
-      "days": 96,
-      "filter": "已去除交易关闭订单 (4867 笔)",
-      "generated_at": "2026-06-05 00:42:55",
+      "period": "2026-03-01 ~ 2026-06-05",
+      "days": 97,
+      "filter": "已去除交易关闭订单 (4870 笔)",
+      "generated_at": "2026-06-05 00:49:28",
       "title": "风险监控",
       "grain": "总览"
     },
@@ -4853,27 +4860,22 @@
       {
         "采购单状态": "交易成功",
         "count": 35451,
-        "pct": 81.07
+        "pct": 81.03
       },
       {
         "采购单状态": "交易关闭",
-        "count": 4867,
+        "count": 4870,
         "pct": 11.13
       },
       {
         "采购单状态": "待客户确认",
-        "count": 3077,
+        "count": 3080,
         "pct": 7.04
       },
       {
         "采购单状态": "待发货",
-        "count": 334,
-        "pct": 0.76
-      },
-      {
-        "采购单状态": "待支付",
-        "count": 1,
-        "pct": 0.0
+        "count": 348,
+        "pct": 0.8
       }
     ],
     "close_rate_month": [
@@ -4897,9 +4899,9 @@
       },
       {
         "month": "2026-06",
-        "total": 1545,
-        "closed": 83,
-        "close_rate_pct": 5.37
+        "total": 1564,
+        "closed": 86,
+        "close_rate_pct": 5.5
       }
     ],
     "close_rate_monthly": [
@@ -4923,9 +4925,9 @@
       },
       {
         "month": "2026-06",
-        "total": 1545,
-        "closed": 83,
-        "close_rate_pct": 5.37
+        "total": 1564,
+        "closed": 86,
+        "close_rate_pct": 5.5
       }
     ],
     "shop_close_rate": [
@@ -4937,7 +4939,7 @@
       },
       {
         "shop": "潮流食品零食店",
-        "total": 12227,
+        "total": 12230,
         "closed": 1702.0,
         "close_rate_pct": 13.92
       },
@@ -4966,16 +4968,16 @@
         "close_rate_pct": 9.51
       },
       {
+        "shop": "社畜能量站",
+        "total": 2347,
+        "closed": 214.0,
+        "close_rate_pct": 9.12
+      },
+      {
         "shop": "暖食杂货集",
         "total": 187,
         "closed": 17.0,
         "close_rate_pct": 9.09
-      },
-      {
-        "shop": "社畜能量站",
-        "total": 2346,
-        "closed": 213.0,
-        "close_rate_pct": 9.08
       },
       {
         "shop": "臻选食礼馆",
@@ -4997,15 +4999,15 @@
       },
       {
         "shop": "潮食优选好物",
-        "total": 2221,
-        "closed": 157.0,
+        "total": 2235,
+        "closed": 158.0,
         "close_rate_pct": 7.07
       },
       {
         "shop": "它智小店",
-        "total": 181,
-        "closed": 7.0,
-        "close_rate_pct": 3.87
+        "total": 182,
+        "closed": 8.0,
+        "close_rate_pct": 4.4
       }
     ],
     "supp_close_rate": [
@@ -5019,9 +5021,9 @@
       },
       {
         "supplier": "深圳市食汇供应链管理有限公司",
-        "total": 168,
-        "closed": 31.0,
-        "close_rate_pct": 18.45,
+        "total": 170,
+        "closed": 32.0,
+        "close_rate_pct": 18.82,
         "risk_tag": "中风险",
         "risk_color": "orange"
       },
@@ -5035,15 +5037,15 @@
       },
       {
         "supplier": "衡阳市石鼓区畅健副食商行",
-        "total": 320,
-        "closed": 46.0,
-        "close_rate_pct": 14.37,
+        "total": 322,
+        "closed": 47.0,
+        "close_rate_pct": 14.6,
         "risk_tag": "中风险",
         "risk_color": "orange"
       },
       {
         "supplier": "邢台禾松食品销售有限公司",
-        "total": 17642,
+        "total": 17648,
         "closed": 2472.0,
         "close_rate_pct": 14.01,
         "risk_tag": "中风险",
@@ -5067,9 +5069,9 @@
       },
       {
         "supplier": "南通市金大康食品有限公司",
-        "total": 111,
+        "total": 112,
         "closed": 11.0,
-        "close_rate_pct": 9.91,
+        "close_rate_pct": 9.82,
         "risk_tag": "正常",
         "risk_color": "green"
       },
@@ -5100,8 +5102,8 @@
       {
         "supplier": "漳州市信冠食品有限公司",
         "total": 777,
-        "closed": 68.0,
-        "close_rate_pct": 8.75,
+        "closed": 67.0,
+        "close_rate_pct": 8.62,
         "risk_tag": "正常",
         "risk_color": "green"
       },
@@ -5123,7 +5125,7 @@
       },
       {
         "supplier": "天海藏食品（山东）有限公司",
-        "total": 4206,
+        "total": 4209,
         "closed": 303.0,
         "close_rate_pct": 7.2,
         "risk_tag": "正常",
@@ -5138,6 +5140,14 @@
         "risk_color": "green"
       },
       {
+        "supplier": "杭州东宇品牌管理有限公司",
+        "total": 1951,
+        "closed": 139.0,
+        "close_rate_pct": 7.12,
+        "risk_tag": "正常",
+        "risk_color": "green"
+      },
+      {
         "supplier": "烟台欣和企业食品有限公司",
         "total": 309,
         "closed": 22.0,
@@ -5146,18 +5156,10 @@
         "risk_color": "green"
       },
       {
-        "supplier": "杭州东宇品牌管理有限公司",
-        "total": 1950,
-        "closed": 137.0,
-        "close_rate_pct": 7.03,
-        "risk_tag": "正常",
-        "risk_color": "green"
-      },
-      {
         "supplier": "深圳市苏禾电子商务有限公司",
-        "total": 4117,
+        "total": 4120,
         "closed": 288.0,
-        "close_rate_pct": 7.0,
+        "close_rate_pct": 6.99,
         "risk_tag": "正常",
         "risk_color": "green"
       },
@@ -5179,9 +5181,9 @@
       },
       {
         "supplier": "山西袋鼠先生商贸有限公司",
-        "total": 245,
+        "total": 246,
         "closed": 7.0,
-        "close_rate_pct": 2.86,
+        "close_rate_pct": 2.85,
         "risk_tag": "正常",
         "risk_color": "green"
       },
@@ -5222,15 +5224,15 @@
         },
         {
           "name": "杭州东宇品牌管理有限公司",
-          "count": 137
+          "count": 139
         },
         {
           "name": "漳州市信冠食品有限公司",
-          "count": 68
+          "count": 67
         },
         {
           "name": "衡阳市石鼓区畅健副食商行",
-          "count": 46
+          "count": 47
         },
         {
           "name": "广东小康科技有限公司",
@@ -5238,7 +5240,7 @@
         },
         {
           "name": "深圳市食汇供应链管理有限公司",
-          "count": 31
+          "count": 32
         },
         {
           "name": "十月稻田集团股份有限公司",
@@ -5300,11 +5302,11 @@
         },
         {
           "name": "社畜能量站",
-          "count": 213
+          "count": 214
         },
         {
           "name": "潮食优选好物",
-          "count": 157
+          "count": 158
         },
         {
           "name": "臻选食礼馆",
@@ -5328,7 +5330,7 @@
         },
         {
           "name": "它智小店",
-          "count": 7
+          "count": 8
         },
         {
           "name": "团购礼盒甄选",
@@ -5338,7 +5340,7 @@
       "by_platform": [
         {
           "name": "抖店",
-          "count": 2584
+          "count": 2587
         },
         {
           "name": "拼多多",
@@ -5347,7 +5349,7 @@
       ]
     },
     "wait": {
-      "count": 3077,
+      "count": 3080,
       "aging": [
         {
           "range": "0-24小时",
@@ -5357,13 +5359,13 @@
         },
         {
           "range": "24-72小时",
-          "count": 636,
+          "count": 633,
           "min_hours": 24,
           "max_hours": 72
         },
         {
           "range": "3-7天",
-          "count": 1103,
+          "count": 1109,
           "min_hours": 72,
           "max_hours": 168
         },
@@ -5377,27 +5379,27 @@
       "by_shop": [
         {
           "name": "潮食优选好物",
-          "count": 1360
+          "count": 1363
         },
         {
           "name": "潮流食品零食店",
-          "count": 975
+          "count": 977
         },
         {
           "name": "生鲜厨房仓",
-          "count": 282
+          "count": 283
         },
         {
           "name": "社畜能量站",
-          "count": 137
+          "count": 135
         },
         {
           "name": "它智小店",
-          "count": 130
+          "count": 128
         },
         {
           "name": "暖食杂货集",
-          "count": 110
+          "count": 111
         },
         {
           "name": "小团子母婴店",
@@ -5415,7 +5417,7 @@
       "by_supplier": [
         {
           "name": "邢台禾松食品销售有限公司",
-          "count": 1515
+          "count": 1518
         },
         {
           "name": "深圳市苏禾电子商务有限公司",
@@ -5423,15 +5425,15 @@
         },
         {
           "name": "天海藏食品（山东）有限公司",
-          "count": 289
+          "count": 288
         },
         {
           "name": "漳州市信冠食品有限公司",
-          "count": 178
+          "count": 177
         },
         {
           "name": "泉州市俊发卫生用品有限公司",
-          "count": 136
+          "count": 137
         },
         {
           "name": "临沂悠乐卫生用品有限公司",
@@ -5443,14 +5445,14 @@
         },
         {
           "name": "杭州童童来了科技有限公司",
-          "count": 71
+          "count": 72
         },
         {
           "name": "新沂市棉栀卫生用品有限公司",
-          "count": 43
+          "count": 44
         },
         {
-          "name": "衡阳市石鼓区畅健副食商行",
+          "name": "河南食族人食品科技有限公司",
           "count": 30
         }
       ]
