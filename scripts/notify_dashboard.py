@@ -138,7 +138,7 @@ def render_top_lines(items, latest_date, show_days=False, max_shops=3):
         main = f"   {order}单 ｜ ¥{fmt_money(amount)}"
         if breakdown:
             main += f" ｜ {breakdown}"
-        # 累计 Top 5 时附 "已上架 N 天" 提示
+        # 累计 Top N 时附 "已上架 N 天" 提示
         if show_days and it.get("days_since") is not None:
             ds = it.get("days_since", 0)
             if it.get("first_seen") == latest_date:
@@ -163,12 +163,12 @@ def build_card_content(summary, top_first_day, top_all_time, risks, latest_date)
     total_amount = summary.get("total_new_amount", 0)
     avg_price = (float(total_amount) / total_orders) if total_orders else 0.0
 
-    # —— 首日 Top 5 文本 ——
+    # —— 首日 Top N 文本 ——
     first_day_text = render_top_lines(top_first_day, latest_date, show_days=False)
     if first_day_text is None:
         first_day_text = "（首日无新品上架）"
 
-    # —— 累计 Top 5 文本 ——
+    # —— 累计 Top N 文本 ——
     all_time_text = render_top_lines(top_all_time, latest_date, show_days=True)
     if all_time_text is None:
         all_time_text = "（暂无在追踪的新品）"
@@ -193,12 +193,12 @@ def build_card_content(summary, top_first_day, top_all_time, risks, latest_date)
         "",
         "---",
         "",
-        f"**🆕 今日首日上架 Top 5**",
+        f"**🆕 今日首日上架 Top {TOP_N}**",
         first_day_text,
         "",
         "---",
         "",
-        f"**📈 新品累计 Top 5（≤14 天在追踪）**",
+        f"**📈 新品累计 Top {TOP_N}（≤14 天在追踪）**",
         all_time_text,
         "",
         "---",

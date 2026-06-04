@@ -1,0 +1,1125 @@
+{
+  "meta": {
+    "title": "商品全景 · 老板专用",
+    "data_date": "2026-06-05",
+    "fetched_at": "2026-06-05",
+    "data_source": "现有汇总 JSON（新品_追踪 / 商品_销售排行Top50 / 商品_日度追踪）",
+    "update_freq": "每次跑 export_data.py 后自动更新"
+  },
+  "summary": {
+    "total_products_tracked": 80,
+    "total_sales_rank": 50,
+    "new_products_14d": 44,
+    "stagnant_products": 20,
+    "declining_products": 20,
+    "latest_date": "2026-06-05"
+  },
+  "new_products": [
+    {
+      "good_id": "6974382972030",
+      "title": "【25年新玉米】【抖音控价】十月稻田白糯玉米段8段 800g",
+      "first_seen": "2026-06-04",
+      "days_since": 1,
+      "orders_total": 1,
+      "amount_total": 16.92,
+      "avg_daily": 1.0,
+      "main_shop": "奕赞营养食品专营店",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "03.238",
+      "title": "【依能天然苏打水360ml*12瓶】饮用水健康弱碱性适合日常饮用",
+      "first_seen": "2026-06-04",
+      "days_since": 1,
+      "orders_total": 1,
+      "amount_total": 16.0,
+      "avg_daily": 1.0,
+      "main_shop": "社畜能量站",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "DK06-XL38-2",
+      "title": "【缺货的尺码换新货链接发】布班迪倾芯柔纸尿裤拉拉裤",
+      "first_seen": "2026-06-04",
+      "days_since": 1,
+      "orders_total": 1,
+      "amount_total": 60.0,
+      "avg_daily": 1.0,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "6978022590332",
+      "title": "利达妮老人防滑防摔拖鞋女款夏季室内居家浴室洗澡防臭凉拖男外穿",
+      "first_seen": "2026-06-04",
+      "days_since": 1,
+      "orders_total": 1,
+      "amount_total": 9.5,
+      "avg_daily": 1.0,
+      "main_shop": "社畜能量站",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "6977359930781-X",
+      "title": "【当季新玉米】西双版纳直发  十月稻田小花糯玉米1.2kg",
+      "first_seen": "2026-06-03",
+      "days_since": 2,
+      "orders_total": 1,
+      "amount_total": 22.5,
+      "avg_daily": 0.5,
+      "main_shop": "奕赞营养食品专营店",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "旺家福老卤鸭舌/混合口味1袋",
+      "title": "【旺家福老卤鸭舌18-20支装】",
+      "first_seen": "2026-06-03",
+      "days_since": 2,
+      "orders_total": 17,
+      "amount_total": 477.0,
+      "avg_daily": 8.5,
+      "main_shop": "潮流食品零食店",
+      "main_platform": "拼多多",
+      "platforms": [
+        "拼多多"
+      ]
+    },
+    {
+      "good_id": "MXW-0734",
+      "title": "【棉小宛柔风轻羽迷你巾80片】羽感轻盈无感守护敏感肌",
+      "first_seen": "2026-06-03",
+      "days_since": 2,
+      "orders_total": 2,
+      "amount_total": 35.0,
+      "avg_daily": 1.0,
+      "main_shop": "社畜能量站",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "HQ-0376",
+      "title": "【花期芭蕾裤30片】内裤型安睡裤立体护围双重防漏轻盈无感透气",
+      "first_seen": "2026-06-03",
+      "days_since": 2,
+      "orders_total": 1,
+      "amount_total": 22.0,
+      "avg_daily": 0.5,
+      "main_shop": "小团子母婴店",
+      "main_platform": "拼多多",
+      "platforms": [
+        "拼多多"
+      ]
+    },
+    {
+      "good_id": "Kiss-0666",
+      "title": "【KissBaby早安裤】成人纸尿裤轻盈速脱白天可穿男女适用",
+      "first_seen": "2026-06-02",
+      "days_since": 3,
+      "orders_total": 1,
+      "amount_total": 18.3,
+      "avg_daily": 0.33,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "18.032",
+      "title": "【依能新麦商店大麦茶350ml*6瓶/24瓶】无糖健康饮品适合日常饮用",
+      "first_seen": "2026-06-02",
+      "days_since": 3,
+      "orders_total": 1,
+      "amount_total": 112.0,
+      "avg_daily": 0.33,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "038023",
+      "title": "其妙X口口有料MCT熔岩生巧麻薯砖糕点抹茶巧克力味零蔗糖健康零食",
+      "first_seen": "2026-06-02",
+      "days_since": 3,
+      "orders_total": 2,
+      "amount_total": 14.8,
+      "avg_daily": 0.67,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "6935027630487",
+      "title": "良品铺子粽子礼盒1120g经典蛋黄鲜肉嘉兴大粽豆沙蜜枣端午送礼盒",
+      "first_seen": "2026-06-02",
+      "days_since": 3,
+      "orders_total": 3,
+      "amount_total": 90.0,
+      "avg_daily": 1.0,
+      "main_shop": "社畜能量站",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "1.01.0743",
+      "title": "食族人经典豌豆酸辣粉方便粉丝麻辣爆肚重庆冲泡桶装酸辣粉",
+      "first_seen": "2026-06-02",
+      "days_since": 3,
+      "orders_total": 1,
+      "amount_total": 29.9,
+      "avg_daily": 0.33,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "THCHXXYT5",
+      "title": "【50根】天海藏茴香小油条200g/袋早餐火锅半成品酥香美味小吃",
+      "first_seen": "2026-06-01",
+      "days_since": 4,
+      "orders_total": 1,
+      "amount_total": 27.0,
+      "avg_daily": 0.25,
+      "main_shop": "社畜能量站",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "TZ2026011200013",
+      "title": "【最后100件 授权到期】格力高百力滋轻松小熊复古双拼萌趣礼盒",
+      "first_seen": "2026-06-01",
+      "days_since": 4,
+      "orders_total": 2,
+      "amount_total": 48.0,
+      "avg_daily": 0.5,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "TZ2026011200013",
+      "title": "【最后1500件 授权到期】格力高百力滋轻松小熊复古双拼萌趣礼盒",
+      "first_seen": "2026-06-01",
+      "days_since": 4,
+      "orders_total": 1,
+      "amount_total": 24.0,
+      "avg_daily": 0.25,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "一甸园苹果汁",
+      "title": "一甸果园100%多口味果汁200ml利乐纯果蔬汁多种口味适合全家饮用",
+      "first_seen": "2026-06-01",
+      "days_since": 4,
+      "orders_total": 1,
+      "amount_total": 33.5,
+      "avg_daily": 0.25,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "lh163",
+      "title": "莲花茶叶蛋卤料包160克 地道鲜美卤味多用上色小袋包装",
+      "first_seen": "2026-06-01",
+      "days_since": 4,
+      "orders_total": 1,
+      "amount_total": 7.6,
+      "avg_daily": 0.25,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "CAXL2",
+      "title": "【由趣艾草植萃早安裤10片】女性安睡裤经期姨妈巾透气裤型卫生巾",
+      "first_seen": "2026-05-31",
+      "days_since": 5,
+      "orders_total": 1,
+      "amount_total": 30.5,
+      "avg_daily": 0.2,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "20240909knp（2）",
+      "title": "【神气水牛】水牛奶高钙鲜烤奶皮65g原味可选",
+      "first_seen": "2026-05-31",
+      "days_since": 5,
+      "orders_total": 1,
+      "amount_total": 23.0,
+      "avg_daily": 0.2,
+      "main_shop": "社畜能量站",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "BBZTC0372",
+      "title": "比比赞鸡胸肉高蛋白棒减0低即食脂肪健身代餐饱腹解馋充饥主食品",
+      "first_seen": "2026-05-31",
+      "days_since": 5,
+      "orders_total": 2,
+      "amount_total": 24.62,
+      "avg_daily": 0.4,
+      "main_shop": "暖食杂货集",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "DK20-S50-2彩",
+      "title": "【2包】布班迪倾芯柔AIR纸尿裤透气柔软拉拉裤亲肤超薄婴儿尿不湿",
+      "first_seen": "2026-05-30",
+      "days_since": 6,
+      "orders_total": 1,
+      "amount_total": 75.9,
+      "avg_daily": 0.17,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "HQ-0659",
+      "title": "【花期早安裤30条】安心裤奢柔云感通勤8小时白天随心换",
+      "first_seen": "2026-05-30",
+      "days_since": 6,
+      "orders_total": 50,
+      "amount_total": 950.1,
+      "avg_daily": 8.33,
+      "main_shop": "小团子母婴店",
+      "main_platform": "拼多多",
+      "platforms": [
+        "小红书",
+        "抖店",
+        "拼多多"
+      ]
+    },
+    {
+      "good_id": "OBLTC1874",
+      "title": "比比赞低脂鸡肉肠高蛋白鸡胸肉健身代餐轻食减低脂肥零食解馋即食",
+      "first_seen": "2026-05-29",
+      "days_since": 7,
+      "orders_total": 1,
+      "amount_total": 17.91,
+      "avg_daily": 0.14,
+      "main_shop": "社畜能量站",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "木瓜230g龙",
+      "title": "【230gx1瓶】龙老师香辣木瓜丝干木瓜条酱菜木瓜丁咸菜榨菜下饭菜",
+      "first_seen": "2026-05-28",
+      "days_since": 8,
+      "orders_total": 5,
+      "amount_total": 53.5,
+      "avg_daily": 0.62,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "ESL12XXL38",
+      "title": "【2包起购】盛夏光年 GALA白金版系列纸尿裤拉拉裤",
+      "first_seen": "2026-05-28",
+      "days_since": 8,
+      "orders_total": 1,
+      "amount_total": 165.0,
+      "avg_daily": 0.12,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "dz-lk-007",
+      "title": "【冷卡荞麦面葱油拌面80g】方便面带调料包代餐速食方便面速食面",
+      "first_seen": "2026-05-28",
+      "days_since": 8,
+      "orders_total": 3,
+      "amount_total": 95.7,
+      "avg_daily": 0.38,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "HQ-9363",
+      "title": "【花期山茶云柔安睡裤40片】女性经期安心裤透气防漏舒适睡眠专用",
+      "first_seen": "2026-05-28",
+      "days_since": 8,
+      "orders_total": 52,
+      "amount_total": 1282.0,
+      "avg_daily": 6.5,
+      "main_shop": "小团子母婴店",
+      "main_platform": "拼多多",
+      "platforms": [
+        "抖店",
+        "拼多多"
+      ]
+    },
+    {
+      "good_id": "6970093764773-2",
+      "title": "十月稻田 熟黑白芝麻组合200g*2罐",
+      "first_seen": "2026-05-28",
+      "days_since": 8,
+      "orders_total": 1,
+      "amount_total": 16.0,
+      "avg_daily": 0.12,
+      "main_shop": "社畜能量站",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "OBLTC0993",
+      "title": "比比赞午餐肉高蛋白鸡胸肉健身代餐轻食减低脂肥零食即食解馋食品",
+      "first_seen": "2026-05-28",
+      "days_since": 8,
+      "orders_total": 1,
+      "amount_total": 17.01,
+      "avg_daily": 0.12,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "THCWJRJ2",
+      "title": "【2/4袋】天海藏精选乌鸡肉卷300g/袋 煎烤涮煮聚餐火锅烤肉食材",
+      "first_seen": "2026-05-27",
+      "days_since": 9,
+      "orders_total": 1,
+      "amount_total": 18.0,
+      "avg_daily": 0.11,
+      "main_shop": "生鲜厨房仓",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "BEL97XXXL30",
+      "title": "【2包起购】bebetour爱丽丝奇缘系列纸尿裤拉拉裤",
+      "first_seen": "2026-05-26",
+      "days_since": 10,
+      "orders_total": 5,
+      "amount_total": 273.0,
+      "avg_daily": 0.5,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "tssjj460",
+      "title": "【川娃子烧椒酱230g】辣椒酱鲜香美味下饭神器",
+      "first_seen": "2026-05-26",
+      "days_since": 10,
+      "orders_total": 1,
+      "amount_total": 17.4,
+      "avg_daily": 0.1,
+      "main_shop": "暖食杂货集",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "YZM-0915",
+      "title": "云枝棉洗脸巾到手2提鎏光金精装母婴可用柔软加厚珍珠纹洁面巾",
+      "first_seen": "2026-05-26",
+      "days_since": 10,
+      "orders_total": 30,
+      "amount_total": 270.6,
+      "avg_daily": 3.0,
+      "main_shop": "它智小店",
+      "main_platform": "抖店",
+      "platforms": [
+        "小红书",
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "df2023xmc041",
+      "title": "小萨牛牛披萨芝士儿童早餐速食微波炉加热即食船披萨饼（8 12个）",
+      "first_seen": "2026-05-26",
+      "days_since": 10,
+      "orders_total": 2,
+      "amount_total": 132.0,
+      "avg_daily": 0.2,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "L122XXXXL28*2",
+      "title": "【2包装】bebetour爱丽丝珊海系列纸尿裤拉拉裤",
+      "first_seen": "2026-05-25",
+      "days_since": 11,
+      "orders_total": 4,
+      "amount_total": 400.0,
+      "avg_daily": 0.36,
+      "main_shop": "生鲜厨房仓",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "YZM-1202",
+      "title": "云枝棉洗脸巾加赠精品毛绒发夹珍珠纹特厚款卸妆干湿两用悬挂底抽",
+      "first_seen": "2026-05-25",
+      "days_since": 11,
+      "orders_total": 27,
+      "amount_total": 292.8,
+      "avg_daily": 2.45,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "dz-lk-001",
+      "title": "【冷卡0脂荞麦面60g】非油炸泡面拌面方便面整箱批发代餐速食粗粮",
+      "first_seen": "2026-05-24",
+      "days_since": 12,
+      "orders_total": 4,
+      "amount_total": 113.6,
+      "avg_daily": 0.33,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "100217",
+      "title": "【强控价盒马同款】山花集新疆杏皮茶古法熬制原味果汁礼盒饮料",
+      "first_seen": "2026-05-24",
+      "days_since": 12,
+      "orders_total": 1,
+      "amount_total": 29.0,
+      "avg_daily": 0.08,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "YR-18-A",
+      "title": "【控价1包18.9元】柔丫植物乐园绵柔巾加大悬挂式一次性洗脸巾",
+      "first_seen": "2026-05-24",
+      "days_since": 12,
+      "orders_total": 2,
+      "amount_total": 32.0,
+      "avg_daily": 0.17,
+      "main_shop": "暖食杂货集",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "6913034004194",
+      "title": "良品铺子拇指风干鸡肉505g鸡胸肉干酱香多味高蛋白休闲零食健身",
+      "first_seen": "2026-05-24",
+      "days_since": 12,
+      "orders_total": 22,
+      "amount_total": 851.0,
+      "avg_daily": 1.83,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "6970872051278",
+      "title": "西域美农 新疆纯牛奶200ml*20盒 ",
+      "first_seen": "2026-05-24",
+      "days_since": 12,
+      "orders_total": 3,
+      "amount_total": 161.73,
+      "avg_daily": 0.25,
+      "main_shop": "潮食优选好物",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "0001",
+      "title": "【中乳脱脂纯牛奶200ml20盒】100%生牛乳高蛋白0脂肪营养早餐奶",
+      "first_seen": "2026-05-23",
+      "days_since": 13,
+      "orders_total": 1,
+      "amount_total": 23.3,
+      "avg_daily": 0.08,
+      "main_shop": "社畜能量站",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    },
+    {
+      "good_id": "THCSXZSQ2",
+      "title": "【20/40个】天海藏薯香芝士球200g/袋 黄金芝士爆浆拉丝油炸小吃",
+      "first_seen": "2026-05-22",
+      "days_since": 14,
+      "orders_total": 1,
+      "amount_total": 17.4,
+      "avg_daily": 0.07,
+      "main_shop": "暖食杂货集",
+      "main_platform": "抖店",
+      "platforms": [
+        "抖店"
+      ]
+    }
+  ],
+  "star_products": [
+    {
+      "rank": 1,
+      "title": "芯蒸呈定制宽面原味",
+      "orders_total": 6952,
+      "amount_total": 131876.58,
+      "avg_price": 18.97
+    },
+    {
+      "rank": 2,
+      "title": "林饱饱糯米海苔饭团大分量加热即食营养美食早餐夜宵",
+      "orders_total": 3720,
+      "amount_total": 103012.63,
+      "avg_price": 27.69
+    },
+    {
+      "rank": 3,
+      "title": "【麻酱火鸡面】芯蒸呈浓香麻酱火鸡面113g韩式泡面拌面",
+      "orders_total": 2475,
+      "amount_total": 47358.11,
+      "avg_price": 19.13
+    },
+    {
+      "rank": 4,
+      "title": "【芯蒸呈番茄肉酱味火鸡面12包】方便面辣味十足过瘾",
+      "orders_total": 1953,
+      "amount_total": 46093.27,
+      "avg_price": 23.6
+    },
+    {
+      "rank": 5,
+      "title": "美味壹客全麦坚果厚切吐司手撕面包饱腹代餐自律期早餐面包零食",
+      "orders_total": 1866,
+      "amount_total": 43628.0,
+      "avg_price": 23.38
+    },
+    {
+      "rank": 6,
+      "title": "美味壹客星空莓野全麦吐司厚切生吐司营养早餐代餐好吃健康面包",
+      "orders_total": 1750,
+      "amount_total": 32489.0,
+      "avg_price": 18.57
+    },
+    {
+      "rank": 7,
+      "title": "【新老款随机发】布班迪甄芯薄纸尿裤婴儿拉拉裤医护级超薄尿不湿",
+      "orders_total": 1533,
+      "amount_total": 95874.0,
+      "avg_price": 62.54
+    },
+    {
+      "rank": 8,
+      "title": "【王老吉无蔗糖八宝粥320g】粗粮养生粥适合中老年人",
+      "orders_total": 1369,
+      "amount_total": 15584.400000000001,
+      "avg_price": 11.38
+    },
+    {
+      "rank": 9,
+      "title": "【3袋】天海藏广味腊肠 炒菜香肠腊肉肠煲仔饭传统广式美味下酒菜",
+      "orders_total": 1098,
+      "amount_total": 18484.5,
+      "avg_price": 16.83
+    },
+    {
+      "rank": 10,
+      "title": "【控价1箱2包64.9元】布班迪甄芯薄纸尿裤拉拉裤婴儿超薄尿不湿",
+      "orders_total": 1049,
+      "amount_total": 67686.0,
+      "avg_price": 64.52
+    },
+    {
+      "rank": 11,
+      "title": "芯蒸呈甜辣炸鸡味火鸡面粗面版筋道爽滑鲜香方便宽面",
+      "orders_total": 868,
+      "amount_total": 23384.16,
+      "avg_price": 26.94
+    },
+    {
+      "rank": 12,
+      "title": "【10盒】天海藏 麻辣小龙虾尾250g/盒虾球 虾尾 加热即食",
+      "orders_total": 857,
+      "amount_total": 32321.5,
+      "avg_price": 37.71
+    },
+    {
+      "rank": 13,
+      "title": "【恢复原价，否则取消合作】【10盒】天海藏 麻辣小龙虾尾250g/盒",
+      "orders_total": 803,
+      "amount_total": 47098.0,
+      "avg_price": 58.65
+    },
+    {
+      "rank": 14,
+      "title": "【两分钟即食】林饱饱芝士牛肉卷鸡肉卷肉嫩多汁美味冷冻营养早餐",
+      "orders_total": 770,
+      "amount_total": 25209.61,
+      "avg_price": 32.74
+    },
+    {
+      "rank": 15,
+      "title": "【3袋/10袋】天海藏黑鱼金汤酸菜鱼430g/袋 顺丰京东发货甄选活鱼",
+      "orders_total": 685,
+      "amount_total": 25470.0,
+      "avg_price": 37.18
+    },
+    {
+      "rank": 16,
+      "title": "【新品奶油火鸡面】芯蒸呈定制宽面奶油火鸡面拌面上班族夜宵速食",
+      "orders_total": 570,
+      "amount_total": 11801.740000000002,
+      "avg_price": 20.7
+    },
+    {
+      "rank": 17,
+      "title": "【控价1箱2包64.9元】【新老款随机发】布班迪甄芯薄尿不湿",
+      "orders_total": 481,
+      "amount_total": 31378.0,
+      "avg_price": 65.23
+    },
+    {
+      "rank": 18,
+      "title": "【麻酱火鸡刀削面】芯蒸呈浓香麻酱火鸡面夜宵速食开学季吃",
+      "orders_total": 463,
+      "amount_total": 10543.55,
+      "avg_price": 22.77
+    },
+    {
+      "rank": 19,
+      "title": "【芯蒸呈火鸡面12包三拼】网红速食面条多种口味组合装",
+      "orders_total": 447,
+      "amount_total": 8257.32,
+      "avg_price": 18.47
+    },
+    {
+      "rank": 20,
+      "title": "【芯蒸呈麻酱火鸡面大桶10桶】方便面超满足大杯装浓郁醇香",
+      "orders_total": 423,
+      "amount_total": 6719.5,
+      "avg_price": 15.89
+    }
+  ],
+  "stagnant_products": [
+    {
+      "title": "【10根/20根】天海藏爆浆芝士肠350g/袋早餐夹心烤肠便捷空气炸锅",
+      "orders_total": 3,
+      "age_days": 96,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "【两分钟即食】林饱饱芝士牛肉卷鸡肉卷肉嫩多汁美味冷冻营养早餐",
+      "orders_total": 3,
+      "age_days": 96,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "老才臣豆腐乳180g原味红方不辣纯手工酱豆腐霉豆腐下饭拌面拌饭",
+      "orders_total": 3,
+      "age_days": 93,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "食族人麻酱米线方便速食浓郁麻酱1*6桶",
+      "orders_total": 3,
+      "age_days": 93,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "【库存已补足】天海藏香酥带鱼段300g/袋 外酥里嫩色泽金",
+      "orders_total": 3,
+      "age_days": 90,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "【乌江肉末豇豆138克】下饭菜酸脆豇豆",
+      "orders_total": 3,
+      "age_days": 82,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "【健力宝第5季番石榴果味饮料310ml24罐】含真果汁维C水果饮品清",
+      "orders_total": 3,
+      "age_days": 53,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "诺梵黑巧克力110g纯可可脂糖果礼物健身休闲零食烘焙",
+      "orders_total": 4,
+      "age_days": 56,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "莲花酱油500ml/瓶 黄豆特级生抽美味鲜酱油纯粮食酱油酿造提味",
+      "orders_total": 4,
+      "age_days": 49,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "福瑞德福瑞果园多种水果口味1千克商用速溶固体饮料冲饮粉",
+      "orders_total": 4,
+      "age_days": 41,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "食族人酸辣粉6桶方便食品酸辣过瘾即食学生上班族宿舍必备",
+      "orders_total": 5,
+      "age_days": 95,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "【11袋】天海藏精选肥牛片150g/袋 火锅聚餐涮烤嫩滑",
+      "orders_total": 5,
+      "age_days": 93,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "王老吉银耳燕窝八宝粥人参枸杞八宝粥八五谷杂粮营养速食粥",
+      "orders_total": 5,
+      "age_days": 92,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "【王老吉吉动力580mlx15瓶】维生素运动饮料补充能量适合运动后饮",
+      "orders_total": 5,
+      "age_days": 90,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "美味壹客蔓越莓全麦厚切吐司牛乳好吃面包无蔗糖饱腹代餐早餐零食",
+      "orders_total": 5,
+      "age_days": 48,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "天海藏地道王烤肠4袋 原味*2袋+黑胡椒*2袋（500g/袋）",
+      "orders_total": 6,
+      "age_days": 96,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "食族人经典酸辣粉145克6桶方便粉丝商超同款",
+      "orders_total": 6,
+      "age_days": 91,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "林饱饱低脂鸡肉扁食鸡胸肉馄饨营养早餐半成品冷冻速食轻食肉燕",
+      "orders_total": 6,
+      "age_days": 86,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "破价不发货麻六记袋装266g酸辣粉加量不加价方便速食川渝汤粉",
+      "orders_total": 6,
+      "age_days": 75,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    },
+    {
+      "title": "【控价1箱2包66.9元】布班迪倾芯柔纸尿裤拉拉裤",
+      "orders_total": 6,
+      "age_days": 48,
+      "last_day_order": 0,
+      "lifecycle": "mature",
+      "trend": "flat"
+    }
+  ],
+  "declining_products": [
+    {
+      "title": "【10/20片】天海藏酱香饼 家庭早餐酥脆面饼酱香十足方便半成品",
+      "orders_total": 7,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 1,
+      "trend": "down",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【11袋】天海藏精选肥牛片150g/袋 火锅聚餐涮烤嫩滑",
+      "orders_total": 5,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 1,
+      "trend": "flat",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【20个】天海藏门钉牛肉饼肉厚皮薄早餐大肉馅速食老北京特色美食",
+      "orders_total": 31,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 7,
+      "trend": "flat",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【230gx1瓶】龙老师香辣木瓜丝干木瓜条酱菜木瓜丁咸菜榨菜下饭菜",
+      "orders_total": 5,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 1,
+      "trend": "flat",
+      "lifecycle": "growth"
+    },
+    {
+      "title": "【2包起购】bebetour爱丽丝奇缘系列纸尿裤拉拉裤",
+      "orders_total": 5,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 1,
+      "trend": "flat",
+      "lifecycle": "growth"
+    },
+    {
+      "title": "【3袋】天海藏广味腊肠 炒菜香肠腊肉肠煲仔饭传统广式美味下酒菜",
+      "orders_total": 48,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 7,
+      "trend": "flat",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【双拼宽面】芯蒸呈定制宽面超辣火鸡面麻酱火鸡面113g",
+      "orders_total": 12,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 6,
+      "trend": "flat",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【商超同款】海盐苏打饼干奶盐味咸味梳打养胃无蔗糖零食代餐早餐",
+      "orders_total": 29,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 3,
+      "trend": "down",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【控价1箱2包64.9元】布班迪甄芯薄纸尿裤拉拉裤婴儿超薄尿不湿",
+      "orders_total": 149,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 5,
+      "trend": "flat",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【新品奶油火鸡面】芯蒸呈定制宽面奶油火鸡面拌面上班族夜宵速食",
+      "orders_total": 180,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 16,
+      "trend": "down",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【旺家福老卤鸭舌18-20支装】",
+      "orders_total": 17,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 13,
+      "trend": "flat",
+      "lifecycle": "new"
+    },
+    {
+      "title": "【王老吉八宝粥320g*6-12罐】营养丰富口感弹糯慢熬好粥",
+      "orders_total": 13,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 1,
+      "trend": "down",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【良品壹面奶油火鸡面6包芝士火鸡面6包】方便面美味组合装",
+      "orders_total": 13,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 1,
+      "trend": "flat",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【芯蒸呈火鸡面12包三拼】网红速食面条多种口味组合装",
+      "orders_total": 81,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 5,
+      "trend": "down",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【芯蒸呈麻酱火鸡面大桶10桶】方便面超满足大杯装浓郁醇香",
+      "orders_total": 76,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 7,
+      "trend": "flat",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【花期山茶云柔安睡裤40片】女性经期安心裤透气防漏舒适睡眠专用",
+      "orders_total": 52,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 12,
+      "trend": "down",
+      "lifecycle": "growth"
+    },
+    {
+      "title": "【花期早安裤30条】安心裤奢柔云感通勤8小时白天随心换",
+      "orders_total": 50,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 17,
+      "trend": "flat",
+      "lifecycle": "new"
+    },
+    {
+      "title": "【页面价10.9以上，到手价13.9否则拉黑】茉莉原味茶饮料",
+      "orders_total": 11,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 2,
+      "trend": "flat",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "【麻酱火鸡刀削面】芯蒸呈浓香麻酱火鸡面夜宵速食开学季吃",
+      "orders_total": 64,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 2,
+      "trend": "down",
+      "lifecycle": "mature"
+    },
+    {
+      "title": "云枝棉洗脸巾到手2提鎏光金精装母婴可用柔软加厚珍珠纹洁面巾",
+      "orders_total": 30,
+      "mom_pct": -100.0,
+      "last_day_order": 0,
+      "prev_day_order": 15,
+      "trend": "flat",
+      "lifecycle": "growth"
+    }
+  ]
+}
