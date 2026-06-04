@@ -8,7 +8,7 @@
     "total_days": 93,
     "recent_7d_sales": 51332.899999999994,
     "recent_7d_orders": 1990,
-    "recent_7d_refund": 0
+    "recent_7d_aftersale": 550.0
   },
   "data": [
     {
@@ -17,8 +17,8 @@
       "sales_amount": 8091.75,
       "close_orders": 59,
       "close_amount": 1139.78,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 39,
       "growth_top5": [],
       "decline_top5": []
@@ -29,8 +29,8 @@
       "sales_amount": 7910.45,
       "close_orders": 60,
       "close_amount": 1240.71,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 35,
       "growth_top5": [
         {
@@ -93,8 +93,8 @@
       "sales_amount": 6333.6,
       "close_orders": 52,
       "close_amount": 1106.9,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 34,
       "growth_top5": [
         {
@@ -157,8 +157,8 @@
       "sales_amount": 8968.82,
       "close_orders": 66,
       "close_amount": 1320.82,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 47,
       "growth_top5": [
         {
@@ -221,8 +221,8 @@
       "sales_amount": 12214.43,
       "close_orders": 81,
       "close_amount": 1953.03,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 40,
       "growth_top5": [
         {
@@ -280,8 +280,8 @@
       "sales_amount": 11722.55,
       "close_orders": 84,
       "close_amount": 1826.01,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 50,
       "growth_top5": [
         {
@@ -344,8 +344,8 @@
       "sales_amount": 9846.3,
       "close_orders": 84,
       "close_amount": 1908.97,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 48,
       "growth_top5": [
         {
@@ -408,8 +408,8 @@
       "sales_amount": 10700.49,
       "close_orders": 120,
       "close_amount": 2227.64,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 52,
       "growth_top5": [
         {
@@ -472,8 +472,8 @@
       "sales_amount": 9946.89,
       "close_orders": 135,
       "close_amount": 2507.44,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 50,
       "growth_top5": [
         {
@@ -536,8 +536,8 @@
       "sales_amount": 10467.02,
       "close_orders": 135,
       "close_amount": 2476.17,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 48,
       "growth_top5": [
         {
@@ -600,8 +600,8 @@
       "sales_amount": 11638.02,
       "close_orders": 60,
       "close_amount": 1220.16,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 50,
       "growth_top5": [
         {
@@ -664,8 +664,8 @@
       "sales_amount": 12228.83,
       "close_orders": 66,
       "close_amount": 1266.11,
-      "refund_orders": 19,
-      "refund_amount": 315.23,
+      "aftersale_orders": 19,
+      "aftersale_amount": 315.23,
       "product_count": 43,
       "growth_top5": [
         {
@@ -728,8 +728,8 @@
       "sales_amount": 7984.66,
       "close_orders": 73,
       "close_amount": 1450.07,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 50,
       "growth_top5": [
         {
@@ -792,8 +792,8 @@
       "sales_amount": 7639.29,
       "close_orders": 38,
       "close_amount": 906.72,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 40,
       "growth_top5": [
         {
@@ -856,8 +856,8 @@
       "sales_amount": 10698.05,
       "close_orders": 68,
       "close_amount": 1185.36,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 47,
       "growth_top5": [
         {
@@ -920,8 +920,8 @@
       "sales_amount": 9755.81,
       "close_orders": 82,
       "close_amount": 1740.51,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 46,
       "growth_top5": [
         {
@@ -984,8 +984,8 @@
       "sales_amount": 14574.47,
       "close_orders": 77,
       "close_amount": 1707.94,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 48,
       "growth_top5": [
         {
@@ -1048,8 +1048,8 @@
       "sales_amount": 14686.5,
       "close_orders": 73,
       "close_amount": 1625.64,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 53,
       "growth_top5": [
         {
@@ -1112,8 +1112,8 @@
       "sales_amount": 12689.56,
       "close_orders": 69,
       "close_amount": 1742.54,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 49,
       "growth_top5": [
         {
@@ -1176,8 +1176,8 @@
       "sales_amount": 10729.15,
       "close_orders": 38,
       "close_amount": 879.48,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 46,
       "growth_top5": [
         {
@@ -1240,8 +1240,8 @@
       "sales_amount": 13903.91,
       "close_orders": 41,
       "close_amount": 1312.55,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 46,
       "growth_top5": [
         {
@@ -1304,8 +1304,8 @@
       "sales_amount": 15199.0,
       "close_orders": 44,
       "close_amount": 1314.61,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 47,
       "growth_top5": [
         {
@@ -1368,8 +1368,8 @@
       "sales_amount": 15420.06,
       "close_orders": 48,
       "close_amount": 1261.53,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 45,
       "growth_top5": [
         {
@@ -1432,8 +1432,8 @@
       "sales_amount": 18157.46,
       "close_orders": 54,
       "close_amount": 2027.4,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 49,
       "growth_top5": [
         {
@@ -1496,8 +1496,8 @@
       "sales_amount": 16375.55,
       "close_orders": 50,
       "close_amount": 1764.0,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 59,
       "growth_top5": [
         {
@@ -1560,8 +1560,8 @@
       "sales_amount": 14824.02,
       "close_orders": 48,
       "close_amount": 1351.06,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 54,
       "growth_top5": [
         {
@@ -1624,8 +1624,8 @@
       "sales_amount": 12532.73,
       "close_orders": 44,
       "close_amount": 1477.95,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 48,
       "growth_top5": [
         {
@@ -1688,8 +1688,8 @@
       "sales_amount": 12083.05,
       "close_orders": 31,
       "close_amount": 846.61,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 39,
       "growth_top5": [
         {
@@ -1752,8 +1752,8 @@
       "sales_amount": 13353.2,
       "close_orders": 42,
       "close_amount": 1229.27,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 52,
       "growth_top5": [
         {
@@ -1816,8 +1816,8 @@
       "sales_amount": 14150.81,
       "close_orders": 40,
       "close_amount": 923.1,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 52,
       "growth_top5": [
         {
@@ -1880,8 +1880,8 @@
       "sales_amount": 13771.44,
       "close_orders": 47,
       "close_amount": 1322.75,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 51,
       "growth_top5": [
         {
@@ -1944,8 +1944,8 @@
       "sales_amount": 12856.77,
       "close_orders": 49,
       "close_amount": 1489.31,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 61,
       "growth_top5": [
         {
@@ -2008,8 +2008,8 @@
       "sales_amount": 12129.98,
       "close_orders": 35,
       "close_amount": 760.09,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 55,
       "growth_top5": [
         {
@@ -2072,8 +2072,8 @@
       "sales_amount": 12118.95,
       "close_orders": 43,
       "close_amount": 801.2,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 52,
       "growth_top5": [
         {
@@ -2136,8 +2136,8 @@
       "sales_amount": 8245.87,
       "close_orders": 47,
       "close_amount": 1214.74,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 52,
       "growth_top5": [
         {
@@ -2200,8 +2200,8 @@
       "sales_amount": 9799.3,
       "close_orders": 40,
       "close_amount": 853.88,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 54,
       "growth_top5": [
         {
@@ -2264,8 +2264,8 @@
       "sales_amount": 11440.01,
       "close_orders": 34,
       "close_amount": 783.02,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 57,
       "growth_top5": [
         {
@@ -2328,8 +2328,8 @@
       "sales_amount": 11371.61,
       "close_orders": 39,
       "close_amount": 975.13,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 59,
       "growth_top5": [
         {
@@ -2392,8 +2392,8 @@
       "sales_amount": 10683.85,
       "close_orders": 43,
       "close_amount": 1033.71,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 67,
       "growth_top5": [
         {
@@ -2456,8 +2456,8 @@
       "sales_amount": 10260.52,
       "close_orders": 37,
       "close_amount": 1073.92,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 64,
       "growth_top5": [
         {
@@ -2520,8 +2520,8 @@
       "sales_amount": 8926.27,
       "close_orders": 39,
       "close_amount": 938.39,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 63,
       "growth_top5": [
         {
@@ -2584,8 +2584,8 @@
       "sales_amount": 9618.5,
       "close_orders": 55,
       "close_amount": 1699.98,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 63,
       "growth_top5": [
         {
@@ -2648,8 +2648,8 @@
       "sales_amount": 12157.85,
       "close_orders": 52,
       "close_amount": 1046.78,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 68,
       "growth_top5": [
         {
@@ -2712,8 +2712,8 @@
       "sales_amount": 11350.17,
       "close_orders": 43,
       "close_amount": 1208.29,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 68,
       "growth_top5": [
         {
@@ -2776,8 +2776,8 @@
       "sales_amount": 11143.41,
       "close_orders": 58,
       "close_amount": 1392.16,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 59,
       "growth_top5": [
         {
@@ -2840,8 +2840,8 @@
       "sales_amount": 10093.47,
       "close_orders": 50,
       "close_amount": 1479.61,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 64,
       "growth_top5": [
         {
@@ -2904,8 +2904,8 @@
       "sales_amount": 13256.07,
       "close_orders": 66,
       "close_amount": 1710.83,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 79,
       "growth_top5": [
         {
@@ -2968,8 +2968,8 @@
       "sales_amount": 13898.11,
       "close_orders": 57,
       "close_amount": 1314.38,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 78,
       "growth_top5": [
         {
@@ -3032,8 +3032,8 @@
       "sales_amount": 14834.21,
       "close_orders": 57,
       "close_amount": 1390.59,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 70,
       "growth_top5": [
         {
@@ -3096,8 +3096,8 @@
       "sales_amount": 13227.28,
       "close_orders": 80,
       "close_amount": 1878.23,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 70,
       "growth_top5": [
         {
@@ -3160,8 +3160,8 @@
       "sales_amount": 12503.48,
       "close_orders": 75,
       "close_amount": 2016.79,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 77,
       "growth_top5": [
         {
@@ -3224,8 +3224,8 @@
       "sales_amount": 10993.39,
       "close_orders": 69,
       "close_amount": 1575.92,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 102,
       "growth_top5": [
         {
@@ -3288,8 +3288,8 @@
       "sales_amount": 7493.01,
       "close_orders": 39,
       "close_amount": 1211.65,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 70,
       "growth_top5": [
         {
@@ -3352,8 +3352,8 @@
       "sales_amount": 6675.31,
       "close_orders": 44,
       "close_amount": 1498.68,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 61,
       "growth_top5": [
         {
@@ -3416,8 +3416,8 @@
       "sales_amount": 8380.93,
       "close_orders": 65,
       "close_amount": 1861.52,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 71,
       "growth_top5": [
         {
@@ -3480,8 +3480,8 @@
       "sales_amount": 9501.21,
       "close_orders": 60,
       "close_amount": 1480.54,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 79,
       "growth_top5": [
         {
@@ -3544,8 +3544,8 @@
       "sales_amount": 10400.24,
       "close_orders": 63,
       "close_amount": 1935.6,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 85,
       "growth_top5": [
         {
@@ -3608,8 +3608,8 @@
       "sales_amount": 12095.91,
       "close_orders": 72,
       "close_amount": 1897.79,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 1,
+      "aftersale_amount": 27.0,
       "product_count": 83,
       "growth_top5": [
         {
@@ -3672,8 +3672,8 @@
       "sales_amount": 14563.59,
       "close_orders": 64,
       "close_amount": 2119.24,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 66,
       "growth_top5": [
         {
@@ -3736,8 +3736,8 @@
       "sales_amount": 16665.83,
       "close_orders": 67,
       "close_amount": 2585.11,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 71,
       "growth_top5": [
         {
@@ -3800,8 +3800,8 @@
       "sales_amount": 14438.52,
       "close_orders": 63,
       "close_amount": 2265.23,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 58,
       "growth_top5": [
         {
@@ -3864,8 +3864,8 @@
       "sales_amount": 10567.87,
       "close_orders": 65,
       "close_amount": 2000.73,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 49,
       "growth_top5": [
         {
@@ -3928,8 +3928,8 @@
       "sales_amount": 14993.54,
       "close_orders": 48,
       "close_amount": 1582.16,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 61,
       "growth_top5": [
         {
@@ -3992,8 +3992,8 @@
       "sales_amount": 14374.37,
       "close_orders": 29,
       "close_amount": 895.15,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 1,
+      "aftersale_amount": 58.0,
       "product_count": 61,
       "growth_top5": [
         {
@@ -4056,8 +4056,8 @@
       "sales_amount": 9068.56,
       "close_orders": 37,
       "close_amount": 929.11,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 52,
       "growth_top5": [
         {
@@ -4120,8 +4120,8 @@
       "sales_amount": 10529.96,
       "close_orders": 47,
       "close_amount": 1164.75,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 1,
+      "aftersale_amount": 70.0,
       "product_count": 72,
       "growth_top5": [
         {
@@ -4184,8 +4184,8 @@
       "sales_amount": 11651.32,
       "close_orders": 41,
       "close_amount": 1032.61,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 69,
       "growth_top5": [
         {
@@ -4248,8 +4248,8 @@
       "sales_amount": 11791.75,
       "close_orders": 58,
       "close_amount": 1940.95,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 56,
       "growth_top5": [
         {
@@ -4312,8 +4312,8 @@
       "sales_amount": 13161.75,
       "close_orders": 45,
       "close_amount": 1221.55,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 56,
       "growth_top5": [
         {
@@ -4376,8 +4376,8 @@
       "sales_amount": 10888.5,
       "close_orders": 47,
       "close_amount": 1032.77,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 1,
+      "aftersale_amount": 17.22,
       "product_count": 44,
       "growth_top5": [
         {
@@ -4440,8 +4440,8 @@
       "sales_amount": 10833.25,
       "close_orders": 33,
       "close_amount": 620.72,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 1,
+      "aftersale_amount": 17.62,
       "product_count": 46,
       "growth_top5": [
         {
@@ -4504,8 +4504,8 @@
       "sales_amount": 14118.53,
       "close_orders": 62,
       "close_amount": 2016.07,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 64,
       "growth_top5": [
         {
@@ -4568,8 +4568,8 @@
       "sales_amount": 11934.21,
       "close_orders": 41,
       "close_amount": 797.43,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 61,
       "growth_top5": [
         {
@@ -4632,8 +4632,8 @@
       "sales_amount": 12486.42,
       "close_orders": 50,
       "close_amount": 1392.78,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 48,
       "growth_top5": [
         {
@@ -4696,8 +4696,8 @@
       "sales_amount": 13265.99,
       "close_orders": 36,
       "close_amount": 793.9,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 49,
       "growth_top5": [
         {
@@ -4760,8 +4760,8 @@
       "sales_amount": 8809.98,
       "close_orders": 35,
       "close_amount": 721.8,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 50,
       "growth_top5": [
         {
@@ -4824,8 +4824,8 @@
       "sales_amount": 9014.63,
       "close_orders": 32,
       "close_amount": 746.76,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 3,
+      "aftersale_amount": 49.3,
       "product_count": 49,
       "growth_top5": [
         {
@@ -4888,8 +4888,8 @@
       "sales_amount": 10909.79,
       "close_orders": 40,
       "close_amount": 737.94,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 3,
+      "aftersale_amount": 48.83,
       "product_count": 49,
       "growth_top5": [
         {
@@ -4952,8 +4952,8 @@
       "sales_amount": 11985.37,
       "close_orders": 39,
       "close_amount": 831.23,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 1,
+      "aftersale_amount": 16.43,
       "product_count": 51,
       "growth_top5": [
         {
@@ -5016,8 +5016,8 @@
       "sales_amount": 10725.03,
       "close_orders": 48,
       "close_amount": 1077.57,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 1,
+      "aftersale_amount": 16.43,
       "product_count": 58,
       "growth_top5": [
         {
@@ -5080,8 +5080,8 @@
       "sales_amount": 10913.39,
       "close_orders": 35,
       "close_amount": 711.48,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 3,
+      "aftersale_amount": 57.26,
       "product_count": 46,
       "growth_top5": [
         {
@@ -5144,8 +5144,8 @@
       "sales_amount": 9303.03,
       "close_orders": 26,
       "close_amount": 764.57,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 3,
+      "aftersale_amount": 99.22,
       "product_count": 46,
       "growth_top5": [
         {
@@ -5208,8 +5208,8 @@
       "sales_amount": 7465.65,
       "close_orders": 29,
       "close_amount": 840.94,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 2,
+      "aftersale_amount": 70.52,
       "product_count": 41,
       "growth_top5": [
         {
@@ -5272,8 +5272,8 @@
       "sales_amount": 7620.74,
       "close_orders": 24,
       "close_amount": 462.24,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 2,
+      "aftersale_amount": 35.22,
       "product_count": 43,
       "growth_top5": [
         {
@@ -5336,8 +5336,8 @@
       "sales_amount": 8528.07,
       "close_orders": 47,
       "close_amount": 1165.89,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 2,
+      "aftersale_amount": 47.96,
       "product_count": 44,
       "growth_top5": [
         {
@@ -5400,8 +5400,8 @@
       "sales_amount": 10566.72,
       "close_orders": 48,
       "close_amount": 1284.03,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 7,
+      "aftersale_amount": 185.5,
       "product_count": 52,
       "growth_top5": [
         {
@@ -5464,8 +5464,8 @@
       "sales_amount": 8517.7,
       "close_orders": 31,
       "close_amount": 880.67,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 3,
+      "aftersale_amount": 49.22,
       "product_count": 44,
       "growth_top5": [
         {
@@ -5528,8 +5528,8 @@
       "sales_amount": 7823.0,
       "close_orders": 25,
       "close_amount": 552.01,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 7,
+      "aftersale_amount": 164.41,
       "product_count": 51,
       "growth_top5": [
         {
@@ -5592,8 +5592,8 @@
       "sales_amount": 6182.08,
       "close_orders": 20,
       "close_amount": 506.39,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 6,
+      "aftersale_amount": 132.13,
       "product_count": 49,
       "growth_top5": [
         {
@@ -5656,8 +5656,8 @@
       "sales_amount": 6868.59,
       "close_orders": 16,
       "close_amount": 389.87,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 4,
+      "aftersale_amount": 65.72,
       "product_count": 39,
       "growth_top5": [
         {
@@ -5720,8 +5720,8 @@
       "sales_amount": 6737.16,
       "close_orders": 16,
       "close_amount": 313.84,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 1,
+      "aftersale_amount": 75.9,
       "product_count": 49,
       "growth_top5": [
         {
@@ -5784,8 +5784,8 @@
       "sales_amount": 6715.78,
       "close_orders": 20,
       "close_amount": 495.13,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 0,
+      "aftersale_amount": 0,
       "product_count": 47,
       "growth_top5": [
         {
@@ -5848,8 +5848,8 @@
       "sales_amount": 8488.59,
       "close_orders": 23,
       "close_amount": 603.6,
-      "refund_orders": 0,
-      "refund_amount": 0,
+      "aftersale_orders": 2,
+      "aftersale_amount": 62.62,
       "product_count": 66,
       "growth_top5": [
         {

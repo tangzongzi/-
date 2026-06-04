@@ -608,28 +608,29 @@ def gen_new_product_tracker(df):
 # ===== 9. 每日经营日报 =====
 
 def gen_daily_report(df):
-    """每日经营日报：销售额/退款额/增长商品/退款率"""
+    """每日经营日报：销售额/售后额/增长商品/售后率"""
     df = df.copy()
     df["_date"] = df["创建时间"].dt.strftime("%Y-%m-%d")
-    
+
     # 成功订单
     active = df[~is_closed(df["采购单状态"])]
     # 关闭订单
     closed = df[is_closed(df["采购单状态"])]
-    # 售后退款订单
-    refunded = df[df["售后状态"].astype(str).str.contains("退款", na=False)]
-    
+    # 售后订单：商家收货 / 商家退款 / 修改申请 / 寄回商品 / 商家审核
+    aftersale_statuses = ["商家收货", "商家退款", "修改申请", "寄回商品", "商家审核"]
+    aftersale = df[df["售后状态"].astype(str).isin(aftersale_statuses)]
+
     all_dates = sorted(active["_date"].unique())
-    
+
     rows = []
     for d in all_dates:
         day_active = active[active["_date"] == d]
         day_closed = closed[closed["_date"] == d]
-        day_refunded = refunded[refunded["_date"] == d]
-        
+        day_aftersale = aftersale[aftersale["_date"] == d]
+
         sales_amount = round(float(day_active["小计金额"].sum()), 2)
         close_amount = round(float(day_closed["小计金额"].sum()), 2) if len(day_closed) > 0 else 0
-        refund_amount = round(float(day_refunded["小计金额"].sum()), 2) if len(day_refunded) > 0 else 0
+        aftersale_amount = round(float(day_aftersale["小计金额"].sum()), 2) if len(day_aftersale) > 0 else 0
         
         # 按商品聚合
         prod_stats = day_active.groupby("商品名称").agg(
@@ -662,8 +663,8 @@ def gen_daily_report(df):
             "sales_amount": sales_amount,
             "close_orders": len(day_closed),
             "close_amount": close_amount,
-            "refund_orders": len(day_refunded),
-            "refund_amount": refund_amount,
+            "aftersale_orders": len(day_aftersale),
+            "aftersale_amount": aftersale_amount,
             "product_count": len(prod_stats),
             "growth_top5": growth_list,
             "decline_top5": decline_list,
@@ -676,7 +677,7 @@ def gen_daily_report(df):
         "total_days": len(rows),
         "recent_7d_sales": sum(r["sales_amount"] for r in recent),
         "recent_7d_orders": sum(r["orders"] for r in recent),
-        "recent_7d_refund": sum(r["refund_amount"] for r in recent),
+        "recent_7d_aftersale": sum(r["aftersale_amount"] for r in recent),
     }
     write_json(SUMMARY_DIR / "经营_每日日报.json", {"title": "每日经营日报", "grain": "日"}, summary, rows)
 
