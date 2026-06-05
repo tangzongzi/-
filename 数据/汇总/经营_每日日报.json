@@ -6,8 +6,8 @@
   "summary": {
     "latest_date": "2026-06-05",
     "total_days": 97,
-    "recent_7d_sales": 57452.85,
-    "recent_7d_orders": 2344,
+    "recent_7d_sales": 57733.5,
+    "recent_7d_orders": 2355,
     "recent_7d_aftersale": 170.54
   },
   "data": [
@@ -5844,10 +5844,10 @@
     },
     {
       "date": "2026-06-01",
-      "orders": 345,
-      "sales_amount": 8497.5,
-      "close_orders": 23,
-      "close_amount": 594.69,
+      "orders": 346,
+      "sales_amount": 8509.75,
+      "close_orders": 22,
+      "close_amount": 582.44,
       "aftersale_orders": 2,
       "aftersale_amount": 62.62,
       "product_count": 66,
@@ -5859,8 +5859,8 @@
         },
         {
           "product": "【商超同款】海盐苏打饼干奶盐味咸味梳打养胃无蔗糖零食代餐早餐",
-          "order": 3,
-          "mom_pct": 200.0
+          "order": 4,
+          "mom_pct": 300.0
         },
         {
           "product": "美味壹客全麦坚果厚切吐司手撕面包饱腹代餐自律期早餐面包零食",
@@ -5874,8 +5874,8 @@
         },
         {
           "product": "猴头菇山药苏打饼干咸味无糖梳打早餐代餐休闲零食整箱包装饼干",
-          "order": 9,
-          "mom_pct": 80.0
+          "order": 10,
+          "mom_pct": 100.0
         }
       ],
       "decline_top5": [
@@ -5973,7 +5973,7 @@
     {
       "date": "2026-06-03",
       "orders": 363,
-      "sales_amount": 8373.15,
+      "sales_amount": 8379.15,
       "close_orders": 13,
       "close_amount": 373.13,
       "aftersale_orders": 1,
@@ -6100,8 +6100,8 @@
     },
     {
       "date": "2026-06-05",
-      "orders": 368,
-      "sales_amount": 8993.43,
+      "orders": 378,
+      "sales_amount": 9255.83,
       "close_orders": 29,
       "close_amount": 625.26,
       "aftersale_orders": 0,
@@ -6114,13 +6114,13 @@
           "mom_pct": 166.7
         },
         {
-          "product": "【页面价10.9以上，到手价13.9否则拉黑】茉莉原味茶饮料",
-          "order": 5,
-          "mom_pct": 150.0
+          "product": "袋鼠先生低脂高蛋白鸡胸肉即食休50g*10袋（混合口味）",
+          "order": 16,
+          "mom_pct": 166.7
         },
         {
-          "product": "袋鼠先生低脂高蛋白鸡胸肉即食休50g*10袋（混合口味）",
-          "order": 15,
+          "product": "【页面价10.9以上，到手价13.9否则拉黑】茉莉原味茶饮料",
+          "order": 5,
           "mom_pct": 150.0
         },
         {

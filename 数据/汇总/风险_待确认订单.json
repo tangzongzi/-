@@ -3,14 +3,14 @@
     "title": "待客户确认订单"
   },
   "summary": {
-    "total": 3202,
-    "pct": 7.26,
-    "total_amount": 81184.99,
-    "aging_over_24h": 3202,
-    "aging_over_72h": 2786
+    "total": 3197,
+    "pct": 7.24,
+    "total_amount": 81039.47,
+    "aging_over_24h": 3197,
+    "aging_over_72h": 2782
   },
   "data": {
-    "count": 3202,
+    "count": 3197,
     "aging": [
       {
         "range": "0-24小时",
@@ -20,13 +20,13 @@
       },
       {
         "range": "24-72小时",
-        "count": 416,
+        "count": 415,
         "min_hours": 24,
         "max_hours": 72
       },
       {
         "range": "3-7天",
-        "count": 1222,
+        "count": 1218,
         "min_hours": 72,
         "max_hours": 168
       },
@@ -40,19 +40,19 @@
     "by_shop": [
       {
         "name": "潮食优选好物",
-        "count": 1415
+        "count": 1412
       },
       {
         "name": "潮流食品零食店",
-        "count": 1000
+        "count": 997
       },
       {
         "name": "生鲜厨房仓",
-        "count": 279
+        "count": 280
       },
       {
         "name": "它智小店",
-        "count": 144
+        "count": 145
       },
       {
         "name": "社畜能量站",
@@ -60,7 +60,7 @@
       },
       {
         "name": "暖食杂货集",
-        "count": 126
+        "count": 125
       },
       {
         "name": "小团子母婴店",
@@ -78,23 +78,23 @@
     "by_supplier": [
       {
         "name": "邢台禾松食品销售有限公司",
-        "count": 1532
+        "count": 1527
       },
       {
         "name": "深圳市苏禾电子商务有限公司",
-        "count": 424
+        "count": 426
       },
       {
         "name": "天海藏食品（山东）有限公司",
-        "count": 306
+        "count": 305
       },
       {
         "name": "漳州市信冠食品有限公司",
-        "count": 180
+        "count": 181
       },
       {
         "name": "泉州市俊发卫生用品有限公司",
-        "count": 140
+        "count": 138
       },
       {
         "name": "临沂悠乐卫生用品有限公司",
@@ -106,7 +106,7 @@
       },
       {
         "name": "杭州童童来了科技有限公司",
-        "count": 76
+        "count": 77
       },
       {
         "name": "新沂市棉栀卫生用品有限公司",

@@ -3,8 +3,8 @@
     "source": "采购单数据(导出后已过滤交易关闭订单)",
     "period": "2026-03-01 ~ 2026-06-05",
     "days": 97,
-    "filter": "已去除交易关闭订单 (4896 笔)",
-    "generated_at": "2026-06-05 23:30:41",
+    "filter": "已去除交易关闭订单 (4895 笔)",
+    "generated_at": "2026-06-05 23:52:00",
     "title": "供货商分析",
     "grain": "总览"
   },
@@ -13,8 +13,8 @@
       "source": "采购单数据(导出后已过滤交易关闭订单)",
       "period": "2026-03-01 ~ 2026-06-05",
       "days": 97,
-      "filter": "已去除交易关闭订单 (4896 笔)",
-      "generated_at": "2026-06-05 23:30:41",
+      "filter": "已去除交易关闭订单 (4895 笔)",
+      "generated_at": "2026-06-05 23:52:00",
       "title": "供货商",
       "grain": "总览"
     },
@@ -26,10 +26,10 @@
           "抖店",
           "拼多多"
         ],
-        "order": 15305,
-        "amount": 307278.0,
+        "order": 15309,
+        "amount": 307416.91,
         "avg_price": 20.08,
-        "closed": 2488.0,
+        "closed": 2489.0,
         "close_rate_pct": 13.98,
         "risk_tag": "中",
         "risk_color": "yellow"
@@ -55,8 +55,8 @@
         "platforms": [
           "抖店"
         ],
-        "order": 3933,
-        "amount": 139587.49,
+        "order": 3934,
+        "amount": 139612.49,
         "avg_price": 35.49,
         "closed": 306.0,
         "close_rate_pct": 7.22,
@@ -84,11 +84,11 @@
           "抖店",
           "拼多多"
         ],
-        "order": 3860,
-        "amount": 83098.48,
+        "order": 3861,
+        "amount": 83122.48,
         "avg_price": 21.53,
         "closed": 289.0,
-        "close_rate_pct": 6.97,
+        "close_rate_pct": 6.96,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -140,11 +140,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 727,
-        "amount": 9964.61,
+        "order": 729,
+        "amount": 9992.37,
         "avg_price": 13.71,
-        "closed": 68.0,
-        "close_rate_pct": 8.55,
+        "closed": 66.0,
+        "close_rate_pct": 8.3,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -225,11 +225,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 253,
-        "amount": 5191.2,
-        "avg_price": 20.52,
+        "order": 254,
+        "amount": 5207.68,
+        "avg_price": 20.5,
         "closed": 8.0,
-        "close_rate_pct": 3.07,
+        "close_rate_pct": 3.05,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -455,10 +455,10 @@
           "抖店",
           "拼多多"
         ],
-        "order": 15305,
-        "amount": 307278.0,
+        "order": 15309,
+        "amount": 307416.91,
         "avg_price": 20.08,
-        "closed": 2488.0,
+        "closed": 2489.0,
         "close_rate_pct": 13.98,
         "risk_tag": "中",
         "risk_color": "yellow"
@@ -484,8 +484,8 @@
         "platforms": [
           "抖店"
         ],
-        "order": 3933,
-        "amount": 139587.49,
+        "order": 3934,
+        "amount": 139612.49,
         "avg_price": 35.49,
         "closed": 306.0,
         "close_rate_pct": 7.22,
@@ -513,11 +513,11 @@
           "抖店",
           "拼多多"
         ],
-        "order": 3860,
-        "amount": 83098.48,
+        "order": 3861,
+        "amount": 83122.48,
         "avg_price": 21.53,
         "closed": 289.0,
-        "close_rate_pct": 6.97,
+        "close_rate_pct": 6.96,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -569,11 +569,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 727,
-        "amount": 9964.61,
+        "order": 729,
+        "amount": 9992.37,
         "avg_price": 13.71,
-        "closed": 68.0,
-        "close_rate_pct": 8.55,
+        "closed": 66.0,
+        "close_rate_pct": 8.3,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -654,11 +654,11 @@
         "platforms": [
           "抖店"
         ],
-        "order": 253,
-        "amount": 5191.2,
-        "avg_price": 20.52,
+        "order": 254,
+        "amount": 5207.68,
+        "avg_price": 20.5,
         "closed": 8.0,
-        "close_rate_pct": 3.07,
+        "close_rate_pct": 3.05,
         "risk_tag": "低",
         "risk_color": "green"
       },
@@ -905,6 +905,20 @@
       },
       {
         "rank": 33,
+        "name": "福建省旺家福食品有限公司",
+        "platforms": [
+          "拼多多"
+        ],
+        "order": 34,
+        "amount": 927.5,
+        "avg_price": 27.28,
+        "closed": 0,
+        "close_rate_pct": 0,
+        "risk_tag": "—",
+        "risk_color": "gray"
+      },
+      {
+        "rank": 34,
         "name": "浙江臻诺梵食品有限公司",
         "platforms": [
           "抖店"
@@ -918,20 +932,6 @@
         "risk_color": "gray"
       },
       {
-        "rank": 34,
-        "name": "福建省旺家福食品有限公司",
-        "platforms": [
-          "拼多多"
-        ],
-        "order": 33,
-        "amount": 901.0,
-        "avg_price": 27.3,
-        "closed": 0,
-        "close_rate_pct": 0,
-        "risk_tag": "—",
-        "risk_color": "gray"
-      },
-      {
         "rank": 35,
         "name": "新沂市棉栀卫生用品有限公司",
         "platforms": [
@@ -939,9 +939,9 @@
           "抖店",
           "拼多多"
         ],
-        "order": 81,
-        "amount": 817.0,
-        "avg_price": 10.09,
+        "order": 82,
+        "amount": 831.0,
+        "avg_price": 10.13,
         "closed": 0,
         "close_rate_pct": 0,
         "risk_tag": "—",
@@ -982,8 +982,8 @@
           "抖店"
         ],
         "order": 51,
-        "amount": 612.24,
-        "avg_price": 12.0,
+        "amount": 620.24,
+        "avg_price": 12.16,
         "closed": 0,
         "close_rate_pct": 0,
         "risk_tag": "—",
@@ -1731,7 +1731,7 @@
         "2026-05_order": 17,
         "2026-05_amount": 173.33,
         "2026-06_order": 3,
-        "2026-06_amount": 23.1
+        "2026-06_amount": 31.1
       },
       {
         "supplier": "双流祥和食品批发部",
@@ -1818,8 +1818,8 @@
         "2026-04_amount": 22464.24,
         "2026-05_order": 1009,
         "2026-05_amount": 48060.9,
-        "2026-06_order": 138,
-        "2026-06_amount": 5036.05
+        "2026-06_order": 139,
+        "2026-06_amount": 5061.05
       },
       {
         "supplier": "宁波夏日田园电子商务有限公司",
@@ -1873,8 +1873,8 @@
         "2026-04_amount": 774.56,
         "2026-05_order": 100,
         "2026-05_amount": 2142.4,
-        "2026-06_order": 66,
-        "2026-06_amount": 1417.28
+        "2026-06_order": 67,
+        "2026-06_amount": 1433.76
       },
       {
         "supplier": "平江县老匠电子商务有限公司",
@@ -1972,8 +1972,8 @@
         "2026-04_amount": 0,
         "2026-05_order": 21,
         "2026-05_amount": 204.3,
-        "2026-06_order": 60,
-        "2026-06_amount": 612.7
+        "2026-06_order": 61,
+        "2026-06_amount": 626.7
       },
       {
         "supplier": "新疆马三三数字科技有限公司",
@@ -2225,8 +2225,8 @@
         "2026-04_amount": 13312.2,
         "2026-05_order": 2970,
         "2026-05_amount": 64377.26,
-        "2026-06_order": 222,
-        "2026-06_amount": 5409.02
+        "2026-06_order": 223,
+        "2026-06_amount": 5433.02
       },
       {
         "supplier": "深圳市食汇供应链管理有限公司",
@@ -2324,8 +2324,8 @@
         "2026-04_amount": 2132.92,
         "2026-05_order": 361,
         "2026-05_amount": 4954.3,
-        "2026-06_order": 100,
-        "2026-06_amount": 1383.09
+        "2026-06_order": 102,
+        "2026-06_amount": 1410.85
       },
       {
         "supplier": "烟台欣和企业食品有限公司",
@@ -2379,8 +2379,8 @@
         "2026-04_amount": 0,
         "2026-05_order": 0,
         "2026-05_amount": 0,
-        "2026-06_order": 33,
-        "2026-06_amount": 901.0
+        "2026-06_order": 34,
+        "2026-06_amount": 927.5
       },
       {
         "supplier": "禹州市百慈食品商行（个体工商户）",
@@ -2423,8 +2423,8 @@
         "2026-04_amount": 92818.18,
         "2026-05_order": 5265,
         "2026-05_amount": 110271.66,
-        "2026-06_order": 809,
-        "2026-06_amount": 16783.56
+        "2026-06_order": 813,
+        "2026-06_amount": 16922.47
       },
       {
         "supplier": "邵东市大禾塘校英百货商行（个体工商户）",
@@ -2462,10 +2462,10 @@
     ],
     "summary": {
       "total_suppliers": 80,
-      "total_amount": 1072158.15,
-      "top1_concentration_pct": 28.66,
+      "total_amount": 1072438.8,
+      "top1_concentration_pct": 28.67,
       "top3_concentration_pct": 64.74,
-      "top5_concentration_pct": 85.01,
+      "top5_concentration_pct": 85.0,
       "top10_concentration_pct": 92.29,
       "long_tail_count": 49
     }

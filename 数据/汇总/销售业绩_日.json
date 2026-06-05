@@ -4,10 +4,10 @@
   },
   "summary": {
     "days": 97,
-    "total_orders": 39231,
-    "total_amount": 1072158.15,
-    "avg_daily_orders": 404.44,
-    "avg_daily_amount": 11053.18
+    "total_orders": 39242,
+    "total_amount": 1072438.8,
+    "avg_daily_orders": 404.56,
+    "avg_daily_amount": 11056.07
   },
   "data": [
     {
@@ -403,7 +403,7 @@
     {
       "date": "2026-05-05",
       "order": 377,
-      "amount": 10529.96,
+      "amount": 10529.960000000001,
       "avg_price": 27.93
     },
     {
@@ -564,9 +564,9 @@
     },
     {
       "date": "2026-06-01",
-      "order": 345,
-      "amount": 8497.5,
-      "avg_price": 24.63
+      "order": 346,
+      "amount": 8509.75,
+      "avg_price": 24.59
     },
     {
       "date": "2026-06-02",
@@ -577,8 +577,8 @@
     {
       "date": "2026-06-03",
       "order": 363,
-      "amount": 8373.15,
-      "avg_price": 23.07
+      "amount": 8379.15,
+      "avg_price": 23.08
     },
     {
       "date": "2026-06-04",
@@ -588,9 +588,9 @@
     },
     {
       "date": "2026-06-05",
-      "order": 368,
-      "amount": 8993.43,
-      "avg_price": 24.44
+      "order": 378,
+      "amount": 9255.83,
+      "avg_price": 24.49
     }
   ]
 }

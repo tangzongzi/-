@@ -49,8 +49,8 @@
     },
     {
       "supplier": "邢台禾松食品销售有限公司",
-      "total": 17793,
-      "closed": 2488.0,
+      "total": 17798,
+      "closed": 2489.0,
       "close_rate_pct": 13.98,
       "risk_tag": "中风险",
       "risk_color": "orange"
@@ -98,8 +98,8 @@
     {
       "supplier": "漳州市信冠食品有限公司",
       "total": 795,
-      "closed": 68.0,
-      "close_rate_pct": 8.55,
+      "closed": 66.0,
+      "close_rate_pct": 8.3,
       "risk_tag": "正常",
       "risk_color": "green"
     },
@@ -129,7 +129,7 @@
     },
     {
       "supplier": "天海藏食品（山东）有限公司",
-      "total": 4239,
+      "total": 4240,
       "closed": 306.0,
       "close_rate_pct": 7.22,
       "risk_tag": "正常",
@@ -161,9 +161,9 @@
     },
     {
       "supplier": "深圳市苏禾电子商务有限公司",
-      "total": 4149,
+      "total": 4150,
       "closed": 289.0,
-      "close_rate_pct": 6.97,
+      "close_rate_pct": 6.96,
       "risk_tag": "正常",
       "risk_color": "green"
     },
@@ -177,9 +177,9 @@
     },
     {
       "supplier": "山西袋鼠先生商贸有限公司",
-      "total": 261,
+      "total": 262,
       "closed": 8.0,
-      "close_rate_pct": 3.07,
+      "close_rate_pct": 3.05,
       "risk_tag": "正常",
       "risk_color": "green"
     },

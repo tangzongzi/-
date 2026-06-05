@@ -6,8 +6,8 @@
   "summary": {
     "new_product_count": 47,
     "latest_date": "2026-06-05",
-    "total_new_orders": 350,
-    "total_new_amount": 8427.949999999999
+    "total_new_orders": 352,
+    "total_new_amount": 8476.449999999999
   },
   "data": [
     {
@@ -245,21 +245,21 @@
       "product_id": "旺家福老卤鸭舌/混合口味1袋",
       "first_seen": "2026-06-03",
       "days_since": 2,
-      "total_order": 33,
-      "total_amount": 901.0,
-      "avg_daily": 16.5,
+      "total_order": 34,
+      "total_amount": 927.5,
+      "avg_daily": 17.0,
       "shops": [
         "拼多多"
       ],
       "shop_details": {
-        "拼多多": 33
+        "拼多多": 34
       },
       "shop_details_by_shop": {
         "潮流食品零食店|拼多多": {
           "shop": "潮流食品零食店",
           "platform": "拼多多",
-          "orders": 33,
-          "amount": 901.0
+          "orders": 34,
+          "amount": 927.5
         }
       },
       "main_shop": "潮流食品零食店",
@@ -267,7 +267,7 @@
       "daily": {
         "2026-06-03": 4,
         "2026-06-04": 13,
-        "2026-06-05": 16
+        "2026-06-05": 17
       }
     },
     {
@@ -404,7 +404,7 @@
       "first_seen": "2026-06-02",
       "days_since": 3,
       "total_order": 2,
-      "total_amount": 14.8,
+      "total_amount": 22.8,
       "avg_daily": 0.67,
       "shops": [
         "抖店"
@@ -417,7 +417,7 @@
           "shop": "潮食优选好物",
           "platform": "抖店",
           "orders": 2,
-          "amount": 14.8
+          "amount": 22.8
         }
       },
       "main_shop": "潮食优选好物",
@@ -1253,23 +1253,23 @@
       "product_id": "YZM-0915",
       "first_seen": "2026-05-26",
       "days_since": 10,
-      "total_order": 45,
-      "total_amount": 417.4,
-      "avg_daily": 4.5,
+      "total_order": 46,
+      "total_amount": 431.4,
+      "avg_daily": 4.6,
       "shops": [
         "小红书",
         "抖店"
       ],
       "shop_details": {
         "小红书": 1,
-        "抖店": 44
+        "抖店": 45
       },
       "shop_details_by_shop": {
         "它智小店|抖店": {
           "shop": "它智小店",
           "platform": "抖店",
-          "orders": 33,
-          "amount": 310.6
+          "orders": 34,
+          "amount": 324.6
         },
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
@@ -1303,7 +1303,7 @@
         "2026-06-02": 1,
         "2026-06-03": 5,
         "2026-06-04": 15,
-        "2026-06-05": 15
+        "2026-06-05": 16
       }
     },
     {

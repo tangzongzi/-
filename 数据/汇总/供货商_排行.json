@@ -6,10 +6,10 @@
   },
   "summary": {
     "total_suppliers": 80,
-    "total_amount": 1072158.15,
-    "top1_concentration_pct": 28.66,
+    "total_amount": 1072438.8,
+    "top1_concentration_pct": 28.67,
     "top3_concentration_pct": 64.74,
-    "top5_concentration_pct": 85.01,
+    "top5_concentration_pct": 85.0,
     "top10_concentration_pct": 92.29,
     "long_tail_count": 49
   },
@@ -21,8 +21,8 @@
         "抖店",
         "拼多多"
       ],
-      "order": 15305,
-      "amount": 307278.0,
+      "order": 15309,
+      "amount": 307416.91,
       "avg_price": 20.08
     },
     {
@@ -42,8 +42,8 @@
       "platforms": [
         "抖店"
       ],
-      "order": 3933,
-      "amount": 139587.49,
+      "order": 3934,
+      "amount": 139612.49,
       "avg_price": 35.49
     },
     {
@@ -63,8 +63,8 @@
         "抖店",
         "拼多多"
       ],
-      "order": 3860,
-      "amount": 83098.48,
+      "order": 3861,
+      "amount": 83122.48,
       "avg_price": 21.53
     },
     {
@@ -103,8 +103,8 @@
       "platforms": [
         "抖店"
       ],
-      "order": 727,
-      "amount": 9964.61,
+      "order": 729,
+      "amount": 9992.37,
       "avg_price": 13.71
     },
     {
@@ -164,9 +164,9 @@
       "platforms": [
         "抖店"
       ],
-      "order": 253,
-      "amount": 5191.2,
-      "avg_price": 20.52
+      "order": 254,
+      "amount": 5207.68,
+      "avg_price": 20.5
     },
     {
       "rank": 16,
@@ -343,6 +343,16 @@
     },
     {
       "rank": 33,
+      "name": "福建省旺家福食品有限公司",
+      "platforms": [
+        "拼多多"
+      ],
+      "order": 34,
+      "amount": 927.5,
+      "avg_price": 27.28
+    },
+    {
+      "rank": 34,
       "name": "浙江臻诺梵食品有限公司",
       "platforms": [
         "抖店"
@@ -352,16 +362,6 @@
       "avg_price": 35.15
     },
     {
-      "rank": 34,
-      "name": "福建省旺家福食品有限公司",
-      "platforms": [
-        "拼多多"
-      ],
-      "order": 33,
-      "amount": 901.0,
-      "avg_price": 27.3
-    },
-    {
       "rank": 35,
       "name": "新沂市棉栀卫生用品有限公司",
       "platforms": [
@@ -369,9 +369,9 @@
         "抖店",
         "拼多多"
       ],
-      "order": 81,
-      "amount": 817.0,
-      "avg_price": 10.09
+      "order": 82,
+      "amount": 831.0,
+      "avg_price": 10.13
     },
     {
       "rank": 36,
@@ -400,8 +400,8 @@
         "抖店"
       ],
       "order": 51,
-      "amount": 612.24,
-      "avg_price": 12.0
+      "amount": 620.24,
+      "avg_price": 12.16
     },
     {
       "rank": 39,
