@@ -13,7 +13,7 @@ from collections import defaultdict
 from pathlib import Path
 
 SUMMARY_DIR = Path("/Users/manba/Documents/OH-WorkSpace/多赞数据库/多赞采购单/数据/汇总")
-OUTPUT_DIR = Path("/Users/manba/Documents/OH-WorkSpace/多赞数据库/duozan-dashboard/数据/看板数据")
+OUTPUT_DIR = Path("/Users/manba/Documents/OH-WorkSpace/多赞数据库/多赞采购单/数据/看板数据")
 OUTPUT_FILE = OUTPUT_DIR / "商品_全景.json"
 
 
