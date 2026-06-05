@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
-新品日报飞书通知（多赞售后群）
-================================
+新品日报飞书通知（多赞售后群）· interactive card 格式
+========================================================
+
+跟 duozan-dashboard/scripts/gen_daily_report.py 用同一套 E_* 元素工厂 + 视觉风格。
+
 数据源：多赞采购单/数据/汇总/
-发送：lark-cli im +messages-send（bot 身份）
+发送：lark-cli im +messages-send --msg-type interactive（bot 身份）
 失败容错：单跑失败返回 1（便于调试）；shell 包装会兜底不中断上游
 
 口径说明：
@@ -14,15 +17,18 @@
 """
 
 import json
-import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
 
+# 共享 helpers
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from feishu_card import (
+    E_md, E_hr, E_fields, E_actions, E_note, make_card, send_card, Tpl
+)
+
 # ---------- 路径配置 ----------
 SCRIPT_DIR = Path(__file__).resolve().parent
-# notify_dashboard.py 位于 duozan-dashboard/scripts/
-# 数据源位于 多赞采购单/数据/汇总/
 DUOZAN_ROOT = SCRIPT_DIR.parent.parent  # 多赞数据库/
 DATA_SUMMARY_DIR = DUOZAN_ROOT / "多赞采购单" / "数据" / "汇总"
 NEW_PRODUCT_JSON = DATA_SUMMARY_DIR / "新品_追踪.json"
@@ -96,12 +102,7 @@ def pick_high_risk_suppliers(supplier_data, threshold=CLOSE_RATE_THRESHOLD, n=TO
 
 # ---------- 渲染辅助 ----------
 def render_shop_breakdown(shop_details_by_shop, max_shops=3, shop_maxlen=10):
-    """把 shop_details_by_shop 渲染成 '拼·xx 35单 / 抖·yy 5单' 格式
-
-    shop_details_by_shop 形如:
-        { "店名|平台": {"shop": "店名", "platform": "抖店", "orders": 5, "amount": 100} }
-    已按 orders 倒序排列。
-    """
+    """把 shop_details_by_shop 渲染成 '拼·xx 35单 / 抖·yy 5单' 格式"""
     if not shop_details_by_shop:
         return ""
     items = list(shop_details_by_shop.values())
@@ -119,10 +120,7 @@ def render_shop_breakdown(shop_details_by_shop, max_shops=3, shop_maxlen=10):
 
 
 def render_top_lines(items, latest_date, show_days=False, max_shops=3):
-    """通用 Top N 行渲染：
-    1. 商品名
-       40单 ｜ ¥1,040 ｜ 拼·xx 35单 / 抖·yy 5单   (已上架 3 天)
-    """
+    """通用 Top N 行渲染"""
     if not items:
         return None
     lines = []
@@ -133,12 +131,9 @@ def render_top_lines(items, latest_date, show_days=False, max_shops=3):
         breakdown = render_shop_breakdown(
             it.get("shop_details_by_shop", {}), max_shops=max_shops
         )
-        # 第一行：商品名字（不显示 ID，老板说不需要）
-        # 主行：单量 ｜ 金额 ｜ 店铺分解
         main = f"   {order}单 ｜ ¥{fmt_money(amount)}"
         if breakdown:
             main += f" ｜ {breakdown}"
-        # 累计 Top N 时附 "已上架 N 天" 提示
         if show_days and it.get("days_since") is not None:
             ds = it.get("days_since", 0)
             if it.get("first_seen") == latest_date:
@@ -150,137 +145,81 @@ def render_top_lines(items, latest_date, show_days=False, max_shops=3):
 
 
 # ---------- 卡片构造 ----------
-def build_card_content(summary, top_first_day, top_all_time, risks, latest_date):
-    """构造 post 模板消息卡片（markdown 格式，lark-cli --markdown 发送）
+def build_new_product_card(summary, top_first_day, top_all_time, risks, latest_date):
+    """构造新品日报 interactive card
 
-    设计说明：
-    - 飞书 chat message API 不支持真 interactive 卡片（需要 card v1 API 单独创建）
-    - 通过 --markdown 走 post 模板路径，能保留粗体/分隔线/链接/emoji
-    - 蓝色标题栏/字段并排/真按钮**不能**实现（技术限制）
+    与 gen_daily_report.py 风格一致：
+    - 蓝色 header
+    - 4 字段并排（核心数据）
+    - 模块用 hr 分隔
+    - lark_md 列表渲染 Top N
+    - 底部 action 按钮 + note
     """
     new_count = summary.get("new_product_count", 0)
     total_orders = summary.get("total_new_orders", 0)
     total_amount = summary.get("total_new_amount", 0)
     avg_price = (float(total_amount) / total_orders) if total_orders else 0.0
 
-    # —— 首日 Top N 文本 ——
+    elements = []
+
+    # 头部
+    elements.append(E_md(
+        f"📌 新品日报 · 基于 14 天追踪窗口 · {datetime.now().strftime('%H:%M')} 自动播报"
+    ))
+    elements.append(E_hr())
+
+    # 模块 1：核心数据
+    elements.append(E_fields([
+        ("🆕 新增新品", f"**{new_count}** 个"),
+        ("📦 新品订单", f"**{total_orders}** 单"),
+        ("💰 新品金额", f"**¥{fmt_money(total_amount)}**"),
+        ("💎 平均客单", f"**¥{fmt_money(avg_price)}**"),
+    ]))
+    elements.append(E_hr())
+
+    # 模块 2：首日 Top N
     first_day_text = render_top_lines(top_first_day, latest_date, show_days=False)
     if first_day_text is None:
         first_day_text = "（首日无新品上架）"
+    elements.append(E_md(f"**🆕 今日首日上架 Top {TOP_N}**\n{first_day_text}"))
+    elements.append(E_hr())
 
-    # —— 累计 Top N 文本 ——
+    # 模块 3：累计 Top N
     all_time_text = render_top_lines(top_all_time, latest_date, show_days=True)
     if all_time_text is None:
         all_time_text = "（暂无在追踪的新品）"
+    elements.append(E_md(f"**📈 新品累计 Top {TOP_N}（≤14 天在追踪）**\n{all_time_text}"))
+    elements.append(E_hr())
 
-    # —— 高风险供货商文本 ——
+    # 模块 4：高风险供货商
     if risks:
-        lines = []
+        risk_lines = []
         for s in risks:
             name = short_name(s.get("supplier", ""), 20)
             rate = s.get("close_rate_pct", 0)
             closed = int(s.get("closed", 0) or 0)
-            lines.append(f"· {name}\n   关闭率 {rate}% · 关闭 {closed} 单")
-        risk_text = "\n".join(lines)
+            risk_lines.append(f"· {name}\n   关闭率 **{rate}%** · 关闭 {closed} 单")
+        risk_text = "\n".join(risk_lines)
     else:
         risk_text = "（无高风险供货商）"
+    elements.append(E_md(f"**⚠️ 高风险供货商（关闭率 > {CLOSE_RATE_THRESHOLD}%，其下新品需关注）**\n{risk_text}"))
+    elements.append(E_hr())
 
-    # —— Markdown 拼装（保留粗体/分隔线/链接）——
-    md_lines = [
-        f"## 🆕 新品日报 · {latest_date}",
-        "",
-        f"**📊 核心数据**　新增 **{new_count}** 个　订单 **{total_orders}** 单　金额 **¥{fmt_money(total_amount)}**　客单 **¥{fmt_money(avg_price)}**",
-        "",
-        "---",
-        "",
-        f"**🆕 今日首日上架 Top {TOP_N}**",
-        first_day_text,
-        "",
-        "---",
-        "",
-        f"**📈 新品累计 Top {TOP_N}（≤14 天在追踪）**",
-        all_time_text,
-        "",
-        "---",
-        "",
-        f"**⚠️ 高风险供货商（关闭率>30%，其下新品需关注）**",
-        risk_text,
-        "",
-        "---",
-        "",
-        f"🔗 [**查看新品追踪看板**]({DASHBOARD_URL})",
-        "",
-        f"🤖 多赞看板 · {datetime.now().strftime('%H:%M')} 自动播报",
-    ]
-    return "\n".join(md_lines)
+    # 模块 5：按钮 + note
+    elements.append(E_actions([
+        ("🆕 打开新品追踪看板", "primary", DASHBOARD_URL),
+        ("📊 经营日报", "default", "https://dy.zongzi.fun/daily-report"),
+        ("🏠 工作台", "default", "https://dy.zongzi.fun/"),
+    ]))
+    elements.append(E_note(
+        f"🤖 多赞数据看板 · {datetime.now().strftime('%Y-%m-%d %H:%M')} · chat={CHAT_ID[:8]}…"
+    ))
 
-
-# ---------- 发送 ----------
-def send_card(content, idempotency_key=None):
-    """调 lark-cli 发消息卡片（post + markdown 模板）
-
-    为什么不走 interactive 模板：
-    - lark-cli im +messages-send 走 /open-apis/im/v1/messages，msg_type=interactive 实际被飞书降级为简版
-    - 降级后 fields/lark_md 全部丢失，只剩 hr + action 转 markdown 链接
-    - 真实 interactive 卡片需要走 card v1 API（不在 lark-cli 范围）
-    - post 模板 + --markdown 是 chat message 能用的最佳丰富格式
-    """
-    cmd = [
-        LARK_CLI, "im", "+messages-send",
-        "--as", "bot",
-        "--chat-id", CHAT_ID,
-        "--markdown", content,
-        "--format", "json",
-    ]
-    if idempotency_key:
-        cmd.extend(["--idempotency-key", idempotency_key])
-
-    print(f"📤 目标：chat_id={CHAT_ID}")
-    print(f"📤 类型：post + markdown（飞书 chat message 可用最佳格式）")
-    if idempotency_key:
-        print(f"🔑 幂等键：{idempotency_key}")
-
-    try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-        if result.returncode == 0:
-            print("✅ 发送成功")
-            stdout = (result.stdout or "").strip()
-            message_id = None
-            if stdout:
-                # 尝试从返回 JSON 里抠 message_id
-                try:
-                    resp = json.loads(stdout)
-                    message_id = (
-                        resp.get("data", {}).get("message_id")
-                        or resp.get("message_id")
-                    )
-                except json.JSONDecodeError:
-                    pass
-                # 只打印前 200 字符，避免日志太长
-                print(f"📥 返回：{stdout[:200]}")
-            if message_id:
-                print(f"📨 message_id: {message_id}")
-            else:
-                print("⚠️  未能从返回中解析出 message_id")
-            return message_id
-        else:
-            print(f"❌ 发送失败：returncode={result.returncode}")
-            stderr = (result.stderr or "").strip()
-            stdout = (result.stdout or "").strip()
-            if stderr:
-                print(f"📥 stderr：{stderr[:400]}")
-            if stdout:
-                print(f"📥 stdout：{stdout[:400]}")
-            return None
-    except subprocess.TimeoutExpired:
-        print("❌ 发送超时（30s）")
-        return None
-    except FileNotFoundError:
-        print(f"❌ 找不到 lark-cli: {LARK_CLI}")
-        return None
-    except Exception as e:
-        print(f"❌ 发送异常：{e}")
-        return None
+    return make_card(
+        title=f"🆕 新品日报 · {latest_date}",
+        elements=elements,
+        template=Tpl.BLUE,
+    )
 
 
 # ---------- 主流程 ----------
@@ -315,10 +254,20 @@ def main():
     print(f"⚠️  高风险供货商：{len(risks)} 个")
 
     # 3. 构造 + 发送
-    content = build_card_content(summary, top_first_day, top_all_time, risks, latest_date)
-    # 幂等键：日期 + 当前 HHMMSS（同一分钟内重复调用会因 lark-cli 幂等键去重）
+    card = build_new_product_card(summary, top_first_day, top_all_time, risks, latest_date)
+    # 体积检查
+    import os
+    out = "/tmp/card_new_product.json"
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(card, f, ensure_ascii=False, indent=2)
+    size = os.path.getsize(out)
+    print(f"📤 类型：interactive card（飞书最新格式）")
+    print(f"📤 元素数：{len(card['elements'])}")
+    print(f"📤 卡片大小：{size:,} bytes ({size/1024:.1f} KB)")
+
+    # 幂等键：日期 + HHMMSS
     idempotency_key = f"duozan-newproduct-{latest_date}-{datetime.now().strftime('%H%M%S')}"
-    message_id = send_card(content, idempotency_key=idempotency_key)
+    message_id = send_card(card, CHAT_ID, LARK_CLI, as_user="bot", idempotency_key=idempotency_key)
     return 0 if message_id else 1
 
 
