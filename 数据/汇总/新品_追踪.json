@@ -4,12 +4,96 @@
     "grain": "日"
   },
   "summary": {
-    "new_product_count": 44,
+    "new_product_count": 47,
     "latest_date": "2026-06-05",
-    "total_new_orders": 262,
-    "total_new_amount": 6447.09
+    "total_new_orders": 350,
+    "total_new_amount": 8427.949999999999
   },
   "data": [
+    {
+      "product": "【十月稻田烧烤味玉米10段装】东北烤玉米香甜可口1kg",
+      "product_id": "6971599059509",
+      "first_seen": "2026-06-05",
+      "days_since": 0,
+      "total_order": 1,
+      "total_amount": 24.5,
+      "avg_daily": 1.0,
+      "shops": [
+        "抖店"
+      ],
+      "shop_details": {
+        "抖店": 1
+      },
+      "shop_details_by_shop": {
+        "奕赞营养食品专营店|抖店": {
+          "shop": "奕赞营养食品专营店",
+          "platform": "抖店",
+          "orders": 1,
+          "amount": 24.5
+        }
+      },
+      "main_shop": "奕赞营养食品专营店",
+      "main_shop_platform": "抖店",
+      "daily": {
+        "2026-06-05": 1
+      }
+    },
+    {
+      "product": "比比赞水煮去皮鸡腿健身代餐主食即食解馋饱腹小零食休闲小吃食品",
+      "product_id": "BBZ2269",
+      "first_seen": "2026-06-05",
+      "days_since": 0,
+      "total_order": 1,
+      "total_amount": 5.35,
+      "avg_daily": 1.0,
+      "shops": [
+        "抖店"
+      ],
+      "shop_details": {
+        "抖店": 1
+      },
+      "shop_details_by_shop": {
+        "社畜能量站|抖店": {
+          "shop": "社畜能量站",
+          "platform": "抖店",
+          "orders": 1,
+          "amount": 5.35
+        }
+      },
+      "main_shop": "社畜能量站",
+      "main_shop_platform": "抖店",
+      "daily": {
+        "2026-06-05": 1
+      }
+    },
+    {
+      "product": "比比赞笋尖鸡肉肠轻食鸡胸肉肠减低脂零食肥健身高蛋白代餐解馋",
+      "product_id": "OBLTC2422",
+      "first_seen": "2026-06-05",
+      "days_since": 0,
+      "total_order": 1,
+      "total_amount": 13.41,
+      "avg_daily": 1.0,
+      "shops": [
+        "抖店"
+      ],
+      "shop_details": {
+        "抖店": 1
+      },
+      "shop_details_by_shop": {
+        "社畜能量站|抖店": {
+          "shop": "社畜能量站",
+          "platform": "抖店",
+          "orders": 1,
+          "amount": 13.41
+        }
+      },
+      "main_shop": "社畜能量站",
+      "main_shop_platform": "抖店",
+      "daily": {
+        "2026-06-05": 1
+      }
+    },
     {
       "product": "【25年新玉米】【抖音控价】十月稻田白糯玉米段8段 800g",
       "product_id": "6974382972030",
@@ -99,31 +183,31 @@
     },
     {
       "product": "利达妮老人防滑防摔拖鞋女款夏季室内居家浴室洗澡防臭凉拖男外穿",
-      "product_id": "6978022590332",
+      "product_id": "6978022590226",
       "first_seen": "2026-06-04",
       "days_since": 1,
-      "total_order": 1,
-      "total_amount": 9.5,
-      "avg_daily": 1.0,
+      "total_order": 3,
+      "total_amount": 28.5,
+      "avg_daily": 3.0,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 1
+        "抖店": 3
       },
       "shop_details_by_shop": {
         "社畜能量站|抖店": {
           "shop": "社畜能量站",
           "platform": "抖店",
-          "orders": 1,
-          "amount": 9.5
+          "orders": 3,
+          "amount": 28.5
         }
       },
       "main_shop": "社畜能量站",
       "main_shop_platform": "抖店",
       "daily": {
         "2026-06-04": 1,
-        "2026-06-05": 0
+        "2026-06-05": 2
       }
     },
     {
@@ -161,21 +245,21 @@
       "product_id": "旺家福老卤鸭舌/混合口味1袋",
       "first_seen": "2026-06-03",
       "days_since": 2,
-      "total_order": 17,
-      "total_amount": 477.0,
-      "avg_daily": 8.5,
+      "total_order": 33,
+      "total_amount": 901.0,
+      "avg_daily": 16.5,
       "shops": [
         "拼多多"
       ],
       "shop_details": {
-        "拼多多": 17
+        "拼多多": 33
       },
       "shop_details_by_shop": {
         "潮流食品零食店|拼多多": {
           "shop": "潮流食品零食店",
           "platform": "拼多多",
-          "orders": 17,
-          "amount": 477.0
+          "orders": 33,
+          "amount": 901.0
         }
       },
       "main_shop": "潮流食品零食店",
@@ -183,7 +267,7 @@
       "daily": {
         "2026-06-03": 4,
         "2026-06-04": 13,
-        "2026-06-05": 0
+        "2026-06-05": 16
       }
     },
     {
@@ -191,21 +275,21 @@
       "product_id": "MXW-0734",
       "first_seen": "2026-06-03",
       "days_since": 2,
-      "total_order": 2,
-      "total_amount": 35.0,
-      "avg_daily": 1.0,
+      "total_order": 4,
+      "total_amount": 70.0,
+      "avg_daily": 2.0,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 2
+        "抖店": 4
       },
       "shop_details_by_shop": {
         "社畜能量站|抖店": {
           "shop": "社畜能量站",
           "platform": "抖店",
-          "orders": 2,
-          "amount": 35.0
+          "orders": 4,
+          "amount": 70.0
         }
       },
       "main_shop": "社畜能量站",
@@ -213,7 +297,7 @@
       "daily": {
         "2026-06-03": 1,
         "2026-06-04": 1,
-        "2026-06-05": 0
+        "2026-06-05": 2
       }
     },
     {
@@ -251,16 +335,22 @@
       "product_id": "Kiss-0666",
       "first_seen": "2026-06-02",
       "days_since": 3,
-      "total_order": 1,
-      "total_amount": 18.3,
-      "avg_daily": 0.33,
+      "total_order": 2,
+      "total_amount": 65.9,
+      "avg_daily": 0.67,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 1
+        "抖店": 2
       },
       "shop_details_by_shop": {
+        "暖食杂货集|抖店": {
+          "shop": "暖食杂货集",
+          "platform": "抖店",
+          "orders": 1,
+          "amount": 47.6
+        },
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
           "platform": "抖店",
@@ -268,35 +358,35 @@
           "amount": 18.3
         }
       },
-      "main_shop": "潮食优选好物",
+      "main_shop": "暖食杂货集",
       "main_shop_platform": "抖店",
       "daily": {
         "2026-06-02": 1,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
       "product": "【依能新麦商店大麦茶350ml*6瓶/24瓶】无糖健康饮品适合日常饮用",
-      "product_id": "18.032",
+      "product_id": "18.031",
       "first_seen": "2026-06-02",
       "days_since": 3,
-      "total_order": 1,
-      "total_amount": 112.0,
-      "avg_daily": 0.33,
+      "total_order": 2,
+      "total_amount": 126.5,
+      "avg_daily": 0.67,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 1
+        "抖店": 2
       },
       "shop_details_by_shop": {
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
           "platform": "抖店",
-          "orders": 1,
-          "amount": 112.0
+          "orders": 2,
+          "amount": 126.5
         }
       },
       "main_shop": "潮食优选好物",
@@ -305,7 +395,7 @@
         "2026-06-02": 1,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
@@ -344,21 +434,21 @@
       "product_id": "6935027630487",
       "first_seen": "2026-06-02",
       "days_since": 3,
-      "total_order": 3,
-      "total_amount": 90.0,
-      "avg_daily": 1.0,
+      "total_order": 7,
+      "total_amount": 210.0,
+      "avg_daily": 2.33,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 3
+        "抖店": 7
       },
       "shop_details_by_shop": {
         "社畜能量站|抖店": {
           "shop": "社畜能量站",
           "platform": "抖店",
-          "orders": 3,
-          "amount": 90.0
+          "orders": 7,
+          "amount": 210.0
         }
       },
       "main_shop": "社畜能量站",
@@ -367,7 +457,7 @@
         "2026-06-02": 3,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 4
       }
     },
     {
@@ -438,21 +528,21 @@
       "product_id": "TZ2026011200013",
       "first_seen": "2026-06-01",
       "days_since": 4,
-      "total_order": 2,
-      "total_amount": 48.0,
-      "avg_daily": 0.5,
+      "total_order": 3,
+      "total_amount": 72.0,
+      "avg_daily": 0.75,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 2
+        "抖店": 3
       },
       "shop_details_by_shop": {
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
           "platform": "抖店",
-          "orders": 2,
-          "amount": 48.0
+          "orders": 3,
+          "amount": 72.0
         }
       },
       "main_shop": "潮食优选好物",
@@ -462,7 +552,7 @@
         "2026-06-02": 1,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
@@ -563,24 +653,24 @@
     },
     {
       "product": "【由趣艾草植萃早安裤10片】女性安睡裤经期姨妈巾透气裤型卫生巾",
-      "product_id": "CAXL2",
+      "product_id": "CAML2",
       "first_seen": "2026-05-31",
       "days_since": 5,
-      "total_order": 1,
-      "total_amount": 30.5,
-      "avg_daily": 0.2,
+      "total_order": 2,
+      "total_amount": 61.0,
+      "avg_daily": 0.4,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 1
+        "抖店": 2
       },
       "shop_details_by_shop": {
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
           "platform": "抖店",
-          "orders": 1,
-          "amount": 30.5
+          "orders": 2,
+          "amount": 61.0
         }
       },
       "main_shop": "潮食优选好物",
@@ -591,7 +681,7 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
@@ -671,21 +761,21 @@
       "product_id": "DK20-S50-2彩",
       "first_seen": "2026-05-30",
       "days_since": 6,
-      "total_order": 1,
-      "total_amount": 75.9,
-      "avg_daily": 0.17,
+      "total_order": 3,
+      "total_amount": 227.7,
+      "avg_daily": 0.5,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 1
+        "抖店": 3
       },
       "shop_details_by_shop": {
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
           "platform": "抖店",
-          "orders": 1,
-          "amount": 75.9
+          "orders": 3,
+          "amount": 227.7
         }
       },
       "main_shop": "潮食优选好物",
@@ -697,7 +787,7 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 2
       }
     },
     {
@@ -705,9 +795,9 @@
       "product_id": "HQ-0659",
       "first_seen": "2026-05-30",
       "days_since": 6,
-      "total_order": 50,
-      "total_amount": 950.1,
-      "avg_daily": 8.33,
+      "total_order": 65,
+      "total_amount": 1225.5,
+      "avg_daily": 10.83,
       "shops": [
         "小红书",
         "抖店",
@@ -715,21 +805,21 @@
       ],
       "shop_details": {
         "小红书": 2,
-        "抖店": 6,
-        "拼多多": 42
+        "抖店": 7,
+        "拼多多": 56
       },
       "shop_details_by_shop": {
         "小团子母婴店|拼多多": {
           "shop": "小团子母婴店",
           "platform": "拼多多",
-          "orders": 42,
-          "amount": 749.4
+          "orders": 56,
+          "amount": 1008.6
         },
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
           "platform": "抖店",
-          "orders": 4,
-          "amount": 129.6
+          "orders": 5,
+          "amount": 145.8
         },
         "糖糖的零食屋的店|小红书": {
           "shop": "糖糖的零食屋的店",
@@ -759,7 +849,7 @@
         "2026-06-02": 11,
         "2026-06-03": 17,
         "2026-06-04": 17,
-        "2026-06-05": 0
+        "2026-06-05": 15
       }
     },
     {
@@ -916,29 +1006,29 @@
       "product_id": "HQ-9363",
       "first_seen": "2026-05-28",
       "days_since": 8,
-      "total_order": 52,
-      "total_amount": 1282.0,
-      "avg_daily": 6.5,
+      "total_order": 65,
+      "total_amount": 1733.2,
+      "avg_daily": 8.12,
       "shops": [
         "抖店",
         "拼多多"
       ],
       "shop_details": {
-        "抖店": 5,
-        "拼多多": 47
+        "抖店": 7,
+        "拼多多": 58
       },
       "shop_details_by_shop": {
         "小团子母婴店|拼多多": {
           "shop": "小团子母婴店",
           "platform": "拼多多",
-          "orders": 47,
-          "amount": 1130.4
+          "orders": 58,
+          "amount": 1544.0
         },
         "它智小店|抖店": {
           "shop": "它智小店",
           "platform": "抖店",
-          "orders": 2,
-          "amount": 37.6
+          "orders": 3,
+          "amount": 56.4
         },
         "生鲜厨房仓|抖店": {
           "shop": "生鲜厨房仓",
@@ -951,6 +1041,12 @@
           "platform": "抖店",
           "orders": 1,
           "amount": 22.8
+        },
+        "社畜能量站|抖店": {
+          "shop": "社畜能量站",
+          "platform": "抖店",
+          "orders": 1,
+          "amount": 18.8
         }
       },
       "main_shop": "小团子母婴店",
@@ -964,7 +1060,7 @@
         "2026-06-02": 16,
         "2026-06-03": 16,
         "2026-06-04": 12,
-        "2026-06-05": 0
+        "2026-06-05": 13
       }
     },
     {
@@ -1157,23 +1253,23 @@
       "product_id": "YZM-0915",
       "first_seen": "2026-05-26",
       "days_since": 10,
-      "total_order": 30,
-      "total_amount": 270.6,
-      "avg_daily": 3.0,
+      "total_order": 45,
+      "total_amount": 417.4,
+      "avg_daily": 4.5,
       "shops": [
         "小红书",
         "抖店"
       ],
       "shop_details": {
         "小红书": 1,
-        "抖店": 29
+        "抖店": 44
       },
       "shop_details_by_shop": {
         "它智小店|抖店": {
           "shop": "它智小店",
           "platform": "抖店",
-          "orders": 18,
-          "amount": 163.8
+          "orders": 33,
+          "amount": 310.6
         },
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
@@ -1207,7 +1303,7 @@
         "2026-06-02": 1,
         "2026-06-03": 5,
         "2026-06-04": 15,
-        "2026-06-05": 0
+        "2026-06-05": 15
       }
     },
     {
@@ -1298,21 +1394,23 @@
       "product_id": "YZM-1202",
       "first_seen": "2026-05-25",
       "days_since": 11,
-      "total_order": 27,
-      "total_amount": 292.8,
-      "avg_daily": 2.45,
+      "total_order": 36,
+      "total_amount": 399.6,
+      "avg_daily": 3.27,
       "shops": [
-        "抖店"
+        "抖店",
+        "拼多多"
       ],
       "shop_details": {
-        "抖店": 27
+        "抖店": 35,
+        "拼多多": 1
       },
       "shop_details_by_shop": {
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
           "platform": "抖店",
-          "orders": 18,
-          "amount": 201.0
+          "orders": 25,
+          "amount": 284.4
         },
         "社畜能量站|抖店": {
           "shop": "社畜能量站",
@@ -1329,8 +1427,14 @@
         "它智小店|抖店": {
           "shop": "它智小店",
           "platform": "抖店",
+          "orders": 2,
+          "amount": 22.4
+        },
+        "小团子母婴店|拼多多": {
+          "shop": "小团子母婴店",
+          "platform": "拼多多",
           "orders": 1,
-          "amount": 14.6
+          "amount": 15.6
         }
       },
       "main_shop": "潮食优选好物",
@@ -1347,7 +1451,7 @@
         "2026-06-02": 4,
         "2026-06-03": 5,
         "2026-06-04": 5,
-        "2026-06-05": 0
+        "2026-06-05": 9
       }
     },
     {
@@ -1392,24 +1496,24 @@
     },
     {
       "product": "【强控价盒马同款】山花集新疆杏皮茶古法熬制原味果汁礼盒饮料",
-      "product_id": "100217",
+      "product_id": "100084",
       "first_seen": "2026-05-24",
       "days_since": 12,
-      "total_order": 1,
-      "total_amount": 29.0,
-      "avg_daily": 0.08,
+      "total_order": 2,
+      "total_amount": 46.0,
+      "avg_daily": 0.17,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 1
+        "抖店": 2
       },
       "shop_details_by_shop": {
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
           "platform": "抖店",
-          "orders": 1,
-          "amount": 29.0
+          "orders": 2,
+          "amount": 46.0
         }
       },
       "main_shop": "潮食优选好物",
@@ -1427,7 +1531,7 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
@@ -1475,21 +1579,21 @@
       "product_id": "6913034004194",
       "first_seen": "2026-05-24",
       "days_since": 12,
-      "total_order": 22,
-      "total_amount": 851.0,
-      "avg_daily": 1.83,
+      "total_order": 24,
+      "total_amount": 925.0,
+      "avg_daily": 2.0,
       "shops": [
         "抖店"
       ],
       "shop_details": {
-        "抖店": 22
+        "抖店": 24
       },
       "shop_details_by_shop": {
         "潮食优选好物|抖店": {
           "shop": "潮食优选好物",
           "platform": "抖店",
-          "orders": 22,
-          "amount": 851.0
+          "orders": 24,
+          "amount": 925.0
         }
       },
       "main_shop": "潮食优选好物",
@@ -1507,7 +1611,7 @@
         "2026-06-02": 1,
         "2026-06-03": 8,
         "2026-06-04": 2,
-        "2026-06-05": 0
+        "2026-06-05": 2
       }
     },
     {

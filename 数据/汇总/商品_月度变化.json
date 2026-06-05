@@ -4,7 +4,7 @@
   },
   "summary": {
     "months": 4,
-    "avg_new_per_month": 146.25,
+    "avg_new_per_month": 147.0,
     "avg_gone_per_month": 96.25
   },
   "data": [
@@ -40,11 +40,11 @@
     },
     {
       "month": "2026-06",
-      "pool_size": 113,
-      "new_count": 18,
+      "pool_size": 123,
+      "new_count": 21,
       "gone_count": 0,
-      "kept_count": 95,
-      "net_change": 18,
+      "kept_count": 102,
+      "net_change": 21,
       "days_with_data": 5,
       "incomplete": true
     }

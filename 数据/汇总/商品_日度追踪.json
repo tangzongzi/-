@@ -21,11 +21,11 @@
       "2026-06-04",
       "2026-06-05"
     ],
-    "up_count": 0,
-    "down_count": 12,
-    "new_count": 3,
+    "up_count": 8,
+    "down_count": 7,
+    "new_count": 5,
     "growth_count": 16,
-    "mature_count": 61,
+    "mature_count": 59,
     "decline_count": 0
   },
   "data": [
@@ -115,9 +115,9 @@
     },
     {
       "product": "【1828王老吉姜汁可乐330ml】碳酸饮料无糖0脂0卡健康享受",
-      "total_order": 3,
-      "total_amount": 35.9,
-      "last_day_order": 0,
+      "total_order": 4,
+      "total_amount": 75.8,
+      "last_day_order": 1,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -138,17 +138,17 @@
         "2026-06-02": 0,
         "2026-06-03": 1,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
       "product": "【20个】天海藏门钉牛肉饼肉厚皮薄早餐大肉馅速食老北京特色美食",
-      "total_order": 31,
-      "total_amount": 775.0,
-      "last_day_order": 0,
+      "total_order": 40,
+      "total_amount": 1000.0,
+      "last_day_order": 9,
       "prev_day_order": 7,
-      "mom_pct": -100.0,
-      "trend": "flat",
+      "mom_pct": 28.6,
+      "trend": "up",
       "lifecycle": "mature",
       "age_days": 96,
       "decline_days": 0,
@@ -166,7 +166,7 @@
         "2026-06-02": 7,
         "2026-06-03": 5,
         "2026-06-04": 7,
-        "2026-06-05": 0
+        "2026-06-05": 9
       }
     },
     {
@@ -255,11 +255,11 @@
     },
     {
       "product": "【3袋/10袋】天海藏黑鱼金汤酸菜鱼430g/袋 顺丰京东发货甄选活鱼",
-      "total_order": 17,
-      "total_amount": 697.0,
-      "last_day_order": 1,
+      "total_order": 18,
+      "total_amount": 733.0,
+      "last_day_order": 2,
       "prev_day_order": 1,
-      "mom_pct": 0.0,
+      "mom_pct": 100.0,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 96,
@@ -278,20 +278,20 @@
         "2026-06-02": 1,
         "2026-06-03": 2,
         "2026-06-04": 1,
-        "2026-06-05": 1
+        "2026-06-05": 2
       }
     },
     {
       "product": "【3袋】天海藏广味腊肠 炒菜香肠腊肉肠煲仔饭传统广式美味下酒菜",
-      "total_order": 48,
-      "total_amount": 773.0,
-      "last_day_order": 0,
+      "total_order": 50,
+      "total_amount": 804.0,
+      "last_day_order": 2,
       "prev_day_order": 7,
-      "mom_pct": -100.0,
+      "mom_pct": -71.4,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 96,
-      "decline_days": 0,
+      "decline_days": 1,
       "daily": {
         "2026-05-23": 5,
         "2026-05-24": 3,
@@ -306,7 +306,7 @@
         "2026-06-02": 2,
         "2026-06-03": 4,
         "2026-06-04": 7,
-        "2026-06-05": 0
+        "2026-06-05": 2
       }
     },
     {
@@ -339,15 +339,15 @@
     },
     {
       "product": "【不支持退件，请退回自己仓库】貂馋不馋 鲜米皮7袋*310g/袋麻酱",
-      "total_order": 6,
-      "total_amount": 100.2,
-      "last_day_order": 1,
+      "total_order": 5,
+      "total_amount": 83.5,
+      "last_day_order": 0,
       "prev_day_order": 2,
-      "mom_pct": -50.0,
+      "mom_pct": -100.0,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 46,
-      "decline_days": 1,
+      "decline_days": 0,
       "daily": {
         "2026-05-23": 0,
         "2026-05-24": 1,
@@ -362,90 +362,6 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 2,
-        "2026-06-05": 1
-      }
-    },
-    {
-      "product": "【两分钟即食】林饱饱芝士牛肉卷鸡肉卷肉嫩多汁美味冷冻营养早餐",
-      "total_order": 3,
-      "total_amount": 115.96,
-      "last_day_order": 0,
-      "prev_day_order": 0,
-      "mom_pct": null,
-      "trend": "flat",
-      "lifecycle": "mature",
-      "age_days": 96,
-      "decline_days": 0,
-      "daily": {
-        "2026-05-23": 0,
-        "2026-05-24": 0,
-        "2026-05-25": 0,
-        "2026-05-26": 0,
-        "2026-05-27": 1,
-        "2026-05-28": 0,
-        "2026-05-29": 1,
-        "2026-05-30": 1,
-        "2026-05-31": 0,
-        "2026-06-01": 0,
-        "2026-06-02": 0,
-        "2026-06-03": 0,
-        "2026-06-04": 0,
-        "2026-06-05": 0
-      }
-    },
-    {
-      "product": "【乌江肉末豇豆138克】下饭菜酸脆豇豆",
-      "total_order": 3,
-      "total_amount": 35.6,
-      "last_day_order": 0,
-      "prev_day_order": 0,
-      "mom_pct": null,
-      "trend": "flat",
-      "lifecycle": "mature",
-      "age_days": 82,
-      "decline_days": 0,
-      "daily": {
-        "2026-05-23": 0,
-        "2026-05-24": 1,
-        "2026-05-25": 0,
-        "2026-05-26": 0,
-        "2026-05-27": 0,
-        "2026-05-28": 0,
-        "2026-05-29": 0,
-        "2026-05-30": 1,
-        "2026-05-31": 1,
-        "2026-06-01": 0,
-        "2026-06-02": 0,
-        "2026-06-03": 0,
-        "2026-06-04": 0,
-        "2026-06-05": 0
-      }
-    },
-    {
-      "product": "【健力宝第5季番石榴果味饮料310ml24罐】含真果汁维C水果饮品清",
-      "total_order": 3,
-      "total_amount": 42.3,
-      "last_day_order": 0,
-      "prev_day_order": 0,
-      "mom_pct": null,
-      "trend": "flat",
-      "lifecycle": "mature",
-      "age_days": 53,
-      "decline_days": 0,
-      "daily": {
-        "2026-05-23": 0,
-        "2026-05-24": 0,
-        "2026-05-25": 0,
-        "2026-05-26": 0,
-        "2026-05-27": 0,
-        "2026-05-28": 0,
-        "2026-05-29": 0,
-        "2026-05-30": 2,
-        "2026-05-31": 0,
-        "2026-06-01": 1,
-        "2026-06-02": 0,
-        "2026-06-03": 0,
-        "2026-06-04": 0,
         "2026-06-05": 0
       }
     },
@@ -473,34 +389,6 @@
         "2026-06-01": 0,
         "2026-06-02": 0,
         "2026-06-03": 2,
-        "2026-06-04": 0,
-        "2026-06-05": 0
-      }
-    },
-    {
-      "product": "【冷卡荞麦面葱油拌面80g】方便面带调料包代餐速食方便面速食面",
-      "total_order": 3,
-      "total_amount": 95.7,
-      "last_day_order": 0,
-      "prev_day_order": 0,
-      "mom_pct": null,
-      "trend": "flat",
-      "lifecycle": "growth",
-      "age_days": 8,
-      "decline_days": 0,
-      "daily": {
-        "2026-05-23": 0,
-        "2026-05-24": 0,
-        "2026-05-25": 0,
-        "2026-05-26": 0,
-        "2026-05-27": 0,
-        "2026-05-28": 1,
-        "2026-05-29": 0,
-        "2026-05-30": 0,
-        "2026-05-31": 0,
-        "2026-06-01": 2,
-        "2026-06-02": 0,
-        "2026-06-03": 0,
         "2026-06-04": 0,
         "2026-06-05": 0
       }
@@ -535,15 +423,15 @@
     },
     {
       "product": "【双拼宽面】芯蒸呈定制宽面超辣火鸡面麻酱火鸡面113g",
-      "total_order": 12,
-      "total_amount": 203.04,
-      "last_day_order": 0,
+      "total_order": 14,
+      "total_amount": 236.88,
+      "last_day_order": 2,
       "prev_day_order": 6,
-      "mom_pct": -100.0,
+      "mom_pct": -66.7,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 93,
-      "decline_days": 0,
+      "decline_days": 1,
       "daily": {
         "2026-05-23": 1,
         "2026-05-24": 1,
@@ -558,13 +446,41 @@
         "2026-06-02": 2,
         "2026-06-03": 0,
         "2026-06-04": 6,
-        "2026-06-05": 0
+        "2026-06-05": 2
+      }
+    },
+    {
+      "product": "【可可满分椰香茉莉茉莉抹茶1L】上新口味清爽果茶真花真茶家庭装",
+      "total_order": 3,
+      "total_amount": 56.4,
+      "last_day_order": 1,
+      "prev_day_order": 0,
+      "mom_pct": null,
+      "trend": "flat",
+      "lifecycle": "mature",
+      "age_days": 55,
+      "decline_days": 0,
+      "daily": {
+        "2026-05-23": 0,
+        "2026-05-24": 0,
+        "2026-05-25": 0,
+        "2026-05-26": 0,
+        "2026-05-27": 0,
+        "2026-05-28": 0,
+        "2026-05-29": 0,
+        "2026-05-30": 1,
+        "2026-05-31": 0,
+        "2026-06-01": 1,
+        "2026-06-02": 0,
+        "2026-06-03": 0,
+        "2026-06-04": 0,
+        "2026-06-05": 1
       }
     },
     {
       "product": "【商超同款】海盐苏打饼干奶盐味咸味梳打养胃无蔗糖零食代餐早餐",
-      "total_order": 29,
-      "total_amount": 366.55,
+      "total_order": 28,
+      "total_amount": 359.95,
       "last_day_order": 0,
       "prev_day_order": 3,
       "mom_pct": -100.0,
@@ -582,7 +498,7 @@
         "2026-05-29": 0,
         "2026-05-30": 2,
         "2026-05-31": 1,
-        "2026-06-01": 4,
+        "2026-06-01": 3,
         "2026-06-02": 4,
         "2026-06-03": 5,
         "2026-06-04": 3,
@@ -590,44 +506,16 @@
       }
     },
     {
-      "product": "【库存已补足】天海藏香酥带鱼段300g/袋 外酥里嫩色泽金",
-      "total_order": 3,
-      "total_amount": 81.55,
-      "last_day_order": 0,
-      "prev_day_order": 0,
-      "mom_pct": null,
+      "product": "【恢复原价，否则取消合作】【10盒】天海藏 麻辣小龙虾尾250g/盒",
+      "total_order": 246,
+      "total_amount": 11045.5,
+      "last_day_order": 17,
+      "prev_day_order": 17,
+      "mom_pct": 0.0,
       "trend": "flat",
       "lifecycle": "mature",
-      "age_days": 90,
-      "decline_days": 0,
-      "daily": {
-        "2026-05-23": 0,
-        "2026-05-24": 0,
-        "2026-05-25": 0,
-        "2026-05-26": 1,
-        "2026-05-27": 0,
-        "2026-05-28": 0,
-        "2026-05-29": 0,
-        "2026-05-30": 0,
-        "2026-05-31": 0,
-        "2026-06-01": 1,
-        "2026-06-02": 1,
-        "2026-06-03": 0,
-        "2026-06-04": 0,
-        "2026-06-05": 0
-      }
-    },
-    {
-      "product": "【恢复原价，否则取消合作】【10盒】天海藏 麻辣小龙虾尾250g/盒",
-      "total_order": 231,
-      "total_amount": 10364.5,
-      "last_day_order": 2,
-      "prev_day_order": 17,
-      "mom_pct": -88.2,
-      "trend": "down",
-      "lifecycle": "mature",
       "age_days": 57,
-      "decline_days": 2,
+      "decline_days": 0,
       "daily": {
         "2026-05-23": 12,
         "2026-05-24": 14,
@@ -642,20 +530,20 @@
         "2026-06-02": 6,
         "2026-06-03": 19,
         "2026-06-04": 17,
-        "2026-06-05": 2
+        "2026-06-05": 17
       }
     },
     {
       "product": "【控价1箱2包64.9元】布班迪甄芯薄纸尿裤拉拉裤婴儿超薄尿不湿",
-      "total_order": 149,
-      "total_amount": 9222.0,
-      "last_day_order": 0,
+      "total_order": 150,
+      "total_amount": 9280.0,
+      "last_day_order": 1,
       "prev_day_order": 5,
-      "mom_pct": -100.0,
+      "mom_pct": -80.0,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 39,
-      "decline_days": 0,
+      "decline_days": 1,
       "daily": {
         "2026-05-23": 10,
         "2026-05-24": 11,
@@ -670,7 +558,7 @@
         "2026-06-02": 13,
         "2026-06-03": 5,
         "2026-06-04": 5,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
@@ -703,9 +591,9 @@
     },
     {
       "product": "【控价1箱2包99元】布班迪灵龙裤Pro婴儿纸尿裤拉拉裤尿不湿",
-      "total_order": 9,
-      "total_amount": 1050.0,
-      "last_day_order": 0,
+      "total_order": 10,
+      "total_amount": 1120.0,
+      "last_day_order": 1,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -726,20 +614,20 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
       "product": "【新品奶油火鸡面】芯蒸呈定制宽面奶油火鸡面拌面上班族夜宵速食",
-      "total_order": 180,
-      "total_amount": 4289.95,
-      "last_day_order": 0,
+      "total_order": 187,
+      "total_amount": 4412.52,
+      "last_day_order": 7,
       "prev_day_order": 16,
-      "mom_pct": -100.0,
+      "mom_pct": -56.2,
       "trend": "down",
       "lifecycle": "mature",
       "age_days": 65,
-      "decline_days": 0,
+      "decline_days": 2,
       "daily": {
         "2026-05-23": 14,
         "2026-05-24": 19,
@@ -754,17 +642,17 @@
         "2026-06-02": 13,
         "2026-06-03": 20,
         "2026-06-04": 16,
-        "2026-06-05": 0
+        "2026-06-05": 7
       }
     },
     {
       "product": "【旺家福老卤鸭舌18-20支装】",
-      "total_order": 17,
-      "total_amount": 477.0,
-      "last_day_order": 0,
+      "total_order": 33,
+      "total_amount": 901.0,
+      "last_day_order": 16,
       "prev_day_order": 13,
-      "mom_pct": -100.0,
-      "trend": "flat",
+      "mom_pct": 23.1,
+      "trend": "up",
       "lifecycle": "new",
       "age_days": 2,
       "decline_days": 0,
@@ -782,17 +670,101 @@
         "2026-06-02": 0,
         "2026-06-03": 4,
         "2026-06-04": 13,
-        "2026-06-05": 0
+        "2026-06-05": 16
+      }
+    },
+    {
+      "product": "【最后100件 授权到期】格力高百力滋轻松小熊复古双拼萌趣礼盒",
+      "total_order": 3,
+      "total_amount": 72.0,
+      "last_day_order": 1,
+      "prev_day_order": 0,
+      "mom_pct": null,
+      "trend": "flat",
+      "lifecycle": "new",
+      "age_days": 4,
+      "decline_days": 0,
+      "daily": {
+        "2026-05-23": 0,
+        "2026-05-24": 0,
+        "2026-05-25": 0,
+        "2026-05-26": 0,
+        "2026-05-27": 0,
+        "2026-05-28": 0,
+        "2026-05-29": 0,
+        "2026-05-30": 0,
+        "2026-05-31": 0,
+        "2026-06-01": 1,
+        "2026-06-02": 1,
+        "2026-06-03": 0,
+        "2026-06-04": 0,
+        "2026-06-05": 1
+      }
+    },
+    {
+      "product": "【棉小宛柔风轻羽迷你巾80片】羽感轻盈无感守护敏感肌",
+      "total_order": 4,
+      "total_amount": 70.0,
+      "last_day_order": 2,
+      "prev_day_order": 1,
+      "mom_pct": 100.0,
+      "trend": "flat",
+      "lifecycle": "new",
+      "age_days": 2,
+      "decline_days": 0,
+      "daily": {
+        "2026-05-23": 0,
+        "2026-05-24": 0,
+        "2026-05-25": 0,
+        "2026-05-26": 0,
+        "2026-05-27": 0,
+        "2026-05-28": 0,
+        "2026-05-29": 0,
+        "2026-05-30": 0,
+        "2026-05-31": 0,
+        "2026-06-01": 0,
+        "2026-06-02": 0,
+        "2026-06-03": 1,
+        "2026-06-04": 1,
+        "2026-06-05": 2
+      }
+    },
+    {
+      "product": "【永不咖啡黑咖啡加点奶500mL】低脂蛋白咖啡饮品轻盈畅饮适合健",
+      "total_order": 3,
+      "total_amount": 61.5,
+      "last_day_order": 1,
+      "prev_day_order": 0,
+      "mom_pct": null,
+      "trend": "flat",
+      "lifecycle": "growth",
+      "age_days": 18,
+      "decline_days": 0,
+      "daily": {
+        "2026-05-23": 0,
+        "2026-05-24": 0,
+        "2026-05-25": 0,
+        "2026-05-26": 0,
+        "2026-05-27": 1,
+        "2026-05-28": 0,
+        "2026-05-29": 0,
+        "2026-05-30": 0,
+        "2026-05-31": 1,
+        "2026-06-01": 0,
+        "2026-06-02": 0,
+        "2026-06-03": 0,
+        "2026-06-04": 0,
+        "2026-06-05": 1
       }
     },
     {
       "product": "【王老吉八宝粥320g*6-12罐】营养丰富口感弹糯慢熬好粥",
-      "total_order": 13,
-      "total_amount": 193.7,
-      "last_day_order": 0,
+      "total_order": 14,
+      "total_amount": 208.6,
+      "last_day_order": 1,
       "prev_day_order": 1,
-      "mom_pct": -100.0,
-      "trend": "down",
+      "mom_pct": 0.0,
+      "trend": "flat",
       "lifecycle": "mature",
       "age_days": 96,
       "decline_days": 0,
@@ -810,7 +782,7 @@
         "2026-06-02": 0,
         "2026-06-03": 3,
         "2026-06-04": 1,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
@@ -843,12 +815,12 @@
     },
     {
       "product": "【良品壹面奶油火鸡面6包芝士火鸡面6包】方便面美味组合装",
-      "total_order": 13,
-      "total_amount": 215.93,
-      "last_day_order": 0,
+      "total_order": 15,
+      "total_amount": 249.15,
+      "last_day_order": 2,
       "prev_day_order": 1,
-      "mom_pct": -100.0,
-      "trend": "flat",
+      "mom_pct": 100.0,
+      "trend": "up",
       "lifecycle": "mature",
       "age_days": 91,
       "decline_days": 0,
@@ -866,20 +838,20 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 1,
-        "2026-06-05": 0
+        "2026-06-05": 2
       }
     },
     {
       "product": "【芯蒸呈火鸡面12包三拼】网红速食面条多种口味组合装",
-      "total_order": 81,
-      "total_amount": 1467.72,
-      "last_day_order": 0,
+      "total_order": 82,
+      "total_amount": 1485.84,
+      "last_day_order": 1,
       "prev_day_order": 5,
-      "mom_pct": -100.0,
+      "mom_pct": -80.0,
       "trend": "down",
       "lifecycle": "mature",
       "age_days": 96,
-      "decline_days": 0,
+      "decline_days": 2,
       "daily": {
         "2026-05-23": 3,
         "2026-05-24": 14,
@@ -894,16 +866,16 @@
         "2026-06-02": 4,
         "2026-06-03": 6,
         "2026-06-04": 5,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
       "product": "【芯蒸呈番茄肉酱味火鸡面12包】方便面辣味十足过瘾",
-      "total_order": 452,
-      "total_amount": 9953.16,
-      "last_day_order": 1,
+      "total_order": 477,
+      "total_amount": 10521.42,
+      "last_day_order": 26,
       "prev_day_order": 52,
-      "mom_pct": -98.1,
+      "mom_pct": -50.0,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 96,
@@ -922,7 +894,7 @@
         "2026-06-02": 43,
         "2026-06-03": 35,
         "2026-06-04": 52,
-        "2026-06-05": 1
+        "2026-06-05": 26
       }
     },
     {
@@ -955,12 +927,12 @@
     },
     {
       "product": "【花期山茶云柔安睡裤40片】女性经期安心裤透气防漏舒适睡眠专用",
-      "total_order": 52,
-      "total_amount": 1282.0,
-      "last_day_order": 0,
+      "total_order": 65,
+      "total_amount": 1733.2,
+      "last_day_order": 13,
       "prev_day_order": 12,
-      "mom_pct": -100.0,
-      "trend": "down",
+      "mom_pct": 8.3,
+      "trend": "flat",
       "lifecycle": "growth",
       "age_days": 8,
       "decline_days": 0,
@@ -978,20 +950,20 @@
         "2026-06-02": 16,
         "2026-06-03": 16,
         "2026-06-04": 12,
-        "2026-06-05": 0
+        "2026-06-05": 13
       }
     },
     {
       "product": "【花期早安裤30条】安心裤奢柔云感通勤8小时白天随心换",
-      "total_order": 50,
-      "total_amount": 950.1,
-      "last_day_order": 0,
+      "total_order": 65,
+      "total_amount": 1225.5,
+      "last_day_order": 15,
       "prev_day_order": 17,
-      "mom_pct": -100.0,
+      "mom_pct": -11.8,
       "trend": "flat",
       "lifecycle": "new",
       "age_days": 6,
-      "decline_days": 0,
+      "decline_days": 1,
       "daily": {
         "2026-05-23": 0,
         "2026-05-24": 0,
@@ -1006,14 +978,14 @@
         "2026-06-02": 11,
         "2026-06-03": 17,
         "2026-06-04": 17,
-        "2026-06-05": 0
+        "2026-06-05": 15
       }
     },
     {
       "product": "【页面价10.9以上，到手价13.9否则取消合作】泰新鲜金桂乌龙",
-      "total_order": 6,
-      "total_amount": 71.58,
-      "last_day_order": 0,
+      "total_order": 11,
+      "total_amount": 131.23,
+      "last_day_order": 5,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -1034,17 +1006,45 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 5
+      }
+    },
+    {
+      "product": "【页面价10.9以上，到手价13.9否则拉黑】泰新鲜青柑普洱茶",
+      "total_order": 3,
+      "total_amount": 59.65,
+      "last_day_order": 1,
+      "prev_day_order": 0,
+      "mom_pct": null,
+      "trend": "flat",
+      "lifecycle": "mature",
+      "age_days": 52,
+      "decline_days": 0,
+      "daily": {
+        "2026-05-23": 0,
+        "2026-05-24": 0,
+        "2026-05-25": 0,
+        "2026-05-26": 0,
+        "2026-05-27": 1,
+        "2026-05-28": 0,
+        "2026-05-29": 0,
+        "2026-05-30": 0,
+        "2026-05-31": 0,
+        "2026-06-01": 0,
+        "2026-06-02": 1,
+        "2026-06-03": 0,
+        "2026-06-04": 0,
+        "2026-06-05": 1
       }
     },
     {
       "product": "【页面价10.9以上，到手价13.9否则拉黑】茉莉原味茶饮料",
-      "total_order": 11,
-      "total_amount": 143.16,
-      "last_day_order": 0,
+      "total_order": 16,
+      "total_amount": 202.81,
+      "last_day_order": 5,
       "prev_day_order": 2,
-      "mom_pct": -100.0,
-      "trend": "flat",
+      "mom_pct": 150.0,
+      "trend": "up",
       "lifecycle": "mature",
       "age_days": 63,
       "decline_days": 0,
@@ -1062,20 +1062,20 @@
         "2026-06-02": 2,
         "2026-06-03": 1,
         "2026-06-04": 2,
-        "2026-06-05": 0
+        "2026-06-05": 5
       }
     },
     {
       "product": "【麻酱火鸡刀削面】芯蒸呈浓香麻酱火鸡面夜宵速食开学季吃",
-      "total_order": 64,
-      "total_amount": 1391.19,
-      "last_day_order": 0,
+      "total_order": 65,
+      "total_amount": 1408.8,
+      "last_day_order": 1,
       "prev_day_order": 2,
-      "mom_pct": -100.0,
+      "mom_pct": -50.0,
       "trend": "down",
       "lifecycle": "mature",
       "age_days": 96,
-      "decline_days": 0,
+      "decline_days": 2,
       "daily": {
         "2026-05-23": 16,
         "2026-05-24": 13,
@@ -1090,16 +1090,16 @@
         "2026-06-02": 0,
         "2026-06-03": 3,
         "2026-06-04": 2,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
       "product": "【麻酱火鸡面】芯蒸呈浓香麻酱火鸡面113g韩式泡面拌面",
-      "total_order": 240,
-      "total_amount": 4563.58,
-      "last_day_order": 1,
+      "total_order": 257,
+      "total_amount": 4968.84,
+      "last_day_order": 18,
       "prev_day_order": 25,
-      "mom_pct": -96.0,
+      "mom_pct": -28.0,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 95,
@@ -1118,14 +1118,14 @@
         "2026-06-02": 16,
         "2026-06-03": 18,
         "2026-06-04": 25,
-        "2026-06-05": 1
+        "2026-06-05": 18
       }
     },
     {
       "product": "上行斋和风生巧大福 17枚网红香浓巧克力福团糯米糍脏脏团雪媚娘",
-      "total_order": 7,
-      "total_amount": 139.3,
-      "last_day_order": 0,
+      "total_order": 8,
+      "total_amount": 179.1,
+      "last_day_order": 1,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -1146,16 +1146,16 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
       "product": "云枝棉洗脸巾到手2提鎏光金精装母婴可用柔软加厚珍珠纹洁面巾",
-      "total_order": 30,
-      "total_amount": 270.6,
-      "last_day_order": 0,
+      "total_order": 45,
+      "total_amount": 417.4,
+      "last_day_order": 15,
       "prev_day_order": 15,
-      "mom_pct": -100.0,
+      "mom_pct": 0.0,
       "trend": "flat",
       "lifecycle": "growth",
       "age_days": 10,
@@ -1174,16 +1174,16 @@
         "2026-06-02": 1,
         "2026-06-03": 5,
         "2026-06-04": 15,
-        "2026-06-05": 0
+        "2026-06-05": 15
       }
     },
     {
       "product": "云枝棉洗脸巾加赠精品毛绒发夹珍珠纹特厚款卸妆干湿两用悬挂底抽",
-      "total_order": 27,
-      "total_amount": 292.8,
-      "last_day_order": 0,
+      "total_order": 36,
+      "total_amount": 399.6,
+      "last_day_order": 9,
       "prev_day_order": 5,
-      "mom_pct": -100.0,
+      "mom_pct": 80.0,
       "trend": "flat",
       "lifecycle": "growth",
       "age_days": 11,
@@ -1202,7 +1202,35 @@
         "2026-06-02": 4,
         "2026-06-03": 5,
         "2026-06-04": 5,
-        "2026-06-05": 0
+        "2026-06-05": 9
+      }
+    },
+    {
+      "product": "健力宝无糖橙蜜味330ml*24罐碳酸饮料零糖配方清爽火锅烧烤搭档",
+      "total_order": 3,
+      "total_amount": 168.9,
+      "last_day_order": 1,
+      "prev_day_order": 1,
+      "mom_pct": 0.0,
+      "trend": "flat",
+      "lifecycle": "mature",
+      "age_days": 66,
+      "decline_days": 0,
+      "daily": {
+        "2026-05-23": 0,
+        "2026-05-24": 0,
+        "2026-05-25": 0,
+        "2026-05-26": 0,
+        "2026-05-27": 0,
+        "2026-05-28": 0,
+        "2026-05-29": 0,
+        "2026-05-30": 0,
+        "2026-05-31": 0,
+        "2026-06-01": 0,
+        "2026-06-02": 1,
+        "2026-06-03": 0,
+        "2026-06-04": 1,
+        "2026-06-05": 1
       }
     },
     {
@@ -1235,11 +1263,11 @@
     },
     {
       "product": "十月稻田玉米糙米饭团",
-      "total_order": 8,
-      "total_amount": 154.0,
-      "last_day_order": 0,
+      "total_order": 9,
+      "total_amount": 168.0,
+      "last_day_order": 1,
       "prev_day_order": 1,
-      "mom_pct": -100.0,
+      "mom_pct": 0.0,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 93,
@@ -1258,20 +1286,20 @@
         "2026-06-02": 1,
         "2026-06-03": 1,
         "2026-06-04": 1,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
       "product": "品牌直发 耶气满满100%香水椰300ml*12瓶椰子水电解质水",
-      "total_order": 79,
-      "total_amount": 3600.0,
-      "last_day_order": 0,
+      "total_order": 86,
+      "total_amount": 3880.0,
+      "last_day_order": 6,
       "prev_day_order": 7,
-      "mom_pct": -100.0,
+      "mom_pct": -14.3,
       "trend": "flat",
       "lifecycle": "growth",
       "age_days": 26,
-      "decline_days": 0,
+      "decline_days": 1,
       "daily": {
         "2026-05-23": 4,
         "2026-05-24": 7,
@@ -1282,11 +1310,11 @@
         "2026-05-29": 9,
         "2026-05-30": 4,
         "2026-05-31": 5,
-        "2026-06-01": 11,
+        "2026-06-01": 12,
         "2026-06-02": 7,
         "2026-06-03": 2,
         "2026-06-04": 7,
-        "2026-06-05": 0
+        "2026-06-05": 6
       }
     },
     {
@@ -1319,15 +1347,15 @@
     },
     {
       "product": "山姆多香葱薄脆饼干休闲零食超市同款独立包装一件代发",
-      "total_order": 103,
-      "total_amount": 1444.0,
-      "last_day_order": 0,
+      "total_order": 114,
+      "total_amount": 1598.0,
+      "last_day_order": 11,
       "prev_day_order": 12,
-      "mom_pct": -100.0,
+      "mom_pct": -8.3,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 93,
-      "decline_days": 0,
+      "decline_days": 1,
       "daily": {
         "2026-05-23": 5,
         "2026-05-24": 9,
@@ -1342,14 +1370,14 @@
         "2026-06-02": 6,
         "2026-06-03": 7,
         "2026-06-04": 12,
-        "2026-06-05": 0
+        "2026-06-05": 11
       }
     },
     {
       "product": "山姆多黑松露火腿苏打饼干500g整箱批发山藜麦奇亚籽风味一件代发",
-      "total_order": 12,
-      "total_amount": 164.46,
-      "last_day_order": 0,
+      "total_order": 13,
+      "total_amount": 184.36,
+      "last_day_order": 1,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -1370,17 +1398,17 @@
         "2026-06-02": 2,
         "2026-06-03": 3,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
       "product": "思念上汤小云吞三鲜馄饨荠菜猪肉抄手120g15只方便冷冻速食快早餐",
-      "total_order": 17,
-      "total_amount": 817.2,
-      "last_day_order": 0,
+      "total_order": 19,
+      "total_amount": 902.8,
+      "last_day_order": 2,
       "prev_day_order": 1,
-      "mom_pct": -100.0,
-      "trend": "flat",
+      "mom_pct": 100.0,
+      "trend": "up",
       "lifecycle": "mature",
       "age_days": 96,
       "decline_days": 0,
@@ -1398,20 +1426,20 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 1,
-        "2026-06-05": 0
+        "2026-06-05": 2
       }
     },
     {
       "product": "控价已解决，后续有问题及时配合【麦醉侠红油麻酱凉皮】",
-      "total_order": 38,
-      "total_amount": 958.2,
-      "last_day_order": 2,
+      "total_order": 52,
+      "total_amount": 1241.3,
+      "last_day_order": 16,
       "prev_day_order": 6,
-      "mom_pct": -66.7,
-      "trend": "flat",
+      "mom_pct": 166.7,
+      "trend": "up",
       "lifecycle": "growth",
       "age_days": 25,
-      "decline_days": 1,
+      "decline_days": 0,
       "daily": {
         "2026-05-23": 2,
         "2026-05-24": 0,
@@ -1426,7 +1454,7 @@
         "2026-06-02": 2,
         "2026-06-03": 1,
         "2026-06-04": 6,
-        "2026-06-05": 2
+        "2026-06-05": 16
       }
     },
     {
@@ -1459,15 +1487,15 @@
     },
     {
       "product": "林饱饱糯米海苔饭团大分量加热即食营养美食早餐夜宵",
-      "total_order": 10,
-      "total_amount": 327.2,
-      "last_day_order": 0,
+      "total_order": 11,
+      "total_amount": 359.92,
+      "last_day_order": 1,
       "prev_day_order": 3,
-      "mom_pct": -100.0,
+      "mom_pct": -66.7,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 96,
-      "decline_days": 0,
+      "decline_days": 1,
       "daily": {
         "2026-05-23": 2,
         "2026-05-24": 0,
@@ -1482,7 +1510,7 @@
         "2026-06-02": 0,
         "2026-06-03": 2,
         "2026-06-04": 3,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
@@ -1543,15 +1571,15 @@
     },
     {
       "product": "猴头菇山药苏打饼干咸味无糖梳打早餐代餐休闲零食整箱包装饼干",
-      "total_order": 69,
-      "total_amount": 1023.63,
-      "last_day_order": 0,
+      "total_order": 74,
+      "total_amount": 1095.03,
+      "last_day_order": 5,
       "prev_day_order": 6,
-      "mom_pct": -100.0,
+      "mom_pct": -16.7,
       "trend": "down",
       "lifecycle": "mature",
       "age_days": 96,
-      "decline_days": 0,
+      "decline_days": 2,
       "daily": {
         "2026-05-23": 5,
         "2026-05-24": 3,
@@ -1566,7 +1594,7 @@
         "2026-06-02": 6,
         "2026-06-03": 7,
         "2026-06-04": 6,
-        "2026-06-05": 0
+        "2026-06-05": 5
       }
     },
     {
@@ -1598,10 +1626,38 @@
       }
     },
     {
+      "product": "百菲酪水牛高钙奶200ml*10盒/箱",
+      "total_order": 3,
+      "total_amount": 84.0,
+      "last_day_order": 1,
+      "prev_day_order": 0,
+      "mom_pct": null,
+      "trend": "flat",
+      "lifecycle": "growth",
+      "age_days": 26,
+      "decline_days": 0,
+      "daily": {
+        "2026-05-23": 0,
+        "2026-05-24": 0,
+        "2026-05-25": 0,
+        "2026-05-26": 0,
+        "2026-05-27": 0,
+        "2026-05-28": 0,
+        "2026-05-29": 0,
+        "2026-05-30": 0,
+        "2026-05-31": 0,
+        "2026-06-01": 0,
+        "2026-06-02": 1,
+        "2026-06-03": 1,
+        "2026-06-04": 0,
+        "2026-06-05": 1
+      }
+    },
+    {
       "product": "破价不发货麻六记袋装266g酸辣粉加量不加价方便速食川渝汤粉",
-      "total_order": 6,
-      "total_amount": 286.29,
-      "last_day_order": 0,
+      "total_order": 7,
+      "total_amount": 347.8,
+      "last_day_order": 1,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -1622,7 +1678,7 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
@@ -1655,15 +1711,15 @@
     },
     {
       "product": "美味壹客全麦坚果厚切吐司手撕面包饱腹代餐自律期早餐面包零食",
-      "total_order": 264,
-      "total_amount": 6042.0,
-      "last_day_order": 0,
+      "total_order": 275,
+      "total_amount": 6354.0,
+      "last_day_order": 11,
       "prev_day_order": 15,
-      "mom_pct": -100.0,
+      "mom_pct": -26.7,
       "trend": "down",
       "lifecycle": "mature",
       "age_days": 49,
-      "decline_days": 0,
+      "decline_days": 2,
       "daily": {
         "2026-05-23": 52,
         "2026-05-24": 49,
@@ -1678,14 +1734,14 @@
         "2026-06-02": 16,
         "2026-06-03": 17,
         "2026-06-04": 15,
-        "2026-06-05": 0
+        "2026-06-05": 11
       }
     },
     {
       "product": "美味壹客全麦坚果欧包0添蔗糖健身核桃面包营养早餐食品",
-      "total_order": 9,
-      "total_amount": 161.46,
-      "last_day_order": 0,
+      "total_order": 10,
+      "total_amount": 185.4,
+      "last_day_order": 1,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -1706,16 +1762,16 @@
         "2026-06-02": 1,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
       "product": "美味壹客星空莓野全麦吐司厚切生吐司营养早餐代餐好吃健康面包",
-      "total_order": 348,
-      "total_amount": 6984.0,
-      "last_day_order": 3,
+      "total_order": 361,
+      "total_amount": 7221.0,
+      "last_day_order": 16,
       "prev_day_order": 23,
-      "mom_pct": -87.0,
+      "mom_pct": -30.4,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 50,
@@ -1734,7 +1790,7 @@
         "2026-06-02": 19,
         "2026-06-03": 19,
         "2026-06-04": 23,
-        "2026-06-05": 3
+        "2026-06-05": 16
       }
     },
     {
@@ -1767,15 +1823,15 @@
     },
     {
       "product": "美味壹客黑巧坚果榛子巧克力扁桃仁巧克力坚果纯可可脂150g/罐",
-      "total_order": 46,
-      "total_amount": 2187.0,
-      "last_day_order": 0,
+      "total_order": 49,
+      "total_amount": 2325.0,
+      "last_day_order": 3,
       "prev_day_order": 6,
-      "mom_pct": -100.0,
+      "mom_pct": -50.0,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 46,
-      "decline_days": 0,
+      "decline_days": 1,
       "daily": {
         "2026-05-23": 5,
         "2026-05-24": 1,
@@ -1790,35 +1846,7 @@
         "2026-06-02": 8,
         "2026-06-03": 6,
         "2026-06-04": 6,
-        "2026-06-05": 0
-      }
-    },
-    {
-      "product": "老才臣豆腐乳180g原味红方不辣纯手工酱豆腐霉豆腐下饭拌面拌饭",
-      "total_order": 3,
-      "total_amount": 46.5,
-      "last_day_order": 0,
-      "prev_day_order": 0,
-      "mom_pct": null,
-      "trend": "flat",
-      "lifecycle": "mature",
-      "age_days": 93,
-      "decline_days": 0,
-      "daily": {
-        "2026-05-23": 0,
-        "2026-05-24": 1,
-        "2026-05-25": 1,
-        "2026-05-26": 0,
-        "2026-05-27": 1,
-        "2026-05-28": 0,
-        "2026-05-29": 0,
-        "2026-05-30": 0,
-        "2026-05-31": 0,
-        "2026-06-01": 0,
-        "2026-06-02": 0,
-        "2026-06-03": 0,
-        "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 3
       }
     },
     {
@@ -1851,12 +1879,12 @@
     },
     {
       "product": "良品铺子拇指风干鸡肉505g鸡胸肉干酱香多味高蛋白休闲零食健身",
-      "total_order": 22,
-      "total_amount": 851.0,
-      "last_day_order": 0,
+      "total_order": 24,
+      "total_amount": 925.0,
+      "last_day_order": 2,
       "prev_day_order": 2,
-      "mom_pct": -100.0,
-      "trend": "down",
+      "mom_pct": 0.0,
+      "trend": "flat",
       "lifecycle": "growth",
       "age_days": 12,
       "decline_days": 0,
@@ -1874,14 +1902,14 @@
         "2026-06-02": 1,
         "2026-06-03": 8,
         "2026-06-04": 2,
-        "2026-06-05": 0
+        "2026-06-05": 2
       }
     },
     {
       "product": "良品铺子粽子礼盒1120g经典蛋黄鲜肉嘉兴大粽豆沙蜜枣端午送礼盒",
-      "total_order": 3,
-      "total_amount": 90.0,
-      "last_day_order": 0,
+      "total_order": 7,
+      "total_amount": 210.0,
+      "last_day_order": 4,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -1902,16 +1930,16 @@
         "2026-06-02": 3,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 4
       }
     },
     {
       "product": "芯蒸呈定制宽面原味",
-      "total_order": 736,
-      "total_amount": 14573.14,
-      "last_day_order": 1,
+      "total_order": 786,
+      "total_amount": 15920.6,
+      "last_day_order": 51,
       "prev_day_order": 62,
-      "mom_pct": -98.4,
+      "mom_pct": -17.7,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 96,
@@ -1930,20 +1958,20 @@
         "2026-06-02": 57,
         "2026-06-03": 54,
         "2026-06-04": 62,
-        "2026-06-05": 1
+        "2026-06-05": 51
       }
     },
     {
       "product": "芯蒸呈甜辣炸鸡味火鸡面粗面版筋道爽滑鲜香方便宽面",
-      "total_order": 75,
-      "total_amount": 1894.2,
-      "last_day_order": 2,
+      "total_order": 84,
+      "total_amount": 2100.84,
+      "last_day_order": 11,
       "prev_day_order": 9,
-      "mom_pct": -77.8,
-      "trend": "flat",
+      "mom_pct": 22.2,
+      "trend": "up",
       "lifecycle": "mature",
       "age_days": 96,
-      "decline_days": 1,
+      "decline_days": 0,
       "daily": {
         "2026-05-23": 4,
         "2026-05-24": 4,
@@ -1958,17 +1986,17 @@
         "2026-06-02": 3,
         "2026-06-03": 4,
         "2026-06-04": 9,
-        "2026-06-05": 2
+        "2026-06-05": 11
       }
     },
     {
       "product": "芯蒸呈螺蛳粉味火鸡面酸臭热辣爽口嚼劲十足113g*10",
-      "total_order": 96,
-      "total_amount": 1752.8,
-      "last_day_order": 0,
+      "total_order": 110,
+      "total_amount": 1987.55,
+      "last_day_order": 14,
       "prev_day_order": 12,
-      "mom_pct": -100.0,
-      "trend": "flat",
+      "mom_pct": 16.7,
+      "trend": "up",
       "lifecycle": "mature",
       "age_days": 91,
       "decline_days": 0,
@@ -1986,7 +2014,7 @@
         "2026-06-02": 8,
         "2026-06-03": 10,
         "2026-06-04": 12,
-        "2026-06-05": 0
+        "2026-06-05": 14
       }
     },
     {
@@ -2019,15 +2047,15 @@
     },
     {
       "product": "袋鼠先生低脂高蛋白鸡胸肉即食休50g*10袋（混合口味）",
-      "total_order": 103,
-      "total_amount": 2175.36,
-      "last_day_order": 1,
+      "total_order": 117,
+      "total_amount": 2504.96,
+      "last_day_order": 15,
       "prev_day_order": 6,
-      "mom_pct": -83.3,
-      "trend": "down",
+      "mom_pct": 150.0,
+      "trend": "flat",
       "lifecycle": "mature",
       "age_days": 77,
-      "decline_days": 2,
+      "decline_days": 0,
       "daily": {
         "2026-05-23": 4,
         "2026-05-24": 4,
@@ -2042,35 +2070,7 @@
         "2026-06-02": 13,
         "2026-06-03": 14,
         "2026-06-04": 6,
-        "2026-06-05": 1
-      }
-    },
-    {
-      "product": "西域美农 新疆纯牛奶200ml*20盒 ",
-      "total_order": 3,
-      "total_amount": 161.73,
-      "last_day_order": 0,
-      "prev_day_order": 0,
-      "mom_pct": null,
-      "trend": "flat",
-      "lifecycle": "growth",
-      "age_days": 12,
-      "decline_days": 0,
-      "daily": {
-        "2026-05-23": 0,
-        "2026-05-24": 1,
-        "2026-05-25": 0,
-        "2026-05-26": 0,
-        "2026-05-27": 1,
-        "2026-05-28": 0,
-        "2026-05-29": 0,
-        "2026-05-30": 0,
-        "2026-05-31": 0,
-        "2026-06-01": 0,
-        "2026-06-02": 1,
-        "2026-06-03": 0,
-        "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 15
       }
     },
     {
@@ -2103,15 +2103,15 @@
     },
     {
       "product": "韩式炸酱面芯蒸呈113g口味浓香酱味拌面劲道爽滑",
-      "total_order": 25,
-      "total_amount": 443.61,
-      "last_day_order": 0,
+      "total_order": 26,
+      "total_amount": 460.04,
+      "last_day_order": 1,
       "prev_day_order": 3,
-      "mom_pct": -100.0,
+      "mom_pct": -66.7,
       "trend": "flat",
       "lifecycle": "mature",
       "age_days": 95,
-      "decline_days": 0,
+      "decline_days": 1,
       "daily": {
         "2026-05-23": 4,
         "2026-05-24": 0,
@@ -2126,7 +2126,7 @@
         "2026-06-02": 2,
         "2026-06-03": 2,
         "2026-06-04": 3,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {
@@ -2159,9 +2159,9 @@
     },
     {
       "product": "食族人火辣爆肚粉方便粉丝麻辣美味即食夜宵零食1*6桶",
-      "total_order": 7,
-      "total_amount": 284.0,
-      "last_day_order": 0,
+      "total_order": 9,
+      "total_amount": 358.5,
+      "last_day_order": 2,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -2182,7 +2182,7 @@
         "2026-06-02": 0,
         "2026-06-03": 0,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 2
       }
     },
     {
@@ -2215,9 +2215,9 @@
     },
     {
       "product": "食族人酸辣粉6桶方便食品酸辣过瘾即食学生上班族宿舍必备",
-      "total_order": 5,
-      "total_amount": 107.5,
-      "last_day_order": 0,
+      "total_order": 6,
+      "total_amount": 129.0,
+      "last_day_order": 1,
       "prev_day_order": 0,
       "mom_pct": null,
       "trend": "flat",
@@ -2238,7 +2238,7 @@
         "2026-06-02": 1,
         "2026-06-03": 1,
         "2026-06-04": 0,
-        "2026-06-05": 0
+        "2026-06-05": 1
       }
     },
     {

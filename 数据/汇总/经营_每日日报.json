@@ -6,9 +6,9 @@
   "summary": {
     "latest_date": "2026-06-05",
     "total_days": 97,
-    "recent_7d_sales": 48869.43000000001,
-    "recent_7d_orders": 1992,
-    "recent_7d_aftersale": 115.44000000000001
+    "recent_7d_sales": 57452.85,
+    "recent_7d_orders": 2344,
+    "recent_7d_aftersale": 170.54
   },
   "data": [
     {
@@ -5845,11 +5845,11 @@
     {
       "date": "2026-06-01",
       "orders": 345,
-      "sales_amount": 8466.1,
+      "sales_amount": 8497.5,
       "close_orders": 23,
-      "close_amount": 626.09,
-      "aftersale_orders": 1,
-      "aftersale_amount": 22.62,
+      "close_amount": 594.69,
+      "aftersale_orders": 2,
+      "aftersale_amount": 62.62,
       "product_count": 66,
       "growth_top5": [
         {
@@ -5859,8 +5859,8 @@
         },
         {
           "product": "【商超同款】海盐苏打饼干奶盐味咸味梳打养胃无蔗糖零食代餐早餐",
-          "order": 4,
-          "mom_pct": 300.0
+          "order": 3,
+          "mom_pct": 200.0
         },
         {
           "product": "美味壹客全麦坚果厚切吐司手撕面包饱腹代餐自律期早餐面包零食",
@@ -5869,8 +5869,8 @@
         },
         {
           "product": "品牌直发 耶气满满100%香水椰300ml*12瓶椰子水电解质水",
-          "order": 11,
-          "mom_pct": 120.0
+          "order": 12,
+          "mom_pct": 140.0
         },
         {
           "product": "猴头菇山药苏打饼干咸味无糖梳打早餐代餐休闲零食整箱包装饼干",
@@ -5973,11 +5973,11 @@
     {
       "date": "2026-06-03",
       "orders": 363,
-      "sales_amount": 8371.15,
+      "sales_amount": 8373.15,
       "close_orders": 13,
       "close_amount": 373.13,
-      "aftersale_orders": 0,
-      "aftersale_amount": 0,
+      "aftersale_orders": 1,
+      "aftersale_amount": 15.1,
       "product_count": 57,
       "growth_top5": [
         {
@@ -6100,39 +6100,65 @@
     },
     {
       "date": "2026-06-05",
-      "orders": 16,
-      "sales_amount": 443.41,
-      "close_orders": 3,
-      "close_amount": 49.03,
+      "orders": 368,
+      "sales_amount": 8993.43,
+      "close_orders": 29,
+      "close_amount": 625.26,
       "aftersale_orders": 0,
       "aftersale_amount": 0,
-      "product_count": 11,
-      "growth_top5": [],
+      "product_count": 64,
+      "growth_top5": [
+        {
+          "product": "控价已解决，后续有问题及时配合【麦醉侠红油麻酱凉皮】",
+          "order": 16,
+          "mom_pct": 166.7
+        },
+        {
+          "product": "【页面价10.9以上，到手价13.9否则拉黑】茉莉原味茶饮料",
+          "order": 5,
+          "mom_pct": 150.0
+        },
+        {
+          "product": "袋鼠先生低脂高蛋白鸡胸肉即食休50g*10袋（混合口味）",
+          "order": 15,
+          "mom_pct": 150.0
+        },
+        {
+          "product": "【3袋/10袋】天海藏黑鱼金汤酸菜鱼430g/袋 顺丰京东发货甄选活鱼",
+          "order": 2,
+          "mom_pct": 100.0
+        },
+        {
+          "product": "【棉小宛柔风轻羽迷你巾80片】羽感轻盈无感守护敏感肌",
+          "order": 2,
+          "mom_pct": 100.0
+        }
+      ],
       "decline_top5": [
         {
-          "product": "芯蒸呈定制宽面原味",
+          "product": "【控价1箱2包64.9元】布班迪甄芯薄纸尿裤拉拉裤婴儿超薄尿不湿",
           "order": 1,
-          "mom_pct": -98.4
+          "mom_pct": -80.0
         },
         {
-          "product": "【芯蒸呈番茄肉酱味火鸡面12包】方便面辣味十足过瘾",
+          "product": "【芯蒸呈火鸡面12包三拼】网红速食面条多种口味组合装",
           "order": 1,
-          "mom_pct": -98.1
+          "mom_pct": -80.0
         },
         {
-          "product": "【麻酱火鸡面】芯蒸呈浓香麻酱火鸡面113g韩式泡面拌面",
-          "order": 1,
-          "mom_pct": -96.0
-        },
-        {
-          "product": "【恢复原价，否则取消合作】【10盒】天海藏 麻辣小龙虾尾250g/盒",
+          "product": "【3袋】天海藏广味腊肠 炒菜香肠腊肉肠煲仔饭传统广式美味下酒菜",
           "order": 2,
-          "mom_pct": -88.2
+          "mom_pct": -71.4
         },
         {
-          "product": "美味壹客星空莓野全麦吐司厚切生吐司营养早餐代餐好吃健康面包",
-          "order": 3,
-          "mom_pct": -87.0
+          "product": "林饱饱糯米海苔饭团大分量加热即食营养美食早餐夜宵",
+          "order": 1,
+          "mom_pct": -66.7
+        },
+        {
+          "product": "韩式炸酱面芯蒸呈113g口味浓香酱味拌面劲道爽滑",
+          "order": 1,
+          "mom_pct": -66.7
         }
       ]
     }
